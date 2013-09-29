@@ -8,9 +8,6 @@ import com.queeq.obdq.internationalization.LN;
 import com.queeq.obdq.scenes.SceneDispatcher;
 import com.queeq.obdq.dials.scenes.controller.DialPageControler;
 import com.queeq.obdq.scenes.controller.ModalWindowController;
-import com.queeq.obdq.scenes.impementation.support.PageFooter;
-import com.queeq.obdq.scenes.impementation.support.PageHeader;
-import com.queeq.obdq.scenes.view.SettingsPage;
 import com.queeq.obdq.scenes.view.SettingsPage;
 import com.queeq.obdq.scenes.view.templates.EntryPageTemplate;
 import com.queeq.obdq.settings.Globals;
@@ -22,7 +19,6 @@ import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.scene.Cursor;
 import javafx.scene.Group;
-import javafx.scene.Parent;
 import javafx.scene.control.Button;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
@@ -30,7 +26,6 @@ import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.StackPane;
-import javafx.scene.transform.Rotate;
 
 /**
  *
