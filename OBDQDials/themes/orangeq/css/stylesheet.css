@@ -1,0 +1,1137 @@
+/************************************************************/
+/***********************************Root elements ***********/
+/************************************************************/
+.root { -fx-font-size: 12; }
+
+/************************************************************/
+/***********************************Language Elements********/
+/************************************************************/
+#flagSelected
+{
+  -fx-opacity:0.3;
+}
+#flag
+{
+  -fx-cursor:hand;
+  -fx-opacity:0.9
+}
+#flag:hover
+{
+  -fx-scale-x:1.1;
+  -fx-scale-y:1.1;
+  -fx-opacity:0.9;
+  -fx-effect:dropshadow(one-pass-box,#fbe4a5,5,1,0,0);
+}
+#flagLable
+{
+}
+
+/************************************************************/
+/*************************************Comune Elements********/
+/************************************************************/
+#footerContentText{}
+#footerContentHBox
+{
+-fx-background-color: #252525,linear-gradient(#111111 0%, #686868 49%, #686868 50%, #343434 100%);
+-fx-opacity:0.7
+}
+#headerBackgroud
+{
+	-fx-background-color: #252525,linear-gradient(#111111 0%, #686868 49%, #686868 50%, #343434 100%);
+	-fx-opacity:0.7
+}
+#headerHboxLeft{}
+#headerHboxRight{}
+#HeaderLanguageButton
+{
+-fx-image:url("../img/Language.png")
+}
+#HeaderLanguageButton:hover
+{
+-fx-image:url("../img/LanguageGlow.png")
+}
+#HeaderHomeButton
+{
+-fx-image:url("../img/Home.png")
+}
+#HeaderHomeButton:hover
+{
+-fx-image:url("../img/HomeGlow.png")
+}
+#BackButton
+{
+-fx-image:url("../img/Back.png")
+}
+#BackButton:hover
+{
+-fx-image:url("../img/BackGlow.png")
+}
+#ComputerCarStatusButtonError
+{
+-fx-image:url("../img/ComputerCarError.png")
+}
+#ComputerCarStatusButtonError:hover
+{
+-fx-image:url("../img/ComputerCarErrorGlow.png")
+}
+#ComputerCarStatusButtonOK
+{
+-fx-image:url("../img/ComputerCarOK.png")
+}
+#ComputerCarStatusButtonOK:hover
+{
+-fx-image:url("../img/ComputerCarOKGlow.png")
+}
+#InternetStatusButtonOK
+{
+-fx-image:url("../img/InternetConnected.png")
+}
+#InternetStatusButtonOK:hover
+{
+-fx-image:url("../img/InternetConnectedGlow.png")
+}
+#InternetStatusButtonError
+{
+-fx-image:url("../img/InternetNotConnected.png")
+}
+#InternetStatusButtonError:hover
+{
+-fx-image:url("../img/InternetNotConnectedGlow.png")
+}
+#modalWindowBackground
+{
+	-fx-background-image:url("../img/veils.png");
+	-fx-background-repeat:repeat;
+	-fx-opacity:0.5
+}
+/************************************************************/
+/*************************************Landing page***********/
+/************************************************************/
+#backgroundImageLandingPage
+	{
+	-fx-opacity:0.8;
+	-fx-image:url("../img/abstract.jpg");
+	}
+#SettingsButtonLandingPage
+	{
+	-fx-image:url("../img/Settings.png")
+	}
+#SettingsButtonLandingPage:hover
+	{
+	-fx-image:url("../img/SettingsGlow.png")
+	}
+#GraphsButtonLandingPage
+	{
+	-fx-image:url("../img/Graphs.png")
+	}
+#GraphsButtonLandingPage:hover
+	{
+	-fx-image:url("../img/GraphsGlow.png")
+	}
+
+#ConsoleButtonLandingPage
+	{
+	-fx-image:url("../img/Console.png")
+	}
+#ConsoleButtonLandingPage:hover
+	{
+	-fx-image:url("../img/ConsoleGlow.png")
+	}
+#CheckEngineButtonLandingPage
+	{
+	-fx-image:url("../img/CheckEngine.png")
+	}
+#CheckEngineButtonLandingPage:hover
+	{
+	-fx-image:url("../img/CheckEngineGlow.png")
+	}
+#FreezeFrameButtonLandingPage
+	{
+	-fx-image:url("../img/FreezeFrame.png")
+	}	
+#FreezeFrameButtonLandingPage:hover
+	{
+	-fx-image:url("../img/FreezeFrameGlow.png")
+	}	
+#SensorsDataButtonLandingPage	
+	{
+	-fx-image:url("../img/SensorsData.png")
+	}
+#SensorsDataButtonLandingPage:hover	
+	{
+	-fx-image:url("../img/SensorsDataGlow.png")
+	}	
+#HistoryButtonLandingPage
+	{
+	-fx-image:url("../img/History.png")
+	}
+#HistoryButtonLandingPage:hover
+	{
+	-fx-image:url("../img/HistoryGlow.png")
+	}
+#ScanButtonLandingPage
+	{
+	-fx-image:url("../img/Scaner.png")
+	}
+#ScanButtonLandingPage:hover
+	{
+	-fx-image:url("../img/ScanerGlow.png")
+	}
+/************************************************************/
+/*************************************Console page***********/
+/************************************************************/
+#backgroundImageConsolePage
+	{
+	-fx-opacity:0.8;
+	-fx-image:url("../img/abstract.jpg")
+	}
+#receivedMessagesConsolePage
+	{
+	-fx-opacity:0.9;
+	-fx-background-color: #212121;
+	-fx-border-radius: 9;
+	-fx-text-fill: #FFFFFF;
+	}
+#commandFieldConsolePage
+	{
+	-fx-opacity:0.9;
+	-fx-background-color: #212121;
+	-fx-text-fill: #FFFFFF;
+	}
+#sendCommand
+{
+-fx-opacity:0.9;
+-fx-base: #111111;
+}
+#buttonSettingsConsolePage
+{
+-fx-opacity:0.9;
+-fx-base: #111111;
+}
+
+/************************************************************/
+/**************************************Graphs page***********/
+/************************************************************/
+#backgroundImageGraphsPage
+{
+	-fx-opacity:0.8;
+	-fx-image:url("../img/abstract.jpg")
+}
+#MenuLableContainer
+{
+}
+#MenuLableBackground
+{
+-fx-opacity:0.7;
+-fx-background-color: #252525,linear-gradient(#111111 0%, #686868 49%, #686868 50%, #343434 100%);
+}
+#MenuLableText
+{
+-fx-text-fill: #FFDFA7;
+}
+#buttonSettingsGraphsPage
+{
+-fx-opacity:0.9;
+-fx-base: #111111;
+}
+#checkboxContainer
+{
+-fx-opacity:0.8;
+-fx-background-color: #FFDFA7;
+-fx-border:null;
+}
+#startButtonGraphPage
+{
+-fx-opacity:0.9;
+-fx-base: #118811;
+}
+#stopButtonGraphPage
+{
+-fx-opacity:0.9;
+-fx-base: #881111;
+}
+#saveButtonGraphPage
+{
+-fx-opacity:0.9;
+-fx-base: #111111;
+}
+#loadButtonGraphPage
+{
+-fx-opacity:0.9;
+-fx-base: #111111;
+}
+#clearButtonGraphPage
+{
+-fx-opacity:0.9;
+-fx-base: #881111;
+}
+/************************************************************/
+/*********************************Error Codes page***********/
+/************************************************************/
+#backgroundImageErrorCodesPage
+{
+	-fx-opacity:0.8;
+	-fx-image:url("../img/abstract.jpg")
+}
+#errorCodesLableContainer{}
+#errorCodesListView
+{
+-fx-opacity:0.8;
+-fx-background-color: null;
+-fx-border:null;
+-fx-padding: 0;
+}
+#errorCodesListView .list-cell:odd {
+    -fx-background-color: #FFDFA7;
+}
+#errorCodesListView  .list-cell:even {
+    -fx-background-color: #FFCF89;
+}
+#errorCodesListView  .list-view:focused .list-cell:filled:focused:selected 
+{
+    -fx-background-color: #E5B66B;
+    -fx-text-fill: #000000;
+}
+
+#errorCodesLableBackground
+{
+	-fx-opacity:0.7;
+	-fx-background-color: #252525,linear-gradient(#111111 0%, #686868 49%, #686868 50%, #343434 100%);
+}
+#errorCodesLableText
+{
+	-fx-text-fill: #FFDFA7;
+}
+
+#currentCodeLableContainer{}
+#currentCodeTextArea
+{
+-fx-opacity:0.8;
+-fx-background-color: #FFDFA7;
+-fx-border:null;
+-fx-font-size: 1.833333em;
+}
+#currentCodeLableText
+{
+	-fx-text-fill: #FFDFA7;
+}
+#currentCodeLableBackground
+{
+	-fx-opacity:0.7;
+	-fx-background-color: #252525,linear-gradient(#111111 0%, #686868 49%, #686868 50%, #343434 100%);
+}
+#carStatusLableContainer{}
+#carStatusGrid
+{
+-fx-opacity:0.8;
+-fx-background-color: #FFDFA7;
+-fx-border:null;
+}
+#carStatusLableText
+{
+	-fx-text-fill: #FFDFA7;
+}
+#carStatusLableBackground
+{
+	-fx-opacity:0.7;
+	-fx-background-color: #252525,linear-gradient(#111111 0%, #686868 49%, #686868 50%, #343434 100%);
+}
+#currentCodeDescriptionLableContainer{}
+#currentCodeDescriptionLableBackground
+{
+	-fx-opacity:0.7;
+	-fx-background-color: #252525,linear-gradient(#111111 0%, #686868 49%, #686868 50%, #343434 100%);
+}
+#currentCodeDescriptionLableText
+{
+	-fx-text-fill: #FFDFA7;
+}
+#currentCodeDescriptionTextArea
+{
+-fx-opacity:0.8;
+-fx-background-color: #FFDFA7;
+-fx-border:null;
+}
+#currentCodeSolutionLableContainer{}
+#currentCodeSolutionLableBackground
+{
+	-fx-opacity:0.7;
+	-fx-background-color: #252525,linear-gradient(#111111 0%, #686868 49%, #686868 50%, #343434 100%);
+}
+#currentCodeSolutionLableText
+{
+-fx-text-fill: #FFDFA7;
+}
+#currentCodeSolutionTextArea
+{
+-fx-opacity:0.8;
+-fx-background-color: #FFDFA7;
+-fx-border:null;
+}
+#currentCodeSymptomLableContainer{}
+#currentCodeSymptomLableBackground
+{
+	-fx-opacity:0.7;
+	-fx-background-color: #252525,linear-gradient(#111111 0%, #686868 49%, #686868 50%, #343434 100%);
+}
+#currentCodeSymptomLableText
+{
+-fx-text-fill: #FFDFA7;
+}
+#currentCodeSymptomTextArea
+{
+-fx-opacity:0.8;
+-fx-background-color: #FFDFA7;
+-fx-border:null;
+}
+#currentCodeReasonLableContainer{}
+#currentCodeReasonLableBackground
+{
+	-fx-opacity:0.7;
+	-fx-background-color: #252525,linear-gradient(#111111 0%, #686868 49%, #686868 50%, #343434 100%);
+}
+#currentCodeReasonLableText
+{
+-fx-text-fill: #FFDFA7;
+}
+#currentCodeReasonTextArea
+{
+-fx-opacity:0.8;
+-fx-background-color: #FFDFA7;
+-fx-border:null;
+}
+#currentCodeMeaningLableContainer{}
+#currentCodeMeaningLableBackground
+{
+	-fx-opacity:0.7;
+	-fx-background-color: #252525,linear-gradient(#111111 0%, #686868 49%, #686868 50%, #343434 100%);
+}
+#currentCodeMeaningLableText
+{
+-fx-text-fill: #FFDFA7;
+}
+#currentCodeMeaningTextArea
+{
+-fx-opacity:0.8;
+-fx-background-color: #FFDFA7;
+-fx-border:null;
+}
+
+#clearButton
+{
+-fx-opacity:0.9;
+-fx-base: #111111;
+}
+#readCodesButton
+{
+-fx-opacity:0.9;
+-fx-base: #111111;
+}
+#readMoreButton
+{
+-fx-opacity:0.9;
+-fx-base: #881111;
+}
+/************************************************************/
+/*********************************Scan page***************/
+/************************************************************/
+#buttonSettingsScanPage
+{
+-fx-opacity:0.9;
+-fx-base: #111111;
+}
+#backgroundImageScanPage
+{
+	-fx-opacity:0.8;
+	-fx-image:url("../img/abstract.jpg")
+}
+#scanConfigurationLableContainer
+{
+}
+#scanConfigurationLableBackground
+{
+-fx-opacity:0.7;
+-fx-background-color: #252525,linear-gradient(#111111 0%, #686868 49%, #686868 50%, #343434 100%);
+}
+#scanConfigurationLableText
+{
+-fx-text-fill: #FFDFA7;
+}
+#scanConfigurationGrid
+{
+-fx-opacity:0.8;
+-fx-background-color: #FFDFA7;
+-fx-border:null;
+}
+#scanConfigurationLableContainer
+{
+}
+#scanStart
+{
+-fx-opacity:0.9;
+-fx-base: #118811;
+}
+#scanStop
+{
+-fx-opacity:0.9;
+-fx-base: #881111;
+}
+#exportScanResult
+{
+-fx-opacity:0.9;
+-fx-base: #111111;
+}
+#loadScanResult
+{
+-fx-opacity:0.9;
+-fx-base: #111111;
+}
+/************************************************************/
+/*********************************Sensors page***************/
+/************************************************************/
+#buttonSettingsSensorsDataPage
+{
+-fx-opacity:0.9;
+-fx-base: #111111;
+}
+#backgroundImageSensorsPage
+{
+	-fx-opacity:0.8;
+	-fx-image:url("../img/abstract.jpg")
+}
+#sensorsTable
+{
+-fx-opacity:0.8;
+-fx-background-color: #FFDFA7;
+-fx-border:null;
+}
+#readPID
+{
+-fx-opacity:0.9;
+-fx-base: #111111;
+}
+#modeFromValue
+{
+-fx-border-color:null;
+}
+#modeFromValue_e
+{
+-fx-border-color:null;
+-fx-background-color: #FF0000;
+}
+#modeToValue
+{
+-fx-border-color:null;
+-fx-border-color:null;
+}
+#modeToValue_e
+{
+-fx-border-color:null;
+-fx-background-color: #FF0000;
+}
+#PIDFromValue
+{
+-fx-border-color:null;
+}
+#PIDFromValue_e
+{
+-fx-border-color:null;
+-fx-background-color: #FF0000;
+}
+#PIDToValue
+{
+-fx-border-color:null;
+}
+#PIDToValue_e
+{
+-fx-border-color:null;
+-fx-background-color: #FF0000;
+}
+
+/************************************************************/
+/*********************************Table View ****************/
+/************************************************************/
+/*Table background color*/
+.table-view {
+-fx-background-color: null;
+-fx-text-fill: #FFDFA7;
+}
+.table-cell
+{
+-fx-border-color:null;
+-fx-alignment: BASELINE_CENTER;
+}
+
+.table-view Text{
+-fx-text-fill: #FFDFA7;
+}
+/*Selected*/
+.table-view:focused .table-row-cell:filled:selected .table-cell 
+{
+	-fx-text-fill: #000000;
+}
+/*Table header */
+.table-view .column-header-background 
+{
+	-fx-text-fill: #FFDFA7;
+	-fx-opacity:0.7;
+	-fx-background-color: #252525,linear-gradient(#111111 0%, #686868 49%, #686868 50%, #343434 100%);
+	-fx-border-color:null;
+}
+.table-view .column-header, .table-view .filler, .table-view .column-drag-header 
+{
+	-fx-text-fill: #FFDFA7;
+	-fx-background-color: null;
+	-fx-border-color:null;
+}
+
+/*Table Colums color*/
+.table-row-cell:odd
+ {
+	-fx-opacity:0.7;
+	-fx-background-color: #FFDFA7;
+}
+.table-row-cell:even
+ {
+	-fx-opacity:0.7;
+	-fx-background-color: #FFBD77;
+}
+
+/*Empty colums*/
+.table-row-cell:empty 
+{
+	-fx-background-color: null;
+}
+
+/**Empty table*/
+.table-view .empty-table 
+{
+    -fx-background-color: null;
+}
+.scroll-bar {
+    -fx-skin: "com.sun.javafx.scene.control.skin.ScrollBarSkin";
+	-fx-color: #FFBD77;
+	-fx-font-size: 12;
+}
+.scroll-bar .thumb:hover {
+    -fx-color: #FFDFA7;
+	-fx-font-size: 12;
+}
+.table-view .scroll-bar:horizontal{
+	-fx-font-size: 0;
+	-fx-opacity:0;
+	-fx-size: 0;
+}
+/************************************************************/
+/*********************************Language page**************/
+/************************************************************/
+#backgroundImageLanguagePage
+{
+	-fx-opacity:0.8;
+	-fx-image:url("../img/abstract.jpg")
+}
+/************************************************************/
+/*********************************History page**************/
+/************************************************************/
+#backgroundHistoryPage
+{
+	-fx-opacity:0.8;
+	-fx-image:url("../img/abstract.jpg")
+}
+#carSelectorLableContainer{}
+#selectCar
+{
+-fx-base: #5C5C5C;
+}
+#editCar
+{
+-fx-base: #5C5C5C;
+}
+#addNewCar
+{
+-fx-base: #5C5C5C;
+}
+#removeCar
+{
+-fx-base: #5C5C5C;
+}
+#carSelectorTab
+{
+-fx-opacity:0.8;
+-fx-background-color: #FFDFA7;
+-fx-border:null;
+}
+#carSelectorLableText
+{
+	-fx-text-fill: #FFDFA7;
+}
+#carSelectorLableBackground
+{
+	-fx-opacity:0.7;
+	-fx-background-color: #252525,linear-gradient(#111111 0%, #686868 49%, #686868 50%, #343434 100%);
+}
+
+#auditLableContainer{}
+
+#auditListView
+{
+-fx-opacity:0.8;
+-fx-background-color: null;
+-fx-border:null;
+-fx-padding: 0;
+}
+#auditListView .list-cell:odd {
+    -fx-background-color: #FFDFA7;
+}
+#auditListView  .list-cell:even {
+    -fx-background-color: #FFCF89;
+}
+#auditListView  .list-view:focused .list-cell:filled:focused:selected 
+{
+    -fx-background-color: #E5B66B;
+    -fx-text-fill: #000000;
+}
+#auditLableText
+{
+	-fx-text-fill: #FFDFA7;
+}
+#auditLableBackground
+{
+	-fx-opacity:0.7;
+	-fx-background-color: #252525,linear-gradient(#111111 0%, #686868 49%, #686868 50%, #343434 100%);
+}
+
+
+
+#eventDescriptionLableContainer{}
+#eventDescriptionTextArea
+{
+-fx-opacity:0.8;
+-fx-background-color: #FFDFA7;
+-fx-border:null;
+}
+#eventDescriptionLableText
+{
+	-fx-text-fill: #FFDFA7;
+}
+#eventDescriptionLableBackground
+{
+	-fx-opacity:0.7;
+	-fx-background-color: #252525,linear-gradient(#111111 0%, #686868 49%, #686868 50%, #343434 100%);
+}
+/************************************************************/
+/*********************************Add car page***************/
+/************************************************************/
+#backgroundImageCarAddPage
+{
+	-fx-opacity:0.8;
+	-fx-image:url("../img/abstract.jpg")
+}
+#carAddMainContainer{}
+#carLableContainer{}
+#carTab
+{
+-fx-opacity:0.8;
+-fx-background-color: #FFDFA7;
+-fx-border:null;
+}
+#carLableText
+{
+	-fx-text-fill: #FFDFA7;
+}
+#carLableBackground
+{
+	-fx-opacity:0.7;
+	-fx-background-color: #252525,linear-gradient(#111111 0%, #686868 49%, #686868 50%, #343434 100%);
+}
+#addCar
+{
+-fx-base: #5C5C5C;
+}
+#carNameValue
+{
+-fx-border-color:null;
+}
+#vinValue
+{
+-fx-border-color:null;
+}
+#makerValue
+{
+-fx-border-color:null;
+}
+#modelValue
+{
+-fx-border-color:null;
+}
+#colorValue
+{
+-fx-border-color:null;
+}
+#bodyTypeValue
+{
+-fx-border-color:null;
+}
+#fuelTypeValue
+{
+-fx-border-color:null;
+}
+#transsmisionTypeValue
+{
+-fx-border-color:null;
+}
+#enginePowerValue
+{
+-fx-border-color:null;
+}
+#Error
+{
+	-fx-background-color: #FF0000;
+}
+/************************************************************/
+/*********************************Edit car page***************/
+/************************************************************/
+#backgroundImageCarEditPage
+{
+	-fx-opacity:0.8;
+	-fx-image:url("../img/abstract.jpg")
+}
+#carEditMainContainer{}
+#carEditLableContainer{}
+#carEditTab
+{
+-fx-opacity:0.8;
+-fx-background-color: #FFDFA7;
+-fx-border:null;
+}
+#carEditLableText
+{
+	-fx-text-fill: #FFDFA7;
+}
+#carEditLableBackground
+{
+	-fx-opacity:0.7;
+	-fx-background-color: #252525,linear-gradient(#111111 0%, #686868 49%, #686868 50%, #343434 100%);
+}
+#saveChanges
+{
+-fx-base: #5C5C5C;
+}
+/************************************************************/
+/******************Modal Window *****************************/
+/************************************************************/
+#ModalWindowContainer
+{
+}
+#modalWindowCloseButton
+{
+-fx-opacity:0.9;
+-fx-base: #111111;
+}
+#modalWindowLableContainer
+{
+}
+#modalWindowLableBackground
+{
+-fx-opacity:0.7;
+-fx-background-color: #252525,linear-gradient(#111111 0%, #686868 49%, #686868 50%, #343434 100%);
+}
+#modalWindowLable
+{
+-fx-text-fill: #FFDFA7;
+}
+#modalWindowMessageButtonsContainer
+{
+-fx-opacity:0.8;
+-fx-background-color: #FFDFA7;
+-fx-border:null;
+}
+#modalWindowMessageContainer
+{
+}
+#modalWindowMessageTextArea
+{
+-fx-opacity:0.8;
+-fx-background-color: #FFDFA7;
+-fx-border:null;
+}
+#modalWindowButtonsContainer
+{
+}
+#buttonClearCodes
+{
+-fx-opacity:0.9;
+-fx-base: #111111;
+}
+#buttonSettingsErrorCodesModal
+{
+-fx-opacity:0.9;
+-fx-base: #111111;
+}
+/************************************************************/
+/******************Clear Code Confirmation Page**************/
+/************************************************************/
+#confirmClearCodeLableContainer
+{
+}
+#confirmClearCodeLableBackground
+{
+-fx-opacity:0.7;
+-fx-background-color: #252525,linear-gradient(#111111 0%, #686868 49%, #686868 50%, #343434 100%);
+}
+#confirmClearCodeLableText
+{
+-fx-text-fill: #FFDFA7;
+}
+#confirmClearCodeContainer
+{
+-fx-opacity:0.8;
+-fx-background-color: #FFDFA7;
+-fx-border:null;
+}
+#clearCodeYes
+{
+-fx-opacity:0.9;
+-fx-base: #111111;
+}
+#clearCodeNo
+{
+-fx-opacity:0.9;
+-fx-base: #111111;
+}
+#confirmClearCodeMessageTextArea
+{
+-fx-opacity:0.8;
+-fx-background-color: #FFDFA7;
+-fx-border:null;
+}
+
+/************************************************************/
+/*********************************Settings page**************/
+/************************************************************/
+#SelectCOMPorts
+{
+-fx-text-fill: #FFDFA7;
+-fx-opacity:0.9;
+-fx-base: #666666;
+}
+#SelectBaudRate
+{
+-fx-text-fill: #FFDFA7;
+-fx-opacity:0.9;
+-fx-base: #666666;
+}
+#refreshButton
+{
+-fx-opacity:0.9;
+-fx-base: #111111;
+}
+#connectButton
+{
+-fx-opacity:0.9;
+-fx-base: #118811;
+}
+#connectButtonInactive
+{
+-fx-opacity:0.9;
+-fx-base: #112211;
+}
+#disconnectButton
+{
+-fx-opacity:0.9;
+-fx-base: #881111;
+}
+#backgroundImageSettingsPage
+{
+	-fx-opacity:0.8;
+	-fx-image:url("../img/abstract.jpg")
+}
+#settingPageContainer{}
+#carComputerConnectionLableContainer
+{
+}
+#carComputerConnectionLableBackground
+{
+-fx-opacity:0.7;
+-fx-background-color: #252525,linear-gradient(#111111 0%, #686868 49%, #686868 50%, #343434 100%);
+}
+#carComputerConnectionLableText
+{
+-fx-text-fill: #FFDFA7;
+}
+#carComputerConnectionGrid
+{
+-fx-opacity:0.8;
+-fx-background-color: #FFDFA7;
+-fx-border:null;
+}
+#internetConnectionLableContainer
+{
+}
+#internetConnectionLableBackground
+{
+-fx-opacity:0.7;
+-fx-background-color: #252525,linear-gradient(#111111 0%, #686868 49%, #686868 50%, #343434 100%);
+}
+#internetConnectionLableText
+{
+-fx-text-fill: #FFDFA7;
+}
+#internetConnectionGrid
+{
+-fx-opacity:0.8;
+-fx-background-color: #FFDFA7;
+-fx-border:null;
+}
+#themeLableContainer
+{
+}
+#themeLableBackground
+{
+-fx-opacity:0.7;
+-fx-background-color: #252525,linear-gradient(#111111 0%, #686868 49%, #686868 50%, #343434 100%);
+}
+#themeLableText
+{
+-fx-text-fill: #FFDFA7;
+}
+#themeScrollPane
+{
+-fx-opacity:0.8;
+-fx-background-color: #FFDFA7;
+}
+#themeLableContainer
+{
+}
+#themeIcon
+{
+-fx-cursor:hand;
+}
+#themeIcon:hover
+{
+-fx-cursor:hand;
+-fx-scale-x:1.1;
+-fx-scale-y:1.1;
+-fx-effect:dropshadow(one-pass-box,#EEEEEE,5,1,0,0);
+}
+#themeIconSelected
+{
+-fx-opacity:0.5;
+}
+#themeIconImage
+{
+}
+#themeIconLable
+{
+}
+#othersLableBackground
+{
+-fx-opacity:0.7;
+-fx-background-color: #252525,linear-gradient(#111111 0%, #686868 49%, #686868 50%, #343434 100%);
+}
+#othersLableText
+{
+-fx-text-fill: #FFDFA7;
+}
+#othersGrid
+{
+-fx-opacity:0.8;
+-fx-background-color: #FFDFA7;
+-fx-border:null;
+}
+/*******************************************************************************
+ *                                                                             *
+ * DoubleSlider                                                                *
+ *                                                                             *
+ ******************************************************************************/
+
+.double-slider
+{
+    -fx-skin: "com.queeq.obdq.scenes.impementation.widgets.DoubleSliderSkin";
+}
+.double-slider Text {
+    -fx-font-smoothing-type: lcd;
+}
+.double-slider .thumb1 {
+    -fx-background-color:
+        derive(-fx-color,-36%),
+        derive(-fx-color,73%),
+        linear-gradient(to bottom, derive(-fx-color,-19%),derive(-fx-color,61%));
+    -fx-background-insets: 0, 1, 2;
+    -fx-background-radius: 1.0em 0 0 1.0em; /* makes sure this remains semi-circular */
+    -fx-padding: 0.583333em; /* 7 */
+}
+.double-slider:focused .thumb1 {
+    -fx-color: -fx-focused-base;
+    -fx-background-color:
+        -fx-focus-color,
+        derive(-fx-color,-36%),
+        derive(-fx-color,73%),
+        linear-gradient(to bottom, derive(-fx-color,-19%),derive(-fx-color,61%));
+    -fx-background-insets: -1.4, 0, 1, 2;
+    -fx-background-radius: 1.0em 0 0 1.0em; /* makes sure this remains semi-circular */
+}
+.double-slider .thumb1:hover {
+    -fx-color: -fx-hover-base;
+}
+.double-slider .thumb1:pressed {
+    -fx-color: -fx-pressed-base;
+}
+.double-slider .thumb2 {
+    -fx-background-color:
+        derive(-fx-color,-36%),
+        derive(-fx-color,73%),
+        linear-gradient(to bottom, derive(-fx-color,-19%),derive(-fx-color,61%));
+    -fx-background-insets: 0, 1, 2;
+    -fx-background-radius: 0 1.0em 1.0em 0; /* makes sure this remains semi-circular */
+    -fx-padding: 0.583333em; /* 7 */
+}
+.double-slider:focused .thumb2 {
+    -fx-color: -fx-focused-base;
+    -fx-background-color:
+        -fx-focus-color,
+        derive(-fx-color,-36%),
+        derive(-fx-color,73%),
+        linear-gradient(to bottom, derive(-fx-color,-19%),derive(-fx-color,61%));
+    -fx-background-insets: -1.4, 0, 1, 2;
+    -fx-background-radius: 0 1.0em 1.0em 0; /* makes sure this remains semi-circular */
+}
+.double-slider .thumb2:hover {
+    -fx-color: -fx-hover-base;
+}
+.double-slider .thumb2:pressed {
+    -fx-color: -fx-pressed-base;
+}
+.double-slider .track {
+    -fx-background-color:
+        -fx-shadow-highlight-color,
+        derive(-fx-color,-22%),
+        linear-gradient(to bottom, derive(-fx-color,-15.5%), derive(-fx-color,34%) 30%, derive(-fx-color,68%));
+    -fx-background-insets: 1 0 -1 0, 0, 1;
+    -fx-background-radius: 2.5, 2.5, 1.5;
+    -fx-padding: 0.208333em; /* 2.5 */
+}
+.double-slider:vertical .track {
+    -fx-background-color:
+        -fx-shadow-highlight-color,
+        derive(-fx-color,-22%),
+        linear-gradient(to right, derive(-fx-color,-15.5%), derive(-fx-color,34%) 30%, derive(-fx-color,68%));
+    -fx-background-insets: 0 -1 0 1, 0, 1;
+}
+.double-slider .axis {
+    -fx-tick-mark-stroke: #000000;
+    -fx-tick-label-font-size: 0.916667em; /* 11pt - 1 less than the default font */
+    -fx-tick-label-fill: #000000;
+}
+.double-slider .axis-tick-mark {
+    -fx-stroke: #000000;
+}
+.double-slider .axis-minor-tick-mark {
+    -fx-stroke: #000000;
+}
+.double-slider .axis .tick-mark {
+    -fx-font-size: 0.833333em;
+}
+.double-slider:disabled {
+    -fx-opacity: -fx-disabled-opacity;
+}

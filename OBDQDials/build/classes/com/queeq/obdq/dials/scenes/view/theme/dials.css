@@ -1,0 +1,23 @@
+/************************************************************/
+/*************************************Dials page***********/
+/************************************************************/
+#buttonSettingsDialPage
+{
+-fx-opacity:0.9;
+-fx-base: #111111;
+}
+#dialPageBackgroundGrid
+{
+	-fx-background-image:url("img/hex.png");
+	-fx-background-repeat:repeat;
+	-fx-opacity:0.5
+}
+/*Landing page button */
+#DialsButtonLandingPage
+	{
+	-fx-image:url("img/Dials.png")
+	}
+#DialsButtonLandingPage:hover
+	{
+	-fx-image:url("img/DialsGlow.png")
+	}
