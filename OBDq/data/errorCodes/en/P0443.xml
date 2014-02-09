@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:code cars="" id="P0443" xmlns:ns2="com.queeq.odbq.errorcodes">
+    <meanings>
+        <meaning rtPlus="0" rtNeutral="0" rtMinus="0">The Evaporative Emissions System (EVAP) allows fumes from the gas tank to enter the engine to be burned, rather than vented into the atmosphere as an emission. The purge valve solenoid is supplied switched battery voltage. The ECM controls the valve by operating the ground circuit, opening the purge valve at specific times allowing these gasses to enter the engine. The ECM monitors the ground circuit as well, watching for faults. When the purge solenoid isn't activated, the ECM should see a high voltage on the ground circuit. When the solenoid is activated, the ECM should see the ground voltage pulled low, close to zero. If the ECM doesn't see these expected voltages, or senses an open in the circuit, this code is set.</meaning>
+    </meanings>
+    <causes>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Bad purge solenoid (internal short or open)</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Connector worn, broken or shorted due to water intrusion</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Driver circuit inside powertrain control module (PCM) is bad</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Wiring harness chafing or rubbing another component causing short or open on control circuit</cause>
+    </causes>
+    <descriptions>
+        <description rtPlus="0" rtNeutral="0" rtMinus="0">Evaporative Emission Control System Purge Control Valve Circuit</description>
+    </descriptions>
+    <solutions>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">1. Using a scan tool, command the purge solenoid to activate. Listen or feel for a clicking coming from the purge solenoid. It should click once, or on some models it may click repeatedly.2. If it doesn't click with scan tool activation, unplug the connector and examing the solenoid and connector for damage, water, etc. Then check for battery voltage on the feed wire with the key on. If you have battery voltage, then ground the control side manually using a jumper wire and see if the valve clicks. If it does, then you know the solenoid is working properly but there is a problem with the control circuit. If it doesn't click when you manually ground it, replace the purge solenoid.3. To check for a problem on the control circuit (if the solenoid tests okay and you have voltage to the solenoid) plug the solenoid back in and remove the control circuit (ground) wire from the ECM connector (If you're unsure how to do this, do not attempt). With the ground wire removed from the ECM, turn the key on and then manually ground the Purge valve control wire. The solenoid should click. If it does, then you know there is no problem with the control wire to the solenoid and there is a problem with the ECM purge solenoid driver circuit in the ECM. You'll need a new ECM. However if it doesn't click, then there must be an open in the wiring between the ECM and and the solenoid. You must find it and repair it.Other EVAP DTCs: P0440  P0441  P0442  P0443  P0446  P0453  P0455  P0456</solution>
+    </solutions>
+    <references/>
+    <symptoms>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">P0443 trouble code symptoms could be just an malfunction indicator lamp (MIL) illumination. There may be no drivability problems at all. But, it's also possible to have a lean condition or a rough running engine if the purge valve is stuck open. Usually though, these symptoms are accompanied by other EVAP codes. Another symptom may be excessive pressure in the gas tank in the form of a whooshing sound when the cap is removed, indicating a purge valve that isn't working at all or stuck closed.</symptom>
+    </symptoms>
+</ns2:code>

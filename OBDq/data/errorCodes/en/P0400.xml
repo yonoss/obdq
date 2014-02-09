@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:code cars="" id="P0400" xmlns:ns2="com.queeq.odbq.errorcodes">
+    <meanings>
+        <meaning rtPlus="0" rtNeutral="0" rtMinus="0">The exhaust gas recirculation (EGR) valve is vacuum controlled valve that regulates the amount of exhaust gases that reenter the cylinders. The powertrain control module (PCM) determines how much based on engine load, temp, and other conditions. If the PCM detects that the amount of exhaust gases entering the cylinder were insufficient or nonexistent, this code is set.</meaning>
+    </meanings>
+    <causes>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Faulty EGR solenoid</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Faulty EGR solenoid wiring/harness</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Faulty EGR valve</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Plugged EGR passage which restricts the flow of exhaust gasses</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Vacuum lines damaged/disconnected to the EGR valve solenoid or to the EGR valve</cause>
+    </causes>
+    <descriptions>
+        <description rtPlus="0" rtNeutral="0" rtMinus="0">Exhaust Gas Recirculation Flow Malfunction</description>
+    </descriptions>
+    <solutions>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Check all vacuum lines, hoses, etc for any damage</solution>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Checking of solenoid can only usually be done with a scan tool, because most solenoids operate with a duty cycle of voltage, rather than constant voltage</solution>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">If engine doesn't stumble, operate the EGR valve manually, if possible. If engine doesn't stumble and die, the ports are likely plugged. Removal of valve and cleaning of all ports will be required</solution>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Replace EGR valve</solution>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Using a scan tool, operate the EGR valve with the engine running. If the engine stumbles, the problem was likely intermittent wiring problem or intermittent blockage problem</solution>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Visually inspect the solenoid harness and the solenoid for damage</solution>
+    </solutions>
+    <references/>
+    <symptoms>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">No symptoms will likely be noticed by the driver other than the MIL (malfunction indicator lamp). However, non visible symptoms will be increased combustion temperature and increased Nox emissions.</symptom>
+    </symptoms>
+</ns2:code>

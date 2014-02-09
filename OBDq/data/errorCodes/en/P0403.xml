@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:code cars="" id="P0403" xmlns:ns2="com.queeq.odbq.errorcodes">
+    <meanings>
+        <meaning rtPlus="0" rtNeutral="0" rtMinus="0">The Exhaust Gas Recirculation (EGR) system is controlled by a vacuum solenoid. The solenoid is supplied ignition voltage. The Powertrain Control Module (PCM) controls the vacuum solenoid by grounding the control circuit(ground) or driver. The primary function of the driver is to supply ground for the object that is being controlled. Each driver has a fault circuit that the PCM monitors. When the PCM turns a component on, the control circuit voltage is low, or close to zero. When the component is turned off, the voltage on the control circuit is high, or near battery voltage. The PCM watches for these conditions, and if it doesn\'t see the proper voltage at the proper time, this code is set.</meaning>
+    </meanings>
+    <causes>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Bad EGR solenoid</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Bad PCM</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Blockage in EGR control solenoid holding solenoid open or closed causing excessive resistance</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Excessive resistance in control circuit (PCM controlled ground) due to an open, chafing or damage to the harness</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Loss of supply voltage to EGR solenoid</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Poor connection at the EGR solenoid harness (worn or loose pins)</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Water intrusion at the EGR solenoid harness</cause>
+    </causes>
+    <descriptions>
+        <description rtPlus="0" rtNeutral="0" rtMinus="0">Exhaust Gas Recirculation Circuit Malfunction</description>
+    </descriptions>
+    <solutions>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">With the ignition on and engine off, use a scan tool to activate the EGR solenoid. Listen or feel for a clicking, indicating that the solenoid is operating.If the solenoid does operate, you'll have to check current draw on the ground circuit. It should be less than one amp. If it is then the problem is intermittent. If it isn't then there is excessive resistance in the circuit and perform the following1. When it's activated see if you can blow lightly through it. IF you can\'t there may be a blockage causing excessive resistance. Replace EGR solenoid as needed. If there is no blockage, disconnect the EGR solenoid and the PCM connector containing the EGR solenoid control circuit. Using a digital VoltOhm meter (DVOM) check resistence between the control circuit and battery ground. It should be infinite. If it isn't, then there is a short to ground on the control circuit. Repair the short to ground and retest as needed.2. If the solenoid doesn't click as it should, disconnect the EGR solenoid connector and connect a test light between the two wires. Using the scan tool, command the EGR solenoid on. The light should light up. If it does, replace the EGR solenoid. If it does not perform the following: a. Check for 12 Volts on the ignition supply voltage to the solenoid. If it isn't present, inspect the supply circuit for an open, or a short due to chafing or breakage and retest. b. If it still doesn't operate: then manually ground the EGR solenoid control circuit. The light should light. If it does, repair open in EGR solenoid control circuit and retest. If it doesn't, replace EGR solenoid.Related EGR DTC codes: P0400  P0401  P0402  EGR Systems</solution>
+    </solutions>
+    <references/>
+    <symptoms>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Usually a fault in the control circuit, will leave no noticeable symptoms other than the Malfunction Indicator Lamp (MIL) illumination. However, if the EGR control solenoid is stuck open due to debris, etc. the code may be accompanied by misfire under acceleration, rough idle, or engine dying altogether.</symptom>
+    </symptoms>
+</ns2:code>

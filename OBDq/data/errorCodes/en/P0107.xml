@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:code cars="" id="P0107" xmlns:ns2="com.queeq.odbq.errorcodes">
+    <meanings>
+        <meaning rtPlus="0" rtNeutral="0" rtMinus="0">The Manifold Absolute Pressure (MAP) sensor responds to changes in the intake manifold pressure (vacuum). 5 Volts is supplied to the sensor from the PCM (powertrain control module). Inside the MAP sensor is a resistor that moves in relation to manifold pressure. The resistor varies the voltage between about 1 volt to 4.5 volts (depending on engine load) and that voltage signal is returned to the PCM to indicate manifold pressure (vacuum). This signal is essential for the PCM to determine fuel delivery. A P0107 DTC is set when the PCM sees that the MAP signal voltage is less than .25 volts which is too low.</meaning>
+    </meanings>
+    <causes>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Bad MAP sensor</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Bad PCM</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Ground circuit open or shorted</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Open or short in the 5 Volt reference circuit</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Open or short in the signal circuit</cause>
+    </causes>
+    <descriptions>
+        <description rtPlus="0" rtNeutral="0" rtMinus="0">Manifold Absolute Pressure/Barometric Pressure Circuit Low Input</description>
+    </descriptions>
+    <solutions>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">First, using a scan tool with the Key on and engine running, monitor the MAP sensor voltage. If it is reading less than .5 volts, turn engine off, unplug the MAP sensor and, using a DVOM (Digital Volt/Ohm Meter) check for 5Volts on the 5 Volt reference circuit.1. If there is not 5 Volts on the reference circuit, then check for the reference voltage at the PCM connector. If it is present at the PCM connector but not the MAP connector, repair the open in the reference circuit between the PCM and MAP harness connector. If 5 Volt reference is NOT present at the PCM connector, check powers and grounds of PCM and repair/replace as needed. (NOTE: On Chrysler products, a shorted Crank sensor, Vehicle speed sensor or any other sensor that utilizes the 5 Volt reference from the PCM can short out the 5 Volt reference. To fix simply unplug each sensor one at a time until the 5 Volt reference reappears. The last sensor unplugged is the shorted sensor.)2. If you have a 5 Volt reference at the MAP connector, jumper the 5 volt reference circuit to the signal circuit. Now check the MAP voltage on the scan tool. It should be 4.5 to 5 Volts. If it is, replace MAP sensor. If not, repair open/short in the signal circuit wiring and recheck.3. If all appears okay, perform a wiggle test. Start engine and manipulate the harness, connector and tap on the MAP sensor. Note any changes in voltage or engine speed. Repair connector, harness, or sensor as needed.4. If the wiggle test checks out, use a vacuum pump (or just use your lungs) to draw a vacuum on the MAP sensor vacuum port. As you add vacuum the voltage should decrease. With no vacuum, the MAP sensor should read approximately 4.5 volts. If there is no change in MAP sensor reading on the scan tool, replace MAP sensor.MAP Sensor DTC's: P0105, P0106, P0108 and P0109.</solution>
+    </solutions>
+    <references/>
+    <symptoms>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Blowing black smoke</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Dies intermittently</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Hard to start</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Long cranking times</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">MIL(Malfunction Indicator Lamp) illumination</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Poor fuel economy</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Sputtering/missing</symptom>
+    </symptoms>
+</ns2:code>

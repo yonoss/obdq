@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:code cars="" id="P0410" xmlns:ns2="com.queeq.odbq.errorcodes">
+    <meanings>
+        <meaning rtPlus="0" rtNeutral="0" rtMinus="0">The P0410 code refers to the emissions system. The AIR pump puts air to the exhaust to lower emissions. It takes in outside air and pumps it through two oneway check valves into each bank of the exhaust.About 90% of the time that this code is set, the oneway check valves have worn out or failed and allow water (which occurs naturally in the exhaust) back into the pump. In any cold climate, especially in climates with higher humidity, this water may be more excessive. The water partially fills the AIR pump, it can then freeze. When the PCM commands the pump on, if the pump is frozen it cannot turn, thus overloading the circuit and popping the fuse.</meaning>
+    </meanings>
+    <causes>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Blown AIR pump fuse due to freezing up</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Water may have collected in the AIR pump or the vent solenoid and frozen or corroded the pump</cause>
+    </causes>
+    <descriptions>
+        <description rtPlus="0" rtNeutral="0" rtMinus="0">Secondary Air Injection System Malfunction</description>
+    </descriptions>
+    <solutions>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Replace the AIR pump AND oneway check valve</solution>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Replace the AIR pump fuse (found under the hood)</solution>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Replace the AIR pump inlet hose</solution>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Test and clean the AIR pump AND test and replace the oneway air check valve</solution>
+    </solutions>
+    <references/>
+    <symptoms>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Hesitation on acceleration</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">MIL illumination obviously</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Noise from a bad/stuck AIR pump</symptom>
+    </symptoms>
+</ns2:code>

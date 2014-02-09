@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:code cars="" id="P0341" xmlns:ns2="com.queeq.odbq.errorcodes">
+    <meanings>
+        <meaning rtPlus="0" rtNeutral="0" rtMinus="0">This P0341 code basically means that the powertrain control module (PCM) detected a problem with the camshaft signal. The camshaft position sensor (CPS) sends a specific signal to the PCM for Top Dead Center on the compression stroke as well as signals indicating the position of the cam sensor. This is accomplished through a reluctor wheel attached to the camshaft that passes by the cam sensor. Any time that the signal to the PCM is inconsistent with what the signal should be, this code is set. NOTE: this code can also be set by extended cranking periods.</meaning>
+    </meanings>
+    <causes>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Bad cam sensor</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Cam sensor wiring routed too close to spark plug wiring (causing interference)</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Damaged reluctor wheel</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Poor wiring connection at cam sensor</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Poor wiring connection at PCM</cause>
+    </causes>
+    <descriptions>
+        <description rtPlus="0" rtNeutral="0" rtMinus="0">Camshaft Position Sensor Circuit Range/Performance</description>
+    </descriptions>
+    <solutions>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Check that the wiring isn't routed too close to any secondary ignition components (coil, spark plug wires, etc.)</solution>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">If all checks out okay, then replace the sensor.</solution>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">If reluctor isn't visible from outside the engine, visual test can only be done by removing cam shaft or intake manifold (depending on engine design)</solution>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Visually inspect the cam sensor for damage</solution>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Visually inspect the reluctor wheel through the cam sensor port (if possible) for any missing teeth or any damage</solution>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Visually inspect the wiring at the sensor for any burn marks, discoloration indicative of melting or chafing</solution>
+    </solutions>
+    <references/>
+    <symptoms>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Poor fuel economy (if engine runs)</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Possible no start condition</symptom>
+    </symptoms>
+</ns2:code>

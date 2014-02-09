@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:code cars="" id="P0105" xmlns:ns2="com.queeq.odbq.errorcodes">
+    <meanings>
+        <meaning rtPlus="0" rtNeutral="0" rtMinus="0">The MAP (Manifold Absolute Pressure) sensor is part of the fuel management system. It reacts to changes in engine manifold pressure. The PCM (Powertrain Control Module) monitors the MAP sensor continually to properly run the engine. Changes in engine load require changes in the amount of fuel injected, and timing of the ignition system, etc. An engine under load has more manifold pressure(or less vacuum) than an engine that is coasting. As the load changes, the MAP sensor voltage signal to the PCM changes accordingly. To check the MAP sensor operation, though, the PCM watches other sensors to verify that the MAP sensor is working properly.For example, the PCM compares the TPS (Throttle Position Sensor) signal to the MAP signal to verify the MAP signal isn't sticking. If the PCM doesn't see a MAP sensor change immediately follow a change in the throttle pedal sensor, it knows there is a problem with the MAP sensor and sets P0105. Or, if the PCM notices that the TPS indicates the engine is under load, but the MAP signal indicates that the engine is coasting it, again, knows there is a problem with the MAP sensor or TPS and sets P0105.</meaning>
+    </meanings>
+    <causes>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Bad MAP sensor</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Bad PCM</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Bad TPS</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Damaged or problematic MAP sensor connector</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Damaged or problematic TPS connector</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Damaged wiring</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Loss of ground to MAP sensor or TPS</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">MAP sensor vacuum hose disconnected or plugged</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Open on signal circuit of MAP sensor</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Short to reference voltage on signal circuit of MAP sensor</cause>
+    </causes>
+    <descriptions>
+        <description rtPlus="0" rtNeutral="0" rtMinus="0">Manifold Absolute Pressure/Barometric Pressure Circuit Malfunction</description>
+    </descriptions>
+    <solutions>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">If unplugging the MAP sensor causes the voltage to disappear, check that the ground is intact. If it is, then replace the MAP sensor due to internal short.</solution>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Inspect the wiring harness and MAP sensor connector. Repair any damage</solution>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Inspect the wiring harness for damage. Repair as needed</solution>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Remove the MAP sensor signal wire from the PCM connector. With a voltmeter measure the voltage with KEY ON ENGINE OFF. Is there 4.5 Volts? If so, unplug the MAP sensor and recheck. If it is still present, then repair short between the signal wire and 5 volt reference wire.</solution>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Unplug the MAP sensor connector. Also, at the PCM connector, remove the MAP sensor signal wire and check for continuity to the MAP sensor connector. If there is infinite resistance, then repair open in MAP signal circuit. If the signal wire has continuity to the MAP sensor connector, then check for 5 volt reference voltage to the connector and a good ground. If both are present, then reinstall all removed wiring and replace the MAP sensor.</solution>
+    </solutions>
+    <references/>
+    <symptoms>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Engine backfires through tailpipe</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Engine misfire under load or at idle</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Engine runs rich</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Engine won't idle</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">In some extreme cases there may be no symptoms other than MIL illumination</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">MIL (Malfunction Indicator Lamp) illumination</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Poor running engine</symptom>
+    </symptoms>
+</ns2:code>

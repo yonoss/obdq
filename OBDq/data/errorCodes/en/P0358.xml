@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:code cars="" id="P0358" xmlns:ns2="com.queeq.odbq.errorcodes">
+    <meanings>
+        <meaning rtPlus="0" rtNeutral="0" rtMinus="0">The COP (coil on plug) ignition system is what is used on most modern engines. There is an individual coil for each cylinder that is controlled by the PCM (powertrain control module). It eliminates the need for spark plug wires by putting the coil right above the sparkplug. Two wires are dedicated to each coil. One is a battery feed usually from the power distribution center. The other wire is the coil driver circuit from the PCM. The PCM grounds/ungrounds this circuit to activate or deactivate the coil. The coil driver circuit is monitored by the PCM for faultsIf an open or a short is detected in the driver circuit for coil #8, a P0358 may set. Also, depending on the vehicle, the PCM may also shut down the fuel injector to the cylinder also.</meaning>
+    </meanings>
+    <causes>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Bad Coil (COP)</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Faulty Powertrain Control Module</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Loose connection at coil or broken connector locks</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Open on COP driver circuit</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Short to voltage or ground on COP driver circuit</cause>
+    </causes>
+    <descriptions>
+        <description rtPlus="0" rtNeutral="0" rtMinus="0">Ignition Coil H Primary/Secondary Circuit Malfunction</description>
+    </descriptions>
+    <solutions>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Is the engine misfiring presently? If not, the problem is likely intermittent. Try wiggle testing the wiring at the #8 coil and along the wiring harness to the PCM. If manipulating the wiring causes the misfire to surface, repair the wiring problem. Check for poor connection at the coil connector. Verify the harness isn't misrouted or chafing on anything. Repair as necessaryIf the engine is misfiring presently, stop the engine and disconnect the #8 coil wiring connector. Then start the engine and check for a driver signal to the #8 coil. Using a scope will give you a visual pattern to observe, but since most people don't have access to one there's an easier way. Use a Voltmeter in AC Hertz scale and see if there's a Hz reading of between 5 and 20 or so that indicates the driver is working. If there is a Hertz signal, then replace the #8 ignition coil. It's likely bad. If you don't detect any frequency signal from the PCM on the ignition coil driver circuit indicating the PCM is grounding/ungrounding the circuit (or there is no visible pattern on the scope if you have one) then leave the coil disconnected and check for DC voltage on the driver circuit at the ignition coil connector. If there is any significant voltage on that wire then there is a short to voltage somewhere. Find the short and repair it.If there is no voltage on the driver circuit, then turn the ignition off. Disconnect the PCM connector and check the continuity of the driver between the PCM and the coil. If there is no continuity repair the open or short to ground in the circuit. If continuity is present, then check for resistance between ground and the ignition coil connector. There should be infinite resistance. If there isn't, repair the short to ground in the coil driver circuitNOTE: If the ignition coil driver signal wire is not open or shorted to voltage or ground and there is no trigger signal to the coil then suspect a faulty PCM coil driver. Also keep in mind that if the PCM driver is at fault, there may be a wiring problem that caused the PCM failure. It's a good idea to do the above check after PCM replacement to verify there won't be a repeat failure. If you find that the engine isn't misfiring, the coil is being triggered properly but P0358 is continually being reset, there is the possibility that the PCM coil monitoring system may be faulty.</solution>
+    </solutions>
+    <references/>
+    <symptoms>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Engine misfire may be present or intermittent</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">MIL (Malfunction indicator lamp) illumination</symptom>
+    </symptoms>
+</ns2:code>

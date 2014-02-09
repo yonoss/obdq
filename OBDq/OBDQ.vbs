@@ -1,0 +1,1 @@
+CreateObject("Wscript.Shell").Run "OBDQst.bat",0,True

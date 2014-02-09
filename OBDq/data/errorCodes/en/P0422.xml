@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:code cars="" id="P0422" xmlns:ns2="com.queeq.odbq.errorcodes">
+    <meanings>
+        <meaning rtPlus="0" rtNeutral="0" rtMinus="0">A vehicles' catalytic converter (catalyst) helps improve tailpipe emissions by oxygenating the exhaust gasses. It helps convert hydrocarbons (HC), Carbon Monoxide (CO), and oxides of Nitrogen (NOx) into water vapor (H20), Carbon Dioxide (CO2), and Nitrogen (N).The PCM (Powertrain control module) monitors the catalyst efficiency by means of a postcatalyst Oxygen sensor. This sensor is used primarily for this purpose. It should switch much slower than the front oxygen sensors. If at any point the PCM detects that the postcatalyst o2 sensor is switching too rapidly (indicating no change between the inlet and outlet of the catalytic converter) it interprets this as a catalyst that isn't functioning properly.Bank 2 is the side of the engine that has cylinder #1.</meaning>
+    </meanings>
+    <causes>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Bad or nonfunctional catalyst</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Engine operating out of optimal air:fuel ratio</cause>
+    </causes>
+    <descriptions>
+        <description rtPlus="0" rtNeutral="0" rtMinus="0">Main Catalyst Efficiency Below Threshold (Bank 1)</description>
+    </descriptions>
+    <solutions>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Catalytic converters contain precious metals like platinum, palladium, rhodium among others. Basically, the cheaper the cat, the less precious metals used. It should be noted that there are some automobile makes that are very finicky when it comes to catalytic converters and the logic that the PCM uses to monitor them. Just because the parts guy says it will work doesn't mean that it will. The reason is that the engineering of the vehicle was done with a high quality catalyst in mind and it can't be replaced with a low cost catalyst. There are also different kinds of catalysts. Some makes will allow for a cheaper catalyst while others simply will not. Toyotas &amp;amp; Subarus are the most notorious for this. Subarus require CARB certified catalysts to keep the check engine light off and won't tolerate an aftermarket catalyst, no matter how expensive.So basically if you have a recurrence of this code after replacing the catalyst with an aftermarket catalyst, this may be your problem. If you have this code and haven't replaced the cat, there's basically two likely causes: The catalyst is no good, or the engine is running out of optimal air:fuel ratio. A tune up or engine repair may correct it. Otherwise you'll need to replace the catalyst.</solution>
+    </solutions>
+    <references/>
+    <symptoms>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Increased tailpipe emissions</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">MIL (Malfunction Indicator Lamp) illumination</symptom>
+    </symptoms>
+</ns2:code>

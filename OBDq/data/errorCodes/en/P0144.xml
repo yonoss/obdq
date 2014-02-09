@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:code cars="" id="P0144" xmlns:ns2="com.queeq.odbq.errorcodes">
+    <meanings>
+        <meaning rtPlus="0" rtNeutral="0" rtMinus="0">The catalytic converter is used to lower harmful emissions. To ensure proper operation, there is an O2 sensor located behind the catalyst that monitors the oxygen content of the exhaust after the cat. The PCM (Powertrain Control Module) then compares the postcat reading to the precat readings to determine if the catalyst is working properly.A P0144 refers to a fault at the postcat o2 sensor, indicating that the signal voltage is too high. The o2 sensor is a four wire sensor. Two wires are dedicated to the heating element and two wires are dedicated to the sensor. The heating element should have battery voltage on one wire with key on engine off and ground should be present on the other. The PCM supplies a reference voltage to the o2 sensor which the sensor varies according to oxygen content in the exhaust. It is capable of varying between approximately 0.1 and 0.9 volts. This variance in the voltage is monitored by the PCM. The PCM also supplies a ground to the sensor. P0144 means that the voltage was too high on the signal circuit.</meaning>
+    </meanings>
+    <causes>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Bad o2 sensor (Bank 1 Sensor 3)</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Bad PCM</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Engine running rich (If other codes are present)</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Holes in exhaust near Bank 1 Sensor 3</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Short to voltage on signal circuit</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Wiring in contact with exhaust components</cause>
+    </causes>
+    <descriptions>
+        <description rtPlus="0" rtNeutral="0" rtMinus="0">02 Sensor Circuit High Voltage (Bank I Sensor 3)</description>
+    </descriptions>
+    <solutions>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Start the engine and observe the Bank 1 Sensor 3 (a.k.a. 1/3) o2 sensor voltage. You may need to raise the idle up until the o2 sensor starts switching.If it is stuck high, or close to 1 volt and the voltage doesn't vary, then check for a good ground on both the heater element and the sensor. Also check that the heater element is being supplied good battery voltage. No heater operation can cause a sluggish sensor.If the grounds are good and the battery voltage is present, then jumper the sensor's signal wire to the sensor's ground wire. Now the scan tool should read low or near zero volts. If it does, the wiring is good. Replace the bank 1/3 o2 sensor. If jumpering the signal wire to the ground doesn't lower the voltage, then check the o2 sensor wiring harness. Make sure there is no contact with hot exhaust components. Ensure good wiring harness connections. If the wiring checks out, then reperform the previous wiring harness checks at the PCM connector.If now the 1/3 o2 sensor reading drops, then there is a wiring problem that isn't visible. Open the harness and visually inspect the wiring for problems. But if the result is the same, then the PCM may be bad.By Dale Toalston</solution>
+    </solutions>
+    <references/>
+    <symptoms>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Engine loses power and misses intermittently</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">May exhibit loss of fuel efficiency</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">MIL (Malfunction Indicator Lamp) on</symptom>
+    </symptoms>
+</ns2:code>

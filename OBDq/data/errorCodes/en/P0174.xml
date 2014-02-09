@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:code cars="" id="P0174" xmlns:ns2="com.queeq.odbq.errorcodes">
+    <meanings>
+        <meaning rtPlus="0" rtNeutral="0" rtMinus="0">Basically this means that an oxygen sensor in bank 2 detected a lean condition (too much oxygen in the exhaust). On V6/V8/V10 engines, Bank 2 is generally the side of the engine that doesn't have cylinder #1.Note: This DTC is very similar to P0171, and in fact your vehicle may show both codes at the same time.</meaning>
+    </meanings>
+    <causes>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">The MAF (Mass Air Flow) Sensor is dirty or faulty. Note: The use of oiled air filters can cause the MAF to become dirty if the filter is overoiled. There is also an issue with some vehicles where the MAF sensors leak the silicone potting material used to protect the circuitry.</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">There could be a vacuum leak downstream of the MAF sensor.</cause>
+    </causes>
+    <descriptions>
+        <description rtPlus="0" rtNeutral="0" rtMinus="0">System Too Lean (Bank 2)</description>
+    </descriptions>
+    <solutions>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Check for a dirty fuel filter and proper fuel pressure</solution>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">In the vast majority of cases, simply cleaning the MAF sensor does the trick. Consult your service manual for it's location if you need help. I find it's best to take it off and spray it with electronics cleaner or brake cleaner. Make sure you are careful not to damage the MAF sensor, and make sure it's dry before reinstalling</solution>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Inspect all vacuum and PCV hoses, replace if necessary</solution>
+    </solutions>
+    <references/>
+    <symptoms>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">You will more than likely not notice any drivability problems, although there may be symptoms such as a lack of power, detonation (spark knock), and/or a hesitation/surge on acceleration.</symptom>
+    </symptoms>
+</ns2:code>

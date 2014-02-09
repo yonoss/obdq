@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:code cars="" id="P0122" xmlns:ns2="com.queeq.odbq.errorcodes">
+    <meanings>
+        <meaning rtPlus="0" rtNeutral="0" rtMinus="0">A P0122 code means that the the car's computer has detected that the TPS (throttle position sensor) is reporting too low a voltage. On some vehicles that lower limit is 0.17  0.20 volts (V).Did you adjust it when you installed it? If the signal value is less than .17V then the PCM sets this code. Could be an open or a short to ground in the signal circuit. Or you may have lost the 5Volt reference voltage.</meaning>
+    </meanings>
+    <causes>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Damaged computer (PCM)</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Faulty TPS</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">TPS circuit short to ground or another wire</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">TPS not mounted securely</cause>
+    </causes>
+    <descriptions>
+        <description rtPlus="0" rtNeutral="0" rtMinus="0">Throttle Position Sensor/Switch A Circuit Low Input</description>
+    </descriptions>
+    <solutions>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Carefully check the throttle position sensor (TPS), wiring connector, and wiring for breaks, etc. Repair or replace as necessary</solution>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Check the voltage at the TPS (refer to a service manual for your vehicle for specific information). If the voltage is too low that is indicative of a problem. Replace if necessary.</solution>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">If recently replaced the TPS may need to be adjusted. On some vehicles the installation instructions call for the TPS to be properly aligned or adjusted, consult a repair manual for specifics.</solution>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">If there are no symptoms at all, the problem may be intermittent and clearing the code may resolve the issue temporarily. If this is the case then you should definitely check the wiring to be sure it's not rubbing on anything, grounding, etc. The code may come back.</solution>
+    </solutions>
+    <references/>
+    <symptoms>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">No/little acceleration</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">other symptoms may also be present</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Rough or low idle</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Stalling</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Surging</symptom>
+    </symptoms>
+</ns2:code>

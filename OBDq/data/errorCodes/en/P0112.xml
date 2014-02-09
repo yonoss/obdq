@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:code cars="" id="P0112" xmlns:ns2="com.queeq.odbq.errorcodes">
+    <meanings>
+        <meaning rtPlus="0" rtNeutral="0" rtMinus="0">The IAT (intake air temperature) sensor simply measures the temperature of air thatis entering the engine. Intake air temperature is important because the higher theintake air, the higher the combustion temperatures. High combustion temperaturesresult in increased Nox (Nitrogen oxides) emissions. To keep these higher tempsfrom causing increased combustion temps, the intake air tubing should be intact,allowing the engine to "breathe" air that isn't sampled from the enginecompartment. The IAT measures air temp by using a thermistor, or a thermometer ofsorts. The thermistor is supplied 5 volts reference voltage from the PCM(powertrain control module) and a ground. Usually, when the air temperature is coldthe resistance in the thermistor is high and when the air temperature is warmer, theresistance decreases. This change in resistance changes the 5 V reference from thePCM, thereby informing the PCM of the temperature of incoming air. If the PCMnotices that the incoming air temp is unusually high, say, 300 degrees, when theengine temp is still relatively low, it will set a P0112.</meaning>
+    </meanings>
+    <causes>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Bad PCM</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Damaged IAT connector</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Excessively high intake air temperatures</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">No reference voltage to the IAT sensor due to an open wire</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Short to ground on signal circuit</cause>
+    </causes>
+    <descriptions>
+        <description rtPlus="0" rtNeutral="0" rtMinus="0">Intake Air Temperature Circuit Low Input</description>
+    </descriptions>
+    <solutions>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Hook up your scan tool or code reader and read the IAT reading. With a cold engine,the IAT should roughly match the coolant reading, since both will read ambienttemperature. If the IAT is reading excessively high, check the IAT connector fordamage. If you find none, unplug the IAT sensor and recheck the reading. It shouldnow read the minimum, around 20 deg. If it does, then replace the IAT sensor. But, if the reading is still high, unplug the sensor and check for resistance acrossthe two wiring harness terminals. If there is infinite resistance, then the PCMitself is bad. If the resistance isn't infinite, then check and repair the shortto ground on the signal circuit.Other IAT sensor and circuit related DTCs: P0095, P0096, P0097, P0098, P0099, P0109, P0110, P0111, P0113, P0114</solution>
+    </solutions>
+    <references/>
+    <symptoms>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">There may be no noticeable symptoms of a P0112 code other than an MIL (MalfunctionIndicator Lamp). However, a emissions test may reveal higher Nox readings dependingon the type of IAT failure. Or the engine may ping under load, depending on thetype of IAT failure.</symptom>
+    </symptoms>
+</ns2:code>

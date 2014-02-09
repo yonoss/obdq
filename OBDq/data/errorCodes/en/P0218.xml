@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:code cars="" id="P0218" xmlns:ns2="com.queeq.odbq.errorcodes">
+    <meanings>
+        <meaning rtPlus="0" rtNeutral="0" rtMinus="0">If you have a P0218 code stored, then you have a transmission fluid temperature sender and likely have a transmission overtemp light in the instrument clusterIf your transmission/transaxle fluid temperature is greater than 290 deg. F then P0218 will set and the overtemp light will illuminate. The number one cause of transmission failure is overheated fluid.</meaning>
+    </meanings>
+    <causes>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Bad transmission fluid temperature sensor</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Inoperative cooling fan/fan clutch</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Low transmission fluid</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Missing or damaged front air dam/spoiler</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Overheating due to towing overloaded trailer</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Restriction/debris in transmission cooler</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Transmission cooler or lines restricted</cause>
+    </causes>
+    <descriptions>
+        <description rtPlus="0" rtNeutral="0" rtMinus="0">Transmission Over Temperature Condition</description>
+    </descriptions>
+    <solutions>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">If you're towing a heavy load make sure the vehicle is rated for that load. If the load is too heavy, the transmission cooler may not be able to keep the transmission fluid temperature down. An overheated transmission/transaxle won't last long.Next, make sure that the cooler isn't restricted by any debris and that the lines aren't pinched or leaking. If the transmission cooler is equipped with a cooling fan, make sure it's operating properly. If the transmission fluid smells burnt or is dark in color, perform a transmission fluid flush. If the transmission fluid level is low, top it off and check for leaks.Note: An overheated transmission can expel fluid out of the vent or out of the torque converter seal.Article written by Dale Toalston</solution>
+    </solutions>
+    <references/>
+    <symptoms>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Leaking fluid out of torque converter seal or other location</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Low fluid in transmission/transaxle</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Vehicle transmission/transaxle won't engage</symptom>
+    </symptoms>
+</ns2:code>

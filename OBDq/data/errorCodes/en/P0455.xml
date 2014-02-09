@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:code cars="" id="P0455" xmlns:ns2="com.queeq.odbq.errorcodes">
+    <meanings>
+        <meaning rtPlus="0" rtNeutral="0" rtMinus="0">This indicates a fuel vapor leak or lack of purge flow in the EVAP control system. It means a large leak has been detected. The (EVAP) emission control system prevents the escape of fuel vapors from a vehicle's fuel system. Fuel vapors are routed by hoses to a charcoal canister for storage. Later, when the engine is running a purge control valve opens allowing intake vacuum to siphon the fuel vapors into the engine.</meaning>
+    </meanings>
+    <causes>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">A loose or improperly affixed gas cap</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">A nonconforming gas cap (i.e. not factory/original brand)</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Other leak or damaged piece in EVAP system</cause>
+    </causes>
+    <descriptions>
+        <description rtPlus="0" rtNeutral="0" rtMinus="0">Evaporative Emission Control System Leak Detected (no purge flow or large leak)</description>
+    </descriptions>
+    <solutions>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Inspect the EVAP system for cuts/holes in tubes/hoses (you may hear a vacuum noise or smell fuel), repair if necessary</solution>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Otherwise, replace the gas cap, and/or</solution>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Remove and reinstall the gas cap, clear the codes, and drive for a day and see if the codes come back.</solution>
+    </solutions>
+    <references/>
+    <symptoms>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">You likely won't notice any drivability problems.</symptom>
+    </symptoms>
+</ns2:code>

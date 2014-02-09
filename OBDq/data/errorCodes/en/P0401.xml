@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:code cars="" id="P0401" xmlns:ns2="com.queeq.odbq.errorcodes">
+    <meanings>
+        <meaning rtPlus="0" rtNeutral="0" rtMinus="0">EGR stands for Exhaust Gas Recirculation. It is part of the vehicle emmissions system, and is used to reduce combustion temperature and pressure to control Oxides of Nitrogen. There are generally three parts to the EGR system: the EGR valve, an actuator solenoid, and a differential pressure sensor EGR (DPFE). These things work together to deliver the correct amount of recirculation based on engine temperature, load, etc. The P0401 code means that OBD detected an insufficient amount of EGR.</meaning>
+    </meanings>
+    <causes>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">The DPFE (differential pressure feedback EGR) sensor is faulty and needs to be replaced</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">The EGR valve is faulty</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">The EGR valve may not be opening due to a lack of vaccuum</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">There is a blockage in the EGR (tube), most likely carbon buildup</cause>
+    </causes>
+    <descriptions>
+        <description rtPlus="0" rtNeutral="0" rtMinus="0">Insufficient EGR Flow</description>
+    </descriptions>
+    <solutions>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Check the voltage at the DPFE, compare to specified values (refer to a repair manual for your specific model)</solution>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Clean out the EGR valve and/or tubing to remove deposits</solution>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Replace the DPFE sensor (with a good quality / OEM one)</solution>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Replace the EGR valve</solution>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Use a vacuum pump and pull the EGR valve open while monitoring engine RPM's &amp;amp; DPFE voltage. There should be a noticable difference in RPM's with the EGR open</solution>
+    </solutions>
+    <references/>
+    <symptoms>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">You may notice drivability problems such as pinging (a.k.a. preignition knock) when the engine is under load or the vehicle is at higher speeds. There may also be other symptoms.</symptom>
+    </symptoms>
+</ns2:code>

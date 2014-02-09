@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:code cars="" id="P0412" xmlns:ns2="com.queeq.odbq.errorcodes">
+    <meanings>
+        <meaning rtPlus="0" rtNeutral="0" rtMinus="0">The Secondary Air Injection System (AIR) Switching Valve is the computer controlled valve that controls the air injection into the exhaust system of the engine (this valve may be integral to the AIR pump). This code deals with a problem on the circuit of the SOLENOID, not the operation of the AIR pump itself. The AIR injection system reduces hydrocarbon emissions (HC) Carbon Monoxide (CO) and oxides of Nitrogen (NOx) by injecting fresh air into the exhaust ports of a cold engine or catalytic converter of a warm engine. This helps convert hydrocarbons into water vapor (H20) and Carbon Monoxide to Carbon Dioxide (CO2).Generally the electric air pump is the most common type, although there may be belt driven air pumps with an electric clutch. The electric air pump is controlled by the PCM (Powertrain control module) which grounds the AIR pump relay control circuit and provides voltage to the AIR pump and solenoid valve (which may control a vacuum operated shut off valve or directly control air flow). There is a checkvalve in the fresh air supply tube which prevents exhaust gasses from backing up into the AIR pump. The PCM monitors the driver that activates the AIR pump for faults. When the PCM commands the AIR pump relay on, the voltage of the control circuit would naturally be pulled close to zero. When the relay is commanded off, the control circuit would have battery voltage present. If the PCM sees a voltage that isn't what is expected, P0412 will set.</meaning>
+    </meanings>
+    <causes>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Control circuit open due to damage, etc.</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Open or short on battery feed circuit to solenoid</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Open or short on battery feed to relay control circuit</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Short to ground on control circuit</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Short to voltage on control circuit</cause>
+    </causes>
+    <descriptions>
+        <description rtPlus="0" rtNeutral="0" rtMinus="0">Secondary Air Injection System Switching Valve A Circuit Malfunction</description>
+    </descriptions>
+    <solutions>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">If you have access to a scan tool, with KOEO (Key on engine off) command the AIR pump solenoid on and off. If the solenoid doesn't operate then unplug the solenoid and using a voltmeter, check for voltage being supplied to the solenoid when commanded on and also for good ground. If there is voltage being supplied and a good ground check for a good connection at the solenoid wiring harness connector. If the connection is good then replace the solenoid. If there is no voltage supplied to the connector when commanding the solenoid on, then find the AIR pump relay and verify that there is fused battery voltage present at the switched side of the circuit that is feeding voltage to the AIR pump.If not, check for blown fuse or open in the wiring. Repair and retest.If battery voltage is present at the voltage feed side of the relay, then a fast way to check for proper solenoid and AIR pump operation is to use a fused jumper and manually activate it. Do this by jumpering battery voltage to switched AIR pump voltage feed. Usually this is terminals 30 and 87 of the relay schematic (not always). If the solenoid (and possibly the AIR pump) operates, then you know your wiring and solenoid are okay. If it doesn't activate, open the wiring harness and find the open or short in the voltage feed to the AIR pump solenoid and fix it. If jumpering the solenoid to battery voltage activates the solenoid, then it's time to check for voltage present with KOEO on the PCM controlled side of the relay. If there is none, again repair open or short in the circuit and retest.To check the PCM wiring of the AIR pump solenoid, grounding the control circuit that is normally operated by the PCM will tell you if the wiring is intact. Grounding the circuit at the PCM connector with KOEO should activate the AIR pump relay, which in turn should activate the AIR pump &amp;amp; solenoid. If this doesn't work, then there is an open or short in the PCM control circuit. If grounding the control circuit operates the AIR pump and solenoid, verify the PCM has good ground paths and no damage to the connector or water intrusion. If that checks out, suspect an open driver in the PCM.</solution>
+    </solutions>
+    <references/>
+    <symptoms>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Engine running rich</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Increase in tailpipe emissions</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">MIL (Malfunction indicator lamp) illumination</symptom>
+    </symptoms>
+</ns2:code>

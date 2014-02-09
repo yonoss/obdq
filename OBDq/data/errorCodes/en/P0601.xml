@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:code cars="" id="P0601" xmlns:ns2="com.queeq.odbq.errorcodes">
+    <meanings>
+        <meaning rtPlus="0" rtNeutral="0" rtMinus="0">Basically that means that there is an interal fault in the Powertrain Control Module (PCM). There have been many reported PCM failures on Chrysler/Dodge products although it is possible for this to happen on any vehicle. In Dodge/Chrysler products, a P0601 trouble code means that a serial communication failed inside the computer at least 6 times.</meaning>
+    </meanings>
+    <causes>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">A code P0601 in most cases means the PCM has gone bad. This is possibly due to a shortcircuit inside the PCM. Or, if you disconnect the wires/connector from the PCM while the battery is still connected, that may also cause this code.</cause>
+    </causes>
+    <descriptions>
+        <description rtPlus="0" rtNeutral="0" rtMinus="0">Internal Control Module Memory Check Sum Error</description>
+    </descriptions>
+    <solutions>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">With a P0601 OBDII trouble code, the most common fix is to replace and reprogram the PCM. In a few cases the dealer may be able to reflash the PCM and get it working. But more than likely the PCM will need to be replaced and reprogrammed (we recommend you take it to a dealership for this). The good news is it *may* be covered under your emmissions warranty. So even if you're out of bumpertobumper warranty or powertrain warranty, check your warranty guide or dealer to see if this is covered.Other people have reported that they cleared the code only for it to return again and again. Keep in mind that most shops can replace the PCM but not all can program it.Source: Dakota ForumsOther PCM / ECM Codes: P0602, P0603, P0604, P0605, P0606, P0607, P0608, P0609, P0610.</solution>
+    </solutions>
+    <references/>
+    <symptoms>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Likely, no symptoms will be discernible to the driver, other than the illuminated Check Engine Light. Typically the engine runs fine, gauges work, etc.</symptom>
+    </symptoms>
+</ns2:code>

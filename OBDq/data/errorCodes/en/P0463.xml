@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:code cars="" id="P0463" xmlns:ns2="com.queeq.odbq.errorcodes">
+    <meanings>
+        <meaning rtPlus="0" rtNeutral="0" rtMinus="0">The fuel level sensor (sender) is located in the fuel tank usually integral to the fuel pump module. Usually they cannot be replaced without replacing the fuel pump module, though there are exceptions. There is a float attached to an arm that travels along a resistor which is grounded to the tank, frame or has a dedicated ground circuit. Voltage is supplied to the sender and the ground path changes according to fuel level. How much voltage depends on the system but 5 volts isn't uncommon.As the fuel level changes, the float moves the arm and changes the resistance to ground which varies the voltage signal. This signal may travel to a fuel pump computer module or directly to the instrument cluster module. Depending on the system, the fuel pump computer module may only monitor the resistance to ground and then relay the fuel level information to the instrument panel. If the fuel level signal to the fuel pump module (or instrument cluster module or PCM (powertrain control module)) goes above 5 volts for a specific amount of time, then the module that is monitoring the fuel level circuit will record this fault code.</meaning>
+    </meanings>
+    <causes>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Damage to the fuel tank could cause problem in fuel level circuit</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Less likely is the possibility that the PCM, BCM, or Fuel pump computer module has failed</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Possibly faulty instrument cluster</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">The ground circuit is open, or ground path may have high resistance due to rust or missing ground strap on fuel tank</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">The signal circuit to the fuel sender is open or shorted to B+ (Battery voltage)</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">There's an open in the fuel lever sensor's resistor to ground</cause>
+    </causes>
+    <descriptions>
+        <description rtPlus="0" rtNeutral="0" rtMinus="0">Fuel Level Sensor Circuit High Input</description>
+    </descriptions>
+    <solutions>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Fuel pump senders normally last the life of the fuel pump. So if you have this code present, do a visual inspection of the fuel tank and wiring harness. Look for damage to the tank indicating impact that may have damaged the fuel pump or sender. Look for missing ground strap or a rusty ground where the fuel tank is grounded to the frame. Check for damage to the wiring harness connector. Repair as needed. Find out what kind of system you have and verify that voltage to the fuel level sensor is present at the fuel pump wiring harness. If not, repair the open or short in the wiring.Doing a voltage drop test on the ground circuit can determine if there is a high resistance path in the ground circuit. You can perform this by using a voltmeter and connecting one lead to the battery ground post and the other to the fuel level sensor ground at the tank. Turn the key on (preferably the engine should be running). Ideally it should be 100 millivolts or less (.1 volts). Anything close to 1 volt indicates a current problem or a developing problem. Repair/clean the fuel level sensor ground as needed. It's not impossible that the instrument cluster has failed internally or on the printed circuit board (if applicable). These are very difficult for the layman to test. But if you have access to a wiring diagram you may be able to remove the cluster and see the damaged circuit if it's located on the printed circuit board, but otherwise you'll need a scan tool that will communicate with the instrument cluster.A simple way to test the fuel level circuit is to provide a good ground to the fuel level sensor at the fuel tank connector. With the key on the fuel gauge should go to one extreme or the other. Removing the ground path completely should cause the gauge to do the opposite. If the gauge responds, you know the wiring that supplies voltage and ground to the fuel level sensor is good and that the instrument cluster is likely okay. The likely suspect would be the fuel level sensor itself. The fuel tank may need removal to gain access to the fuel pump module in the tank. A PCM or BCM (Body control module) failure isn't impossible but highly unlikely. Don't suspect this first.</solution>
+    </solutions>
+    <references/>
+    <symptoms>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Fuel level gauge may fluctuate abnormally or read empty or full</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Fuel light may illuminate and sound alarm</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Mil (Malfunction indicator lamp) illumination</symptom>
+    </symptoms>
+</ns2:code>

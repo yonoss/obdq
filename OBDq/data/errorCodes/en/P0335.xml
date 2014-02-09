@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:code cars="" id="P0335" xmlns:ns2="com.queeq.odbq.errorcodes">
+    <meanings>
+        <meaning rtPlus="0" rtNeutral="0" rtMinus="0">The crankshaft position sensor (CKP) measures crankshaft location and relays this information to the PCM (Powertrain Control Module). Depending on the vehicle, the PCM uses this crankshaft position information to time the spark properly or on some systems it is only for misfire detection and does not control spark timing. The CKP sensor is stationary and works in harmony with a reluctor ring (or toothed ring) that is attached to the crankshaft. As this reluctor ring passes in front of the CKP sensor, the magnetic field created by the CKP sensor is interrupted and this creates a square wave voltage signal that the PCM interprets as crankshaft position. If the PCM detects that there are no crankshaft pulses or if it sees a problem with the pulses on the output circuit, P0335 will set.</meaning>
+    </meanings>
+    <causes>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Broken timing belt</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Damaged CKP sensor connector</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Damaged reluctor ring (missing teeth or not turning due to shearedoff keyway)</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Failed crank sensor</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Failed PCM</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Sensor output open</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Sensor output shorted to ground</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Sensor output shorted to voltage</cause>
+    </causes>
+    <descriptions>
+        <description rtPlus="0" rtNeutral="0" rtMinus="0">Crankshaft Position Sensor A Circuit Malfunction</description>
+    </descriptions>
+    <solutions>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">If not, repair open or short in the wiring to the crank sensor and recheck. If the reading is okay, the problem is intermittent or the PCM may be at fault. Try reconnecting and checking for RPM signal again. If there is now an RPM signal, wiggle test the wiring harness to try and induce the fault.</solution>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">If not, replace the CKP sensor. If so, recheck resistance reading from the PCM connector. Is the reading still okay?</solution>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">If there is no RPM reading, then visually inspect the crank sensor and connector for any damage and repair as necessary. If there is no visible damage, and you have access to a scope, you could check the CKP 5 Volt square wave pattern. If you do not, then, obtain a resistance reading of your crank sensor from a repair manual. (There are so many different types of crank sensors that there's no way to put here which resistance reading is correct). Then check the resistance of the CKP sensor by disconnecting the sensor and measuring resistance of the sensor. (It is best to check resistance readings from the PCM connector. This rules out any wiring problems from the start. But it does require some mechanical skill and shouldn't be performed if you\'re not familiar with automobile electrical systems). Is the sensor within resistance specs?</solution>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Using a scan tool, check if, when engine is running or cranking, that there is an RPM signal.</solution>
+    </solutions>
+    <references/>
+    <symptoms>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">MIL illumination</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Vehicle may not start (see above)</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Vehicle may run rough or misfire</symptom>
+    </symptoms>
+</ns2:code>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:code cars="" id="P0441" xmlns:ns2="com.queeq.odbq.errorcodes">
+    <meanings>
+        <meaning rtPlus="0" rtNeutral="0" rtMinus="0">This indicates that a part of the EVAP control system is no longer fuctioning correctly. The EVAP system consists of many parts, including (but not limited to) the gas cap, fuel lines, carbon canister, purge valve, and other hoses. The (EVAP) emission control system prevents the escape of fuel vapors from a vehicle's fuel system. Fuel vapors are routed by hoses to a charcoal canister for storage. Later, when the engine is running a purge control valve opens allowing intake vacuum to siphon the fuel vapors into the engine.EVAP emission canister purge is contolled by a valve which allows engine vacuum to pull stored fuel vapors from fuel tank into the engine to be burned, rather than be vented to atmosphere. A vacuum switch is used to detect when flow exists. If the PCM commands purge and sees that the switch is closed (indicating no detected purge flow) P0441 is set.</meaning>
+    </meanings>
+    <causes>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Bad PCM</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Bad vacuum switch</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Broken or damaged EVAP line or canister</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Corrosion or resistance in purge connector</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Faulty purge solenoid</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Open in PCM purge command circuit</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Open or short in Voltage feed circuit to Purge Solenoid</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Restriction in EVAP solenoid, line or canister</cause>
+    </causes>
+    <descriptions>
+        <description rtPlus="0" rtNeutral="0" rtMinus="0">Evaporative Emission Control System Incorrect Purge Flow</description>
+    </descriptions>
+    <solutions>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Common Chrysler fix  Replace Leak Detection Pump / LDP</solution>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Repair damaged EVAP lines or canister</solution>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Repair open in PCM purge command circuit</solution>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Repair open or short in voltage feed circuit to Purge Solenoid</solution>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Repair resistance in purge connector</solution>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Repair restriction in Evap line or canister or soleniod</solution>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Replace PCM</solution>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Replace purge Solenoid</solution>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Replace vacuum switch</solution>
+    </solutions>
+    <references/>
+    <symptoms>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Likely, no symptoms will be discernible to the driver, other than the illuminated Check Engine Light.</symptom>
+    </symptoms>
+</ns2:code>

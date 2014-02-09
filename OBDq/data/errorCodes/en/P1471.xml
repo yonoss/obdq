@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:code cars="" id="P1471" xmlns:ns2="com.queeq.odbq.errorcodes">
+    <meanings/>
+    <causes/>
+    <descriptions>
+        <description rtPlus="0" rtNeutral="0" rtMinus="0">Electrodrive Fan 1 Operational Failure (Driver Side)</description>
+    </descriptions>
+    <solutions/>
+    <references/>
+    <symptoms/>
+</ns2:code>

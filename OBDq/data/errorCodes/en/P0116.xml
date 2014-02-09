@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:code cars="" id="P0116" xmlns:ns2="com.queeq.odbq.errorcodes">
+    <meanings>
+        <meaning rtPlus="0" rtNeutral="0" rtMinus="0">The ECT (Engine coolant temperature) sensor is a thermistor which changes resistance based on temperature of the coolant in contact with it. The ECT sensor will be located in the block or coolant passage. Usually it is a two wire sensor. One wire is a 5 Volt supply from the PCM (Powertrain Control Module) to the ECT. The other is a ground to the ECT.As the temperature of the coolant changes the resistance on the signal wire changes accordingly. The PCM monitors the reading and determines coolant temperature in order to perform essential engine fuel management. When engine coolant is low, sensor resistance is high. The PCM will see a high signal voltage (low temperature). When coolant is warm, the sensor's resistance is low and the PCM will see a high temperature. The PCM expects to see slow resistance changes on the ECT signal circuit. If it sees a quick change in voltage that isn't consistent with an engine warming up, this P0116 code will set. Or if it sees a lack of change in ECT signal, this code may set.</meaning>
+    </meanings>
+    <causes>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Bad ECT sensor</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Missing or stuckopen thermostat</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Poor connections in wiring</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Short or open on ground wire</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Short or open on signal wire</cause>
+    </causes>
+    <descriptions>
+        <description rtPlus="0" rtNeutral="0" rtMinus="0">Engine Coolant Temperature (ECT) Circuit Range/Performance Problem</description>
+    </descriptions>
+    <solutions>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">If there are any other ECT sensor codes, diagnose them first.Using a scan tool, check the ECT reading. On a cold engine, it should match the IAT reading or should be equal to ambient (outside) temperature reading. If it does match the IAT or ambient temp, check the freeze frame data on your scan tool (if equipped). The saved data should tell you what the ECT reading was when the fault occurred.a) If the saved info indicates that the engine coolant reading was at the coldest exreme (around 30 deg. F) then that's a good indication the ECT resistance was intermittently high (unless you live in Anchorage!) Check for an open in the ECT sensor ground and signal circuits and repair as necessary. If they appear okay, warm the engine up while monitoring the ECT for any intermittent jumps high or low. If there are replace the ECT.b) If the saved info indicates that the engine coolant reading was at the warmest exreme (around 250+ deg.F) then that's a good indication the ECT resistance was intermittently low. Check for a short to ground on the signal circuit and repair as necessary. If it appears okay, warm the engine up while monitoring the ECT for any intermittent jumps high or low. If there are replace the ECT.Other ECT sensor and circuit related DTCs: P0115, P0117, P0118, P0119, P0125, P0128</solution>
+    </solutions>
+    <references/>
+    <symptoms>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Black smoke at tailpipe</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">May exhibit stalling or misfires</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">May not idle</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">MIL (Malfunction Indicator Lamp) illumination</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Poor drivability</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Poor fuel economy</symptom>
+    </symptoms>
+</ns2:code>

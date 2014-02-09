@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:code cars="" id="P0111" xmlns:ns2="com.queeq.odbq.errorcodes">
+    <meanings>
+        <meaning rtPlus="0" rtNeutral="0" rtMinus="0">The IAT (Intake Air Temperature) sensor is a thermistor that varies resistance based upon the temperature of the engine intake air. Usually a two wire sensor. One wire is supplied 5 Volt from the PCM (Powertrain Control Module) and the other is a ground. The PCM monitors the change in the 5 Volt supplied to determine air temperature. When the intake air is cold, the resistance is high, resulting in a high signal voltage.When the intake air is warm, the reistance is low, resulting in a low signal voltage. This code means that the PCM saw a largerthannormal change in a shorterthanexpected time on the IAT signal circuit.</meaning>
+    </meanings>
+    <causes>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">a bad IAT sensor</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">a short to ground on the signal circuit</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">an open in the signal or ground circuit</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">poor connection at sensor or PCM</cause>
+    </causes>
+    <descriptions>
+        <description rtPlus="0" rtNeutral="0" rtMinus="0">Intake Air Temperature (IAT) Circuit Range/Performance Problem</description>
+    </descriptions>
+    <solutions>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">If there are other IAT codes present, diagnose them first. If not, then, using a scan tool verify the IAT voltage with KOEO (Key on engine off).If, on a cold engine it reads the same as the CTS (Coolant temperature sensor), then the problem is intermittent. But if the IAT reading isn't the same as the CTS refer to diagnostic procedure for P0110. If your scan tool has a freeze frame failure records feature, use it to see what the IAT reading was at the time of the failure. If the reading was at negative 30 or so degrees F (indicating it was at the extreme coldest reading), then there was an intermittent high resistance reading on the IAT signal circuit.Check for an open ground on the ground circuit and signal circuit. If they are OK, try raising and lowering the temperature of the IAT sensor artificially. Do this by removing the IAT and putting it in a freezer and then applying heat with a heat gun (be careful not to apply too much heat to the IAT with the heat gun or it'll melt the sensor). Watch the resistance change using an ohmmeter attached to each terminal. It should vary smoothly with no sudden jumps. If the reading jumps suddenly, then repace the IAT sensor.However if the freeze frame reading was at the highest extreme (above 250 deg. F) then there was an intermittent low resistance on the signal circuit. Check for a short to ground on the signal circuit. If it appears OK, then do the above artificial heat test and replace the IAT as necessary. If the problem can't be duplicated, use a voltmeter to watch the signal voltage as you wiggle test the wiring harness. Watch for a sudden change in voltage indicating a short or open. Replace IAT as necessary.This is a pretty simple code and it only really looks for extremely short changes that are relatively high in voltage. It's usually the sensor that is bad unless the vehicle is extremely old, in which case there may be harness problems.Other IAT sensor and circuit related DTCs: P0095, P0096, P0097, P0098, P0099, P0109, P0110, P0112, P0113, P0114</solution>
+    </solutions>
+    <references/>
+    <symptoms>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Since this code is likely pointing to an intermittent problem on the IAT circuit, there may not be any symptoms at present. However, the MIL will likely be on. The car MAY exhibit some drivability problems, but it is more likely that there will be no noticeable symptoms to the driver.</symptom>
+    </symptoms>
+</ns2:code>

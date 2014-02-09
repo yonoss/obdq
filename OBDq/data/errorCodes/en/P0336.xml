@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:code cars="" id="P0336" xmlns:ns2="com.queeq.odbq.errorcodes">
+    <meanings>
+        <meaning rtPlus="0" rtNeutral="0" rtMinus="0">The crankshaft position sensor (CKP) is usually a two wire sensor: a signal and a ground. The CKP sensor consists of (usually) a permanent magnent sensor that is mounted in front of a reluctor (toothed) wheel mounted to the crankshaft. As the reluctor wheel passes in front of the crank sensor, an A/C signal is produced that varies according to engine speed. The PCM (powertrain control module) uses this A/C signal to interpret engine RPM. Some crank sensors are halleffect sensors instead of permanent magnent sensors. These are three wire sensors, provided with voltage, ground, and signal. They too have a reluctor wheel with vanes and windows that change the voltage signal to the PCM, providing a RPM signal. I will focus on the former, since they are simpler design and more common.The crankshaft reluctor has a specific number of teeth and the PCM can determine the position of the crankshaft using only this sensor's signature pattern. The PCM uses this sensor to also determine cylinder misfires by measuring the reluctor teeth locations in the CKP sensor signal. In conjunction with the Camshaft position sensor (CMP) the PCM can determine timing of spark and fuel injection. If the PCM senses a loss of CKP sensor signal (RPM signal) even momentarily, P0336 may set.</meaning>
+    </meanings>
+    <causes>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Bad crank sensor</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Broken reluctor ring (missing teeth, debris lodged in ring)</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Reluctor ring dislodged/stripped from it's stationary location</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Wiring harness chafing causing short</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Wiring open in CKP circuit</cause>
+    </causes>
+    <descriptions>
+        <description rtPlus="0" rtNeutral="0" rtMinus="0">Crankshaft Position Sensor A Circuit Range/Performance</description>
+    </descriptions>
+    <solutions>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Crankshaft sensor problems are at times intermittent and the vehicle may start and run for some time until problem occurs. Try to reproduce the complaint. When engine stalls or if the engine will not start and continue to run, then crank engine while observing RPM reading. If there is no RPM reading, check for a signal coming out of the crank sensor. Using a scope is best, but since most DIYers don't have access to one you may be able to use a code reader or the tachometer to check for RPM signal.Visually check the CKP harness for damage or cracking in the wiring insulation. Repair as necessary. Make sure the wiring isn't misrouted near high voltage spark plug wires. Check for loose connection or broken lock at the sensor connector. Repair as necessary. Obtain a resistance spec for the Crank sensor. Remove and check it. If it doesn't pass, replace it. If it checks out okay, check the reluctor ring for damage, broken teeth, or debris lodged in the ring. Make sure the reluctor ring isn't dislodged. It should be stationary on the crankshaft. Carefully repair/replace as necessary. Note: some reluctor rings are located in the bell housing of the transmission or behind the front engine cover and cannot be easily accessed.If the vehicle intermittently stalls and after stalling you have no RPM signal and you have verified the wiring to the CKP sensor is good, then try replacing the sensor. If that doesn't take care of it, and you can't access the reluctor ring, seek help from an automotive professional.Article written by Dale Toalston</solution>
+    </solutions>
+    <references/>
+    <symptoms>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Intermittent misfire</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Intermittent stalling &amp;amp; no start</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">MIL (Malfunction Indicator Lamp) illumination</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">No start</symptom>
+    </symptoms>
+</ns2:code>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:code cars="" id="P1870" xmlns:ns2="com.queeq.odbq.errorcodes">
+    <meanings/>
+    <causes/>
+    <descriptions>
+        <description rtPlus="0" rtNeutral="0" rtMinus="0">Transmission Component Slipping/ Transmission Mechanical Transfer Case 4x4 Switch Circuit Failure</description>
+    </descriptions>
+    <solutions/>
+    <references/>
+    <symptoms/>
+</ns2:code>

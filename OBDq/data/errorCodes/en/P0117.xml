@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:code cars="" id="P0117" xmlns:ns2="com.queeq.odbq.errorcodes">
+    <meanings>
+        <meaning rtPlus="0" rtNeutral="0" rtMinus="0">The ECT (Engine coolant temperature) sensor is a thermistor located in the engine block or other coolant passage. It changes resistance with changes in temperature of the coolant that it's in contact with. It's usually a two wire sensor. One wire is a 5 volt reference from PCM (Powertrain Control Module) and the other is a ground supplied from PCM.As the temperature of the coolant changes, the resistance of the sensor changes. When the engine is cold, the resistance is high. When the engine is warm, the resistance is low. If the PCM detects a signal voltage lower than the normal operating range of the sensor then P0117 code will set.</meaning>
+    </meanings>
+    <causes>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Bad ECT sensor</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Bad PCM</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Faulty or damaged connectors</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Loose terminals at ECT or PCM</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">POSSIBLY an overheated engine</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Short to ground on ECT signal circuit</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Wiring harness damaged</cause>
+    </causes>
+    <descriptions>
+        <description rtPlus="0" rtNeutral="0" rtMinus="0">Engine Coolant Temperature (ECT) Circuit Low Input</description>
+    </descriptions>
+    <solutions>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Since this code is for an abnormally low signal to the PCM from the ECT, the PCM saw a excessively hot condition in the engine coolant. This could be due to faulty ECT sensor or wiring, but it could, conceivably, be caused by an overheated engine.So if your engine was overheated diagnose that first. Having said that here are the possible solutions:Using a scan tool, with KOEO (Key on engine off) check the ECT reading on the display. On a cold engine the ECT reading should match the IAT (Intake Air Temperature) sensor reading. If it doesn't, replace the ECT sensor.1. If the ECT reading is showing an excessively hot reading, for example more than 260 deg. F, then unplug the ECT sensor. This should cause the ECT reading to drop to the extreme cold reading (around 30 deg.F or so). If it does, replace the sensor, because it's internally shorted. If it doesn't change the reading, the check for a short to ground on the signal circuit of the ECT wiring. It could be that the two ECT wires are shorted to each other. Look for any chafing or melted wiring. Repair as necessary.a. If you can't find any wiring problems and the ECT reading doesn't drop to the extreme coldest when unplugged, then, check for voltage coming out of the PCM on the signal wire's pin at the PCM connector. If there isn't any voltage, or it is low, then the PCM may be bad. NOTE: On some models it is possible for the 5 Volt reference signal to be temperarily shorted. This can happen if an engine sensor internally shorts the 5 Volt reference. Since the 5 Volt reference is a shared circuit on many models, this will cause it to be abnormally low. Usually, though this will be accompanied by several other sensor codes. If you suspect that may be the case, unplug each sensor until the 5 Volt reference reappears. The last sensor unplugged is the offending sensor. Replace and recheck the signal wire from the PCM connector2. If the scan tool ECT reading seems normal at this time then the problem may be intermittent. Use a wiggle test to manipulate the wiring harness and connectors while watching the ECT reading on the scan tool. Repair any wiring or connectors that are loose or corroded. You could check the Freeze frame data if your scan tool has that function. It will show the ECT reading when the failure occurred. If it shows the reading to be at the hottest extreme then replace the ECT sensor and see if the code reappears.Other ECT sensor and circuit related DTCs: P0115, P0116, P0118, P0119, P0125, P0128</solution>
+    </solutions>
+    <references/>
+    <symptoms>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Engine may run rough or blow black smoke out the tailpipe</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">May not idle</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">May start and then die</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">MIL (Malfunction Indicator Lamp) illumination</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Poor drivability</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Poor fuel economy</symptom>
+    </symptoms>
+</ns2:code>

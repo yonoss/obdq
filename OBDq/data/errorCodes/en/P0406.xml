@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:code cars="" id="P0406" xmlns:ns2="com.queeq.odbq.errorcodes">
+    <meanings>
+        <meaning rtPlus="0" rtNeutral="0" rtMinus="0">The EGR (Exhaust gas recirculation) system is designed to lower combustion temperatures under certain conditions, thereby reducing oxides of Nitrogen (NOx) emissions. It does this by recirculating inert exhaust gasses back into the cylinder to be burned with the air/fuel mixture. Inert exhaust gas burns slower and lowers the temperatures of combustion. The EGR valve is computer controlled and opens to allow the exhaust gas to flow into the cylinders.The EGR valve may be vacuum operated. If so, a PCM (Powertrain control module) controlled EGR vacuum solenoid is employed to deliver vacuum to the EGR valve. When activated by the PCM, the EGR solenoid opens, allowing engine vacuum to travel to the EGR valve. This engine vacuum opens the valve, allowing exhaust gasses to pass through and into the combustion chamber. Other EGR valves are electronic and directly controlled by the PCM. The PCM will activate solenoid(s) that are integral to the EGR valve. These solenoids will open for varying lengths of time, allowing the exhaust to pass through as needed. The EGR system is continuously monitored for faults. There is a feedback sensor on most EGR valves that informs the computer of the actual EGR position. This sensor usually ranges between .4 and 5 voltsIf this EGR position sensor has an abnormally high reading for too long, this code may set.</meaning>
+    </meanings>
+    <causes>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Bad EGR (internal failure on EGR sensor or solenoid)</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Debris caught in valve and holding it open or closed</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">EGR sensor ground circuit open</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">EGR sensor signal circuit open</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">EGR sensor signal circuit shorted to B+ (battery voltage)</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">EGR sensor signal circuit shorted to the 5 volt reference circuit to EGR</cause>
+    </causes>
+    <descriptions>
+        <description rtPlus="0" rtNeutral="0" rtMinus="0">Exhaust Gas Recirculation Sensor A Circuit High</description>
+    </descriptions>
+    <solutions>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">If the vehicle starts and stalls or will not run with this code present, try unplugging the EGR valve and then restarting. If this makes no difference, remove the EGR valve and inspect for debris. Clean and reinstall. If this still doesn't fix the problem, block off EGR port and attempt to start the engine. If this allows the engine to start, the EGR valve is stuck open and needs replaced. If unplugging the PCM controlled EGR valve allowed the engine to restart then there is likely a wiring problem, possibly a short holding a solenoid open.Using a scan tool, view the EGR position on the datastream with the Key on Engine running and compare with the EGR desired position. If it reads normal, suspect an intermittent problem. If it shows 5 volts or higher, check the EGR sensor signal circuit for a short to the 5 volt reference wire or to B+. Repair as needed. Also check that there is a good ground path on the ground circuit. Repair any opens or shorts on ground circuitOn a vacuum controlled EGR valve with EGR solenoid: if unplugging the EGR valve vacuum source allows the engine to start, then suspect a bad EGR solenoid allowing vacuum to the EGR valve all the time. Replace the EGR solenoid as needed. If this code is present and your engine starts and runs just fine, suspect an open in the wiring. Inspect and repair any wiring problems. If the wiring checks out, replace the EGR valve. If the wiring to and from the EGR valve</solution>
+    </solutions>
+    <references/>
+    <symptoms>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Increase in combustion temperatures (and NOx emissions)</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">MIL (Malfunction indicator lamp) illuminatio</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Possible intermittent stall</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Possible surging while driving</symptom>
+    </symptoms>
+</ns2:code>

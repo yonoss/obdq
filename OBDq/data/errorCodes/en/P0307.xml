@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:code cars="" id="P0307" xmlns:ns2="com.queeq.odbq.errorcodes">
+    <meanings>
+        <meaning rtPlus="0" rtNeutral="0" rtMinus="0">A P0307 code means that the the car's computer has detected that one of the engine's cylinders is not firing properly. In this case it's cylinder#7.</meaning>
+    </meanings>
+    <causes>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Burned exhaust valve</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Defective computer</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Faulty catalytic converter(s)</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Faulty coil (pack)</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Faulty fuel injector</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Faulty oxygen sensor(s)</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Faulty spark plug or wire</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Poor compression</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Running out of fuel</cause>
+    </causes>
+    <descriptions>
+        <description rtPlus="0" rtNeutral="0" rtMinus="0">Cylinder #7 Misfire Detected</description>
+    </descriptions>
+    <solutions>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">If there are no symptoms, the simplest thing to do is to reset the code and see if it comes back.If there are symptoms such as the engine is stumbling or hesitating, check all wiring and connectors that lead to the cylinders (i.e. spark plugs). Depending on how long the ignition components have been in the car, it may be a good idea to replace them as part of your regular maintenance schedule. I would suggest spark plugs, spark plug wires, distributor cap, and rotor (if applicable). Otherwise, check the coils (a.k.a. coil packs). In some cases, the catalytic converter has gone bad. If you smell rotten eggs in the exhaust, your cat converter needs to be replaced. I've also heard in other cases the problems were faulty fuel injectors.</solution>
+    </solutions>
+    <references/>
+    <symptoms>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">other symptoms may also be present</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">the engine may be harder to start</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">the engine may stumble / stumble, and/or hesitate</symptom>
+    </symptoms>
+</ns2:code>

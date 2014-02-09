@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:carHistory xmlns:ns2="com.queeq.odbq.car">
+    <history>
+        <carHistoryEntry>
+            <eventDate>1366568682884</eventDate>
+            <eventDescription>history.event.carAddedDescription</eventDescription>
+            <eventTitle>history.event.carAddedTitle</eventTitle>
+        </carHistoryEntry>
+    </history>
+</ns2:carHistory>

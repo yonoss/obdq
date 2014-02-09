@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:code cars="" id="P0420" xmlns:ns2="com.queeq.odbq.errorcodes">
+    <meanings>
+        <meaning rtPlus="0" rtNeutral="0" rtMinus="0">The catalytic converter has an oxygen sensor in front and behind it. When the vehicle is warm and running in closed loop mode, the upstream oxygen sensor waveform reading should fluctuate. The downstream O2 sensor reading should be fairly steady. Typically the P0420 code triggers the Check Engine Light if the readings of the two sensors are similar. This is indicative of (among other things) a converter that is not working as efficiently as it should be (according to specs). It is part of the vehicle emissions system.</meaning>
+    </meanings>
+    <causes>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">An oxygen sensor is not reading (functioning) properly</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Damaged or leaking exhaust manifold / catalytic converter / exhaust pipe</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Leaded fuel was used where unleaded was called for</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Retarded spark timing</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">The engine coolant temperature sensor is not working properly</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">The oxygen sensors in front and behind the converter are reporting too similar of readings</cause>
+    </causes>
+    <descriptions>
+        <description rtPlus="0" rtNeutral="0" rtMinus="0">Catalyst System Efficiency Below Threshold (Bank 1)</description>
+    </descriptions>
+    <solutions>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Check for exhaust leaks at the manifold, pipes, catalytic converter. Repair as required.</solution>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Inspect the downstream heated oxygen sensor (HO2), replace if necessary</solution>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Replace the catalytic converter</solution>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Use a scope to diagnose the oxygen sensor operation (Tip: The oxygen sensor in front of the catalytic converter normally has a fluctuating waveform. The waveform of the sensor behind the converter should be more steady).</solution>
+    </solutions>
+    <references/>
+    <symptoms>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">You will likely not notice any drivability problems, although there may be symptoms.</symptom>
+    </symptoms>
+</ns2:code>

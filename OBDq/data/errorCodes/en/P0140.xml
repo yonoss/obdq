@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:code cars="" id="P0140" xmlns:ns2="com.queeq.odbq.errorcodes">
+    <meanings>
+        <meaning rtPlus="0" rtNeutral="0" rtMinus="0">The Powertrain control module (PCM) will provide a .45 volt reference voltage to the Oxygen sensor. When the O2 sensor reaches operating temperature, it will generate a voltage that will vary depending on the oxygen content of the exhaust. Lean exhaust generates a low voltage (less than .45V) and rich exhaust generates a high voltage (greater than .45V). O2 sensors on a specific bank marked as sensor 2 (as this one is) are used to monitor emissions. A ThreeWay Catalyst (TWC) system (catalytic converter) is used to control tailpipe emissions. The PCM uses the signal received from Oxygen sensor 2 (#2 indicates aft of catalytic converter, #1 indicates preconverter) to read efficiency of TWC. Normally this sensor will switch between high and low voltage at a noticeably slower rate than the front sensor. This is normal. If the signal received from rear (#2) O2 sensor indicates that the voltage has stuck between .425V to .474 V, the PCM determines this sensor is inactive and this code will set.</meaning>
+    </meanings>
+    <causes>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Bad PCM</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Melting of harness connector or wiring due to contact with exhaust system</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Shorted heater circuit in O2 sensor. (Usually requires replacement of heater circuit fuse in fuse block also)</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Shorted signal circuit in O2 sensor</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Water intrusion in harness connector or PCM connector</cause>
+    </causes>
+    <descriptions>
+        <description rtPlus="0" rtNeutral="0" rtMinus="0">02 Sensor Circuit No Activity Detected (Bank 1 Sensor 2)</description>
+    </descriptions>
+    <solutions>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">This is a fairly specific problem and shouldn't be too difficult to diagnose.First, start engine and warm up. Using a scan tool, watch the Bank 1, sensor 2, o2 sensor voltage. Normally the voltage should switch slowly above and below .45 volts. If it does, the problem is likely intermittent. You'll have to wait for the problem to surface before you can accurately diagnose.However, if it doesn't switch, or is stuck then perform the following: 2. Shut off vehicle. Visually check the Bank1,2 harness connector for melting or chafing of the harness or the connector. Repair or replace as needed 3. Turn ignition on, but engine off. Disconnect the O2 sensor connector and check for 12Volts at the Heater Circuit supply and for proper ground on the heater circuit ground circuit. a. If 12V heater supply is missing, check the proper fuses for an open in the circuit. If heater circuit fuse is blown, then suspect a bad heater in the o2 sensor causing a blown heater circuit fuse. Replace sensor and fuse and recheck. b. If ground is missing, trace the circuit and clean or repair ground circuit. 4. Next, with connector still unplugged, check for 5 Volts on the reference circuit. If this is missing, check for 5 Volts at the PCM connector. If 5 Volts is present at the PCM connector but not at the o2 sensor harness connector, then there is an open or short in the reference wire supply between the PCM and the o2 sensor connector. However, if there is no 5 Volts present at the PCM connector, the PCM is likely at fault due to internal short. Replace PCM. ** (NOTE: on Chrysler models, a common problem is the 5Volt reference circuit can be shorted out by any sensor on the car that uses a 5 Volt reference. Simply unplug each sensor one at a time until the 5 Volts reappears. The last sensor you unplugged is the shorted sensor. Replacing it should fix the 5 Volt reference short.) 5. If all the voltages and grounds are present, then replace the Bank 1,2 O2 sensor and retest.</solution>
+    </solutions>
+    <references/>
+    <symptoms>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Your check engine light(CEL), or malfuction indicator lamp (MIL) will be illuminated. There will not likely be any noticeable drivability problems other than the MIL. The reason is this: The rear or post catalytic converter Oxygen sensor does not affect fuel deliver(this is an exception on Chryslers). It only MONITORS the efficiency of the catalytic converter. For this reason, you will likely not notice any engine trouble.</symptom>
+    </symptoms>
+</ns2:code>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:code cars="" id="P0501" xmlns:ns2="com.queeq.odbq.errorcodes">
+    <meanings>
+        <meaning rtPlus="0" rtNeutral="0" rtMinus="0">Basically this means that the vehicle's speed as read by the Vehicle Speed Sensor (VSS) is not working properly.</meaning>
+    </meanings>
+    <causes>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">The Vehicle Speed Sensor (VSS) is not reading (functioning) properly</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">The vehicle's PCM is not correctly configured for the actual tire size on the vehicle</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">There is a broken/frayed wire leading to the vehicle speed sensor</cause>
+    </causes>
+    <descriptions>
+        <description rtPlus="0" rtNeutral="0" rtMinus="0">Vehicle Speed Sensor Range/Performance</description>
+    </descriptions>
+    <solutions>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">The simplest thing to do is to reset the code and see if it comes back.Next, check all wiring and connectors that lead to the speed sensor. The location of the sensor depends on your vehicle. The sensor could be on the rear axle, transmission, or perhaps the wheel hub (brake) assembly.If the wiring and connectors are OK, then check the voltage at the speed sensor. Again, the exact procedure wil depend on your make and model of vehicle.If everything looks OK, replace the sensor.</solution>
+    </solutions>
+    <references/>
+    <symptoms>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">loss of antilock brakes</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">other symptoms may also be present</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">the antilock or brake warning lamps on the dash may be lit</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">the shifting of an automatic transmission may become erratic</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">the speedometer or odometer may not work properly (or at all)</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">your vehicle's RPM limiter may be decreased</symptom>
+    </symptoms>
+</ns2:code>

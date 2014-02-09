@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:carsList xmlns:ns2="com.queeq.odbq.car">
+    <carsList>
+        <car>
+            <bodyType>general.estate</bodyType>
+            <carName>bla</carName>
+            <climatisation></climatisation>
+            <engineSize></engineSize>
+            <exteriorColor>general.black</exteriorColor>
+            <fuelType>general.diesel</fuelType>
+            <interiorColour></interiorColour>
+            <interiorType></interiorType>
+            <manufacturerName>Dacia</manufacturerName>
+            <manufacturingYear>2000</manufacturingYear>
+            <modelName>Duster</modelName>
+            <numberOfDoors></numberOfDoors>
+            <numberOfSeats></numberOfSeats>
+            <power>Other</power>
+            <test></test>
+            <transmissionType>general.automatic</transmissionType>
+            <VIN>bla</VIN>
+        </car>
+    </carsList>
+</ns2:carsList>

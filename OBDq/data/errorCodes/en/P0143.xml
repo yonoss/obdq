@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:code cars="" id="P0143" xmlns:ns2="com.queeq.odbq.errorcodes">
+    <meanings>
+        <meaning rtPlus="0" rtNeutral="0" rtMinus="0">The Catalytic Converter is used to help control emissions. The PCM (Powertrain Control Module) uses the signal from the oxygen sensor to the rear of the catalyst to monitor the catalyst's efficiency.This is the bank 1,3 sensor. It's a four wire sensor being supplied a 0.5 volt reference voltage as well as a power and ground circuit for the o2 sensor heater element. There is also a signal wire from the oxygen sensor to the PCM that can vary between about 0.1 volts to about 0.9 volts according to oxygen content of the exhaust. A properly working postcat sensor will exhibit small changes at a slower rate than front o2 sensors.To over simplify: a postcat sensor's main job is to monitor catalyst efficiency, not control fuel management (although they can have a measure of influence over the front o2 sensor's operation). If the PCM determines that the postcat o2 sensor signal voltage is below a certain threshold for too long, P0143 will set. PCM detected the HO2S signal was less than 156 mv for 28 seconds.</meaning>
+    </meanings>
+    <causes>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Air leaks in exhaust in front of o2 sensor giving false reading</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">O2 sensor connector damaged</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">O2 sensor ground circuit is open</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">O2 sensor has failed (it may be contaminated with fuel or coolant)</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">O2 sensor signal circuit is shorted to ground</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">PCM has failed</cause>
+    </causes>
+    <descriptions>
+        <description rtPlus="0" rtNeutral="0" rtMinus="0">02 Sensor Circuit Low Voltage (Bank I Sensor 3)</description>
+    </descriptions>
+    <solutions>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">It's always good to start with checking for air leaks in the exhaust manifold and in the exhaust pipes.With KOER (Key on engine running) use a scan tool or a voltmeter check the o2 sensor signal voltage with engine warm. You may have to increase the RPM to a fast idle to check the voltage of the bank 1,3 sensor. If it's voltage is stuck low (less than a half a volt) and you don't have any other o2 sensor codes present in the PCM, then it's a good bet that the sensor is bad. If the voltage isn't stuck low and the o2 sensor seems to be operating fine, it's likely sticking low intermittently. This often turns out to be the sensor.Having said that, if you're interested in knowing for sure what the problem is then perform the following: 1. Turn off the engine and unplug the 1,3 o2 sensor connector. Make sure that there is battery voltage present and ground present for the o2 sensor heater. If there isn't then diagnose that first then retest. If that checks out then, using a jumper wire, supply a chassis ground to the o2 sensor connector(PCM side) ground circuit. Now observe the scan tool bank 1,3 o2 sensor reading. If it is now at about a half a volt then replace the o2 sensor. If, after supplying a ground to the unplugged PCM side of the o2 sensor connector, the voltage reading doesn't change then check the harness for short to ground.Check for harness making contact with exhaust components. Check pins for damage, and for moisture. Repair as necessary. If you can find no harness problems, then the PCM may be bad.By Dale Toalston</solution>
+    </solutions>
+    <references/>
+    <symptoms>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Engine performance issues</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Engine running rich</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Engine running rough</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">MIL (Malfunction Indicator Lamp) illumination</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Poor idle</symptom>
+    </symptoms>
+</ns2:code>

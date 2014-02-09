@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:code cars="" id="P0162" xmlns:ns2="com.queeq.odbq.errorcodes">
+    <meanings>
+        <meaning rtPlus="0" rtNeutral="0" rtMinus="0">The O2 (oxygen) sensors measure oxygen content in the exhaust, whether rich or lean. The PCM (powertrain control module) then uses this information to regulate fuel injector pulse in order to keep the proper air:fuel ratio. The O2 sensors are very important for the proper operation of the engine. Fouled or faulty O2 sensors can cause the PCM to add or take away fuel based on the faulty O2 sensor data which can cause a false lean or rich condition. A P0162 code refers to the Bank 2,3 O2 sensor, or the third sensor downstream (postcat) on Bank 2. It is a four wire sensor. The PCM supplies a ground circuit and a reference voltage circuit of about 0.5 volts or half a volt. Also for the O2 sensor heater element there is a battery voltage supply wire (usually from the power distribution center) and another ground circuit for that. The O2 sensor heater allows the O2 sensor to warm up faster, thus achieving closed loop in less time than it would normally take for the exhaust to warm the sensor up to operating temperature. This creates less exhaust emissions at cold startup. The O2 sensor varies the supplied reference voltage based on oxygen content in the exhaust. It is capable of varying from about 0.1 to 0.9 volts, 0.1 V indicating lean exhaust and 0.9 V indicating rich exhaust. This P0162 code indicates that the Bank 2, 3 O2 sensor is stuck low for too long or is inactive.</meaning>
+    </meanings>
+    <causes>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Bad O2 sensor</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Holes in exhaust near O2 sensor</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Signal shorted to voltage</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Wiring problems due to contact with exhaust components</cause>
+    </causes>
+    <descriptions>
+        <description rtPlus="0" rtNeutral="0" rtMinus="0">02 Sensor Circuit Malfunction (Bank 2 Sensor 3)</description>
+    </descriptions>
+    <solutions>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Warm the engine up to normal operating temperature. Using your scan tool's live datastream, check the signal voltage for the Bank 2,3 O2 sensor at idle. Is it stuck low and not switching? If so, increase engine RPMs for a minute or so and observe if the sensor begins switching or changing voltage. If it does after a period of elevated idle, check under the vehicle for rusty exhaust components or holes in the exhaust near the O2 sensor(s). Repair as necessary. If the exhaust is intact, then suspect a sluggish Bank 2,3 O2 sensor and replace it. If you observe that the O2 sensor remains low on the datastream, then unplug it and observe the reading. It should now be showing reference voltage, or half a volt (0.5 v). If it does, check for connector problems, water intrusion, damage to the sensor, etc. If all is okay, replace the faulty Bank 2,3 O2 sensor.If the voltage reading is still low after unplugging the O2 sensor, then suspect a problem with the wiring. Visually inspect the wiring harness making sure that there is no contact with hot exhaust components and that all the harness retainers are in place. Repair as necessary If no wiring harness issues exist, use a voltmeter to check for reference voltage from the PCM at the unplugged connector. It should be reading reference voltage, or about half a volt (0.5v). If voltage reading is too high, repair the short to voltage on the signal circuit.Article written by Dale Toalston</solution>
+    </solutions>
+    <references/>
+    <symptoms>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Decrease in MPG</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Increase in tailpipe emissions</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">MIL (Malfunction Indicator Lamp) illumination</symptom>
+    </symptoms>
+</ns2:code>

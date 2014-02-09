@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:code cars="" id="P0121" xmlns:ns2="com.queeq.odbq.errorcodes">
+    <meanings>
+        <meaning rtPlus="0" rtNeutral="0" rtMinus="0">The Throttle position sensor is a potentiometer that measures the amount of throttle opening. As the throttle is opened, the reading (measured in volts) goes up. The powertrain control module (PCM) supplies a 5 Volt reference signal to the throttle position sensor (TPS) and usually a ground also. A general measurement is: at idle = .5 Volts; full throttle = 4.5 Volts. If the PCM detects that the throttle angle is greater or less than it should be for a specific RPM, it will set this code.</meaning>
+    </meanings>
+    <causes>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Bad connection at the TPS</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Bad PCM (less likely)</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Harness is rubbing and causing an open or short in the wiring</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">TPS has intermittent open or short internally</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Water or corrosion in connector or sensor</cause>
+    </causes>
+    <descriptions>
+        <description rtPlus="0" rtNeutral="0" rtMinus="0">Throttle Position Sensor/Switch A Circuit Range/Performance Problem</description>
+    </descriptions>
+    <solutions>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">1. If you have access to a scan tool, see what the idle and WOT (wide open throttle) readings are for the TPS. Check if they're close to the specifications mentioned above. If not, then replace the TPS and recheck.2. Check for an intermittent open or short in the TPS signal. To do that, you can't use a scan tool. You'll need an oscilliscope. The reason is because scan tools take samplings of many different readings over just one or two data lines and can miss an intermittent drop out. Hook up your oscilliscope and watch the signal. It should sweep up and down smoothly with no drop outs or spikes.3. If no problems were noticed, perform a wiggle test. Do this by wiggling the connector and harness while watching the pattern. Does it drop out? If so, replace TPS and recheck.4. If you have no TPS signal, check for 5 Volt reference at the connector. If it's present, check the ground circuit for open or shorts.5. Make sure the signal circuit isn't 12V. It should never have battery voltage. If it does, trace circuit for short to voltage and repair.6. Look for any water in the connector and replace TPS as necessary.Other TPS sensor and circuit related DTCs: P0120, P0122, P0123, P0124</solution>
+    </solutions>
+    <references/>
+    <symptoms>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Blows black smoke on acceleration</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Intermittent stumble on acceleration or deceleration</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Malfunction Indicator Lamp (MIL) illumination (Check Engine Light or Service Engine Soon light)</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">No start</symptom>
+    </symptoms>
+</ns2:code>

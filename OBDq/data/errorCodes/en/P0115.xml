@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:code cars="" id="P0115" xmlns:ns2="com.queeq.odbq.errorcodes">
+    <meanings>
+        <meaning rtPlus="0" rtNeutral="0" rtMinus="0">The ECT (Engine coolant temperature) sensor is basically a thermistor that changes resistance with temperature. Usually a two wire sensor, a 5Volt reference from PCM (Powertrain Control Module) and ground signal to PCM. This is different from a temperature SENDER (which usually operates the dash temperature gauge and operates in a similar way as the SENSOR, only it's a different circuit than what a P0115 is referring to). As the temperature of the coolant changes, the resistance changes on the ground signal to the PCM. When the engine is cold, the resistance is high. When the engine is warm, the resistance is low. If the PCM detects a voltage condition that seems abnormally low or high, P0115 will set.</meaning>
+    </meanings>
+    <causes>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Bad PCM</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Open or short in reference or signal circuit</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Open or short in signal circuit</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Wiring or connector damaged at sensor</cause>
+    </causes>
+    <descriptions>
+        <description rtPlus="0" rtNeutral="0" rtMinus="0">Engine Coolant Temperature Circuit Malfunction</description>
+    </descriptions>
+    <solutions>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">First, visually check the sensor for damage to wiring or connector and repair as necessary. Then, if you have access to a scanner, determine what the temperature of the engine is. (If you don't have access to a scan tool, using the dash temperature gauge may not be an effective way to determine coolant temperature. This is because the P0115 code is referring to the ECT SENSOR, and the dash gauge is operated by, usually a onewire SENDER. Basically a different sensor that the code doesn't refer to.)2. If the engine temperature is abnormally high, around 280 deg. F, that's abnormal. Unplug the sensor on the engine and see if the signal drops to, say, negative 50 deg. F. If it does, then it's a good bet the sensor is bad, internally shorted, causing a low resistance signal to be sent to the PCM. However if you want to be sure it's the sensor and not the wiring, there's a couple tests you can do. With the ECT sensor unplugged, check that you have 5 volts on the reference circuit with KOEO (Key on engine off). Also you can check the resistance of the sensor to ground using an Ohm meter. The resistance of a normal sensor to ground will vary a little depending on the vehicle, but basically, if the temp of the engine is around 200 deg. F., the resistance will be about 200 Ohms. If the temperature is about 0 def. F., the resistance will be over 10,000 Ohms. With this test you should be able to tell if the resistance of the sensor matches the temperature of the engine. If it's not accurate according to your engine's temperature, then you probably have a bad sensor.3. Now, if the temperature of the engine according to the scanner is around 280 deg. F. and unplugging the sensor doesn't cause the reading to drop to negative 50 deg. F, but it stays at the same high temperature reading, then you'll need to repair the short on the signal circuit(ground) to the PCM. It's shorted directly to ground somewhere.4. If your temperature reading of the engine according to the scanner is showing negative 50 deg. F or so, (and you don't live in the arctic!) unplug the sensor and check for a 5V reference present at the sensor.5. If there isn't, then check at the PCM connector for proper 5V reference. If it's present at the PCM connector, then repair the open or short on 5V reference from PCM. If there is no 5V reference present at the PCM connector, then you're done with your diagnosis and you may have a PCM fault. 6. If the 5V reference circuit is intact, then check the ground signal to the PCM using the previous ground resistance test. If the resistance isn't normal for the temperature of the engine, then ohm the resistance of the ground signal to the PCM by removing the ground signal wire from the PCM connector. The wire should have no resistance, unplugged from the PCM to the sensor. If it does, repair open in the signal to the PCM. If it doesn't have any resistance on the ground signal wire and the resistance test of the sensor is normal, then suspect a faulty PCM.Other coolant engine light codes: P0115, P0116, P0117, P0118, P0119, P0125, P0128</solution>
+    </solutions>
+    <references/>
+    <symptoms>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Cooling fans may run all the time when they shouldn't be, or not at all when they should be</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Engine may run lean and increased Nox emissions may be apparent (Requires gas analyzer)</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Engine may want to die or backfire in tailpipe</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">May blow a lot of black smoke and run extremely rich</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">MIL (Malfunction Indicator Lamp) illumination will always occur</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Vehicle may be hard to start</symptom>
+    </symptoms>
+</ns2:code>

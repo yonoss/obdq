@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:code cars="" id="P0200" xmlns:ns2="com.queeq.odbq.errorcodes">
+    <meanings>
+        <meaning rtPlus="0" rtNeutral="0" rtMinus="0">In sequential fuel injection the PCM (Powertrain Control Module) controls each injector individually. Battery voltage is supplied to each injector from, usually, the power distribution center (PDC) or other fused source. The PCM supplies the ground circuit to each injector by means of an internal switch called a driver. The PCM monitors each driver circuit for faults. For example, when a fuel injector is commanded off by the PCM, it expects to see a high voltage on the driver ground circuit. Conversely, when a fuel injector is commanded on by the PCM, it expects to see the voltage pulled low on the driver circuitIf it doesn't see this expected condition on the driver circuit, P0200 or P1222 may set. Other injector circuit fault codes may set as well.</meaning>
+    </meanings>
+    <causes>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Driver circuit shorted to voltage</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Grounded driver circuit</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Injector low internal resistance (basically an injector that works, but is out of specs)</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Open driver circuit</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Open or shorted injector</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Wiring harness intermittently shorting against underhood components</cause>
+    </causes>
+    <descriptions>
+        <description rtPlus="0" rtNeutral="0" rtMinus="0">Injector Circuit Malfunction</description>
+    </descriptions>
+    <solutions>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">1. If you have multiple misfire/injector codes, a good first step is to unplug all the fuel injectors and then turn the ignition on, engine off (KOEO). Check for presence of battery voltage (12 Volts) at one wire of each injector connector. If all are missing, check for continuity to ground on the voltage circuit by using a test light connected to positive battery and probe each voltage feed. If it lights up, then there is a short to ground on the voltage feed causing a short. Get a wiring diagram and repair the short on the voltage feed and reestablish proper battery voltage. (Don't forget to check for a blown fuse and replace as necessary). NOTE: It's possible for one injector to short out the whole battery voltage feed to all the injectors. So if you have lost voltage to all the injectors, replace the blown fuse and plug each injector in, one by one. If the fuse blows, the last injector you plugged in is shorted. Replace it and retest. If only one or two battery feeds are missing, then it's more likely to be a shorted battery voltage feed in the individual injector wiring harness. Inspect and repair as necessary.2. If you have battery voltage fed to each injector harness, then the next step is to get a noid light to check for injector driver operation. A noid light will insert into the injector harness in place of the fuel injector and flash rapidly when the injector driver operates. Check each fuel injector connector. If the noid light flashes rapidly then suspect the injector. Ohm each fuel injector if you have a resistance specification. If the injector is open or the resistance is higher or lower than the spec, replace the fuel injector. If the injector tests out, the problem is likely an intermittent wiring problem. (Remember that a fuel injector can work properly when cold but go open when hot, or vice versa. So it's best to do these checks when the problem is occurring). Check the wiring harness for any chafing, or the injector connector for loose pins or a broken lock. Repair as necessary and retest. Now, if the noid light doesn't flash, then there's a problem with the driver or the driver circuit. Unplug the PCM connector and ohm the fuel injector driver circuits. Any resistance means there's a problem. Infinite resistance points to an open in the circuit. Find it and repair it, then retest. If you can find no problem with the harness and there is no fuel injector driver operation, then check the PCM powers and grounds. If they are okay, the PCM may be at fault.Article written by Dale Toalston</solution>
+    </solutions>
+    <references/>
+    <symptoms>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Cylinder misfire codes may be present</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Engine may start and stall or not start at all</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Engine misfire at idle or at highway speed</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">MIL (Malfunction Indicator Lamp) illumination</symptom>
+    </symptoms>
+</ns2:code>

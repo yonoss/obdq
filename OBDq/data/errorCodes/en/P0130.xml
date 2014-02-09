@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:code cars="" id="P0130" xmlns:ns2="com.queeq.odbq.errorcodes">
+    <meanings>
+        <meaning rtPlus="0" rtNeutral="0" rtMinus="0">The O2 sensor produces a voltage based on oxygen content in the exhaust. The voltage varies between .1 and .9 Volts, .1 indicating lean and .9 indicating rich. The ECM constantly monitors this voltage while in closed loop to determine how much fuel to inject. If the ECM determines that the O2 sensor voltage was too low (less than .4 Volts) for too long (for more than 20 seconds (time varies with model)), this code is set.</meaning>
+    </meanings>
+    <causes>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Bad o2 sensor</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Bad PCM</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Holes in exhaust allowing unmetered oxygen into exhaust system</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Loose terminals in the connector</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Open or short in the wiring due to rubbing on engine components</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Unmetered vacuum leak at the engine</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Water or corrosion in the connector</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Wiring burnt on exhaust components</cause>
+    </causes>
+    <descriptions>
+        <description rtPlus="0" rtNeutral="0" rtMinus="0">02 Sensor Circuit Malfunction (Bank I Sensor 1)</description>
+    </descriptions>
+    <solutions>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Using a scan tool, determine if the Bank 1, sensor 1 is switching properly. It should switch rapidly between rich and lean, evenly.1. If it does, the problem is likely intermittent and you should examine the wiring for any visible damage. Then perform a wiggle test by manipulating the connector and wiring while watching the o2 sensor voltage. If it drops out, fix the appropriate part of the wiring harness where problem resides.2. If it doesn\'t switch properly, try to determine if the sensor is accurately reading the exhaust or not. Do this by removing the fuel pressure regulator vacuum supply briefly. The o2 sensor reading should go rich, reacting to the extra fuel added. Reinstall regulator supply. Then induce a lean condition by removing a vacuum supply line from the intake manifold. The o2 sensor reading should go lean, reacting to the enleaned exhaust. If the sensor operates properly, then the sensor may be okay and the problem may be holes in the exhaust or an unmetered vacuum leak in the engine (NOTE: Unmetered vacuum leaks at the engine are almost always accompanied by lean codes. Refer to the appropriate articles for diagnosing an unmetered vacuum leak). If the exhaust does have holes in it, it's possible that the o2 sensor may be misreading the exhaust because of the extra oxygen entering the pipe via those holes3. If none of this is the case and the o2 sensor just isn't switching or acts sluggish, unplug the sensor and make sure there is 5 Volt reference voltage to the sensor. Then check for 12V supply to the o2 sensor's heater circuit. Also check for continuity to ground on the ground circuit. If any of these are missing, or aren't their proper voltage, repair open or short in the appropriate wire. The o2 sensor will not operate properly without proper voltage. If the proper voltages are present, replace the o2 sensor.</solution>
+    </solutions>
+    <references/>
+    <symptoms>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Blows black smoke from tail pipe</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Engine dies</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Engine runs rough, missing or stumbling</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">MIL illumination</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Poor fuel economy</symptom>
+    </symptoms>
+</ns2:code>

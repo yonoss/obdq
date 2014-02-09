@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:code cars="" id="P0155" xmlns:ns2="com.queeq.odbq.errorcodes">
+    <meanings>
+        <meaning rtPlus="0" rtNeutral="0" rtMinus="0">This code refers to the front oxygen sensor on Bank 2. The heated circuit in the oxygen sensor decreases time needed to enter closed loop. As the O2 heater reaches operating temperature, the oxygen sensor responds by switching according to oxygen content of the exhaust surrounding it. The ECM tracks how long it takes for the oxygen sensor to begin switching. It the ECM determines (based on coolant temp) that too much time elapsed before the oxygen sensor began operating properly, it will set P0155. See also: P0135 (Bank 1).</meaning>
+    </meanings>
+    <causes>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Internal short or open in the heater element</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">O2 heater circuit wiring high resistance</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">O2 Heater element resistance is high</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">open or short to ground in the wiring harness</cause>
+    </causes>
+    <descriptions>
+        <description rtPlus="0" rtNeutral="0" rtMinus="0">02 Sensor Heater Circuit Malfunction (Bank 2 Sensor 1)</description>
+    </descriptions>
+    <solutions>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Repair short or open or high resistance in wiring harness or harness connectors</solution>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Replace oxygen sensor (cannot repair open or short that occurs internally to sensor)</solution>
+    </solutions>
+    <references/>
+    <symptoms>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">You will likely notice poor fuel economy the illumination of the MIL.</symptom>
+    </symptoms>
+</ns2:code>

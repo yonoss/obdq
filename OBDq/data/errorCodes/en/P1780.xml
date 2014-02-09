@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:code cars="" id="P1780" xmlns:ns2="com.queeq.odbq.errorcodes">
+    <meanings/>
+    <causes/>
+    <descriptions>
+        <description rtPlus="0" rtNeutral="0" rtMinus="0">Trans Control Switch (O/D Cancel) Out of Self Test Range</description>
+    </descriptions>
+    <solutions/>
+    <references/>
+    <symptoms/>
+</ns2:code>

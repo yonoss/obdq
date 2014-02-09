@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:code cars="" id="P0453" xmlns:ns2="com.queeq.odbq.errorcodes">
+    <meanings>
+        <meaning rtPlus="0" rtNeutral="0" rtMinus="0">The EVAP (Evaporative Emissions) System allows fuel tank vapors to be purged into the engine and burnt rather than expelled into the atmosphere as harmful emissions. The EVAP system contains a pressure sensor to check the integrity of the system. Periodically, the EVAP system performs a pressure test to check that there are no leaks in the system. It uses this sensor, also known as a fuel tank pressure (FTP) sensor to check for leaks. Basically P0453 means the PCM (Powertrain Control Module) noticed the EVAP Pressure sensor or FTP is indicating a higher than normal pressure (above 4.5 Volts) in the EVAP system. NOTE: On some vehicles the FTP is a part of the fuel pump assembly in the tank.</meaning>
+    </meanings>
+    <causes>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Abnormally high pressure in fuel tank due to blockage in EVAP purge hoses or overfilled tank</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Bad FTP sensor</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Loose/damaged FTP sensor connector</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Loss of ground to the sensor</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Open on FTP sensor signal wire</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Short to voltage on FTP sensor signal wire</cause>
+    </causes>
+    <descriptions>
+        <description rtPlus="0" rtNeutral="0" rtMinus="0">Evaporative Emissions Control System Pressure Sensor High Input</description>
+    </descriptions>
+    <solutions>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Using an scan tool access FTP sensor value with Key on Engine off (KOEO). Normal value is usually somewhere near 2.5 Volts at atmospheric pressure (may fluctuate some due to altitude). It shouldn't ever be above 4.5 Volts.1) If it is close to 2.7V with the gas cap off, the problem is likely intermittent. Using a Digital Volt Ohm Meter, measure the voltage on the signal wire while trying to induce the problem by wiggle testing all the wiring at the FTP sensor. If the voltage fluctuates when wiggle testing, check for connector problems; i.e. water in the connector, broken or chafed wiring.2) If the value shown on the scan tool is above 4.5V, unplug the sensor (if possible) and check for voltage again. If the high voltage is still present when unplugged, inspect wiring harness for a short to voltage on the signal wire. If the high voltage disappears when unplugging the sensor, check for a good ground to the sensor and proper reference voltage. If you have a good ground and 5 Volts reference voltage, replace the FTP sensor since it's likely shorted out.Other EVAP DTCs: P0440  P0441  P0442  P0443  P0446  P0453  P0455  P0456</solution>
+    </solutions>
+    <references/>
+    <symptoms>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">There will likely be no noticeable symptoms along with this code other than the MIL (Malfunction Indicator Lamp), commonly known as Check Engine Light illumination. However, there may be noticeable fuel odors in some cases.</symptom>
+    </symptoms>
+</ns2:code>

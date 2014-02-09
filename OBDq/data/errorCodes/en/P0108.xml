@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:code cars="" id="P0108" xmlns:ns2="com.queeq.odbq.errorcodes">
+    <meanings>
+        <meaning rtPlus="0" rtNeutral="0" rtMinus="0">The MAP (Manifold Absolute Pressure) sensor measures engine manifold negative air pressure. It's usually a three wire sensor: a ground wire, a 5 volt reference wire from the PCM (Powertrain Control Module) to the MAP sensor, and a signal wire that informs the PCM of the MAP sensor voltage reading as it changes. The higher the engine vacuum, the lower the voltage reading. The voltage should range between about 1 volt (at idle) to about 5 volts (WOT wide open throttle).If the PCM sees the voltage reading from the MAP sensor is greater than 5 Volts, or if the voltage reading is higher than what the PCM considers normal under certain circumstances, a P0108 DTC will set.</meaning>
+    </meanings>
+    <causes>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Bad MAP sensor</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Engine vacuum leak</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Leak in vacuum supply line to MAP sensor</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Open in ground circuit to MAP</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Short on reference voltage wire from PCM</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Short on signal wire to PCM</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Worn engine causing low vacuum</cause>
+    </causes>
+    <descriptions>
+        <description rtPlus="0" rtNeutral="0" rtMinus="0">Manifold Absolute Pressure/Barometric Pressure Circuit High Input</description>
+    </descriptions>
+    <solutions>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">A good way to diagnose if the MAP sensor is to blame would be to compare the KOEO (key on engine off) MAP sensor reading on a scan tool with the Barometric pressure reading. They should be the same because they both measure atmospheric pressure.If the MAP reading is greater than 0.5 volt off of the BARO reading, then replacing the MAP sensor would likely fix the problem. Otherwise, start the engine and observe the MAP reading at idle. It should normally be about 1.5 volts (varies according to altitude).a. If it is, the problem is likely intermittent. Check all the vacuum hoses for damage and replace as necessary. You can also try wiggle testing the harness and connector to reproduce the problem.b. If the scan tool MAP reading is more than 4.5 volts, check the actual engine vacuum reading with the engine running. If it is less than 15 or 16 in. Hg, then the PCM is probably not seeing enough vacuum (due to a worn engine, perhaps) for a given operating condition (which causes a higher than normal voltage signal to the PCM) and setting the code. Repair the engine vacuum problem and retest.c. But, if the actual engine vacuum reading is 16 in. Hg or more, then unplug the MAP sensor. The scan tool MAP reading should indicate that there is no voltage present. Check that the ground from the PCM is intact and also that the MAP sensor connector and terminals are tight. If the connection is good, then replace the map sensor.d. However if, with KOEO, &amp;amp; the MAP sensor unplugged, the scan tool shows a voltage reading, then there may be a short in the harness to the MAP sensor. Turn the ignition off. At the PCM unplug connector and remove the MAP signal wire from the connector. Reattach the PCM connector and see if with KOEO, the scan tool MAP reading shows voltage. If it still does, replace the PCM. If not, check for voltage on the signal wire you just removed from the PCM. If there is voltage on the signal wire, find the short in the harness and repair.Other MAP Sensor codes: P0105  P0106  P0107  P0109</solution>
+    </solutions>
+    <references/>
+    <symptoms>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Engine may not run at all</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Engine may run poorly</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Fuel mileage may decrease</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">MIL (Malfunction Indicator Lamp) will likely be on</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Presence of black smoke at exhaust</symptom>
+    </symptoms>
+</ns2:code>

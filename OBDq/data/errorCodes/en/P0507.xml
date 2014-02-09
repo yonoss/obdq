@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:code cars="" id="P0507" xmlns:ns2="com.queeq.odbq.errorcodes">
+    <meanings>
+        <meaning rtPlus="0" rtNeutral="0" rtMinus="0">This P0507 code is one that's sometimes triggered on vehicles that have electronic throttle control. That is, they don't have a regular throttle cable from the accelerator pedal to the engine. They rely on sensors and electronics to control the throttle. In this case, the P0507 DTC (diagnostic trouble code) is triggered when the PCM (powertrain control module) detects an engine idle speed that is greater than the desired (preprogrammed) RPM. In the case of GM vehicles (and possibly others) if the idle speed is over 200 rpm higher than expected, this code will be set.</meaning>
+    </meanings>
+    <causes>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">A faulty positive crankcase ventilation (PCV) valve</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">A vacuum leak</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Damaged/failed/dirty throttle body</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">EGR valve leaking vacuum</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Failed EVAP system</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Failed IAC (idle air controller) or faulty IAC circuit</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Leaking air intake after the throttle body</cause>
+    </causes>
+    <descriptions>
+        <description rtPlus="0" rtNeutral="0" rtMinus="0">Idle Air Control (IAC) System RPM Higher Than Expected</description>
+    </descriptions>
+    <solutions>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">This DTC is more of an informational code, so if there are any other codes set, diagnose them first. If there are no other codes, inspect the intake air system for air or vacuum leaks and damage. If there are no symptoms other than the DTC itself, just clear the code and see whether it returns.If you have an advanced scan tool that can interact with the car, command the idle higher and lower to see if the engine responds appropriately. Also check the PCV valve to see if it's blocked and needs to be replaced. Check the IAC (idle air controller) if equipped, verify it's operation. If available, try swapping in a new throttle body to see if that fixes the problem. On Nissan Altimas and possibly other vehicles the problem may be fixed by having the dealer perform an idle air relearn procedure, or other relearn procedures.</solution>
+    </solutions>
+    <references/>
+    <symptoms>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Most likely you'll notice the idle speed is higher than normal. There are potentially other symptoms as well. Of course, when trouble codes are set, the MIL (malfunction indicator lamp, a.k.a. the check engine light) illuminates.</symptom>
+    </symptoms>
+</ns2:code>

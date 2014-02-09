@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:code cars="" id="P0232" xmlns:ns2="com.queeq.odbq.errorcodes">
+    <meanings>
+        <meaning rtPlus="0" rtNeutral="0" rtMinus="0">The fuel pump is powered by the fuel pump relay. When the PCM (powertrain control module) activates the fuel pump relay, voltage is supplied to the fuel pump and it pressurizes the fuel system. Some vehicles have a feedback on the fuel pump supply circuit. This is simply a circuit spliced into the voltage feed to the fuel pump. The splice is usually located close to the PCM.The PCM monitors this feedback circuit to ensure that there is proper voltage being sent to the fuel pump. As it activates the fuel pump relay, it expects to see battery voltage on the feedback circuit. If the PCM sees an unexpected high voltage when the fuel pump isn't activated, P0232 may set.</meaning>
+    </meanings>
+    <causes>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Bad FP relay</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">FP relay control circuit PCM</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">FP relay control driver shorted to ground internally</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Short to ground on PCM</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Short to voltage on FP voltage supply circuit or feedback circuit</cause>
+    </causes>
+    <descriptions>
+        <description rtPlus="0" rtNeutral="0" rtMinus="0">Fuel Pump Secondary (Feedback) Circuit High Voltage</description>
+    </descriptions>
+    <solutions>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">It is possible with a P0232 for the fuel pump to be running continuously, even with the ignition off. If that's the case and you can hear the fuel pump running, you may be able to disregard some of the following checks. Turn the KOEO (key on engine off) and wait for a few seconds. This allows the PCM to complete it's fuel pump precycle. Now, using your scan tool (if you have one) observe the FP VOLTAGE FEEDBACK reading in the datastream. This reading indicates what kind of voltage the fuel pump is receiving.If you don't have access to a scan tool, use a voltmeter to read the FP voltage at the fuel tank. If your reading shows any voltage at all present to the fuel pump with KOEO (or if you can hear the pump running), remove the FP relay. If the voltage remains, or the fuel pump continues to run, then there is a short to voltage on the FP voltage supply circuit or on the feedback circuit. Repair as necessary. If the voltage disappears (or the pump quits running) with the FP relay removed then try replacing the relay with a spare one. Upon reinstalling the spare relay, if the voltage disappears, the relay was faulty due to a short. If, though, after replacing the relay voltage is still present, suspect that the PCM FP relay control circuit is shorted to ground.Check for a short to ground on the PCM FP relay control (ground driver) circuit by removing the FP relay and ohm between a good ground and the PCM FP relay control. There should be no continuity to ground with KOEO (after the FP precycle is completed). If there is continuity to ground the wire is shorted. Find the short to ground and repair as necessary. If you can find no physical short, It may be necessary to snip the FP relay control wire close to the PCM connector where it will be easy to repair and check for continuity to ground with KOEO coming OUT of the PCM. If there is no continuity the wire is shorted in the harness. But if continuity exists, the driver may be internally shorted to ground and the PCM may require replacement.Article written by Dale Toalston</solution>
+    </solutions>
+    <references/>
+    <symptoms>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Fuel pump runs with key off</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">MIL (malfunction indicator lamp) illumination</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Small amount of voltage present on FP (fuel pump) voltage supply circuit due to short</symptom>
+    </symptoms>
+</ns2:code>

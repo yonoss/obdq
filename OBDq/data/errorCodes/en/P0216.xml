@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:code cars="" id="P0216" xmlns:ns2="com.queeq.odbq.errorcodes">
+    <meanings>
+        <meaning rtPlus="0" rtNeutral="0" rtMinus="0">Basically this means the diesel fuel injection pump has a timing failure. This could be that the injection pump timing needs adjusted OR the failure is internal to the injection pump and therefore nonadjustable.NOTE: If your vehicle is a Dodge Ram with Cummins engine then be aware that fuel delivery problems frequently cause this code. Prolonged fuel delivery problems can cause injection pump failure!</meaning>
+    </meanings>
+    <causes>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">A plugged diesel fuel filter</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Air in the fuel due to a cracked intank fuel ine above the fuel level</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">An intank blockage</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Bad transfer (lift) pump</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Injection pump out of time</cause>
+    </causes>
+    <descriptions>
+        <description rtPlus="0" rtNeutral="0" rtMinus="0">Injection Timing Control Circuit Malfunction</description>
+    </descriptions>
+    <solutions>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">First, simply check if your injection pump timing is adjustable. If so, check the timing and adjust if necessary.If you think that you may have a fuel delivery problem, then check the lift pump operation. On Dodge Ram with the Cummins engine, the lift pump should produce about 45 oz of diesel in 25 seconds of operation. This can be performed by disconnecting the fuel hose from the injection pump and pumping the fuel into an approved container. Bump the engine over but do not start it. Then the lift pump will operate for 25 seconds. If the fuel is aerated, then check/repair fuel line and recheck.With the fuel hose connected the fuel pressure should be 10psi. If the fuel delivery tests fail, replace the diesel fuel filter and recheck.If it still fails then verify there are no restrictions in the fuel tankThen replace the lift (transfer) pump. IT SHOULD BE NOTED that if this code surfaced after a routine fuel filter replacement or if you have any of the above symptoms after routine fuel filter replacement, then suspect the fuel transfer pump. This occurs because even a weak transfer pump can still provide enough fuel for the engine to run. But when the fuel system\'s prime is lost due to fuel filter replacement, it may not restart again without fixing the fuel delivery problem.If you found your injection pump to be bad, the lift pump should be checked for operation to protect the new injection pump. This is because weak or low output from lift pump are common cause of injection pump failure. There are some aftermarket kits that can be purchased to warn the operator when the fuel pressure/volume drops to level that could damage the injection pump.</solution>
+    </solutions>
+    <references/>
+    <symptoms>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Crank, but no start</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Displays an intermittent stumble or miss</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Engine may appear to drive fine but surge at idle</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Engine may start and then stall</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Hard start</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Low power</symptom>
+    </symptoms>
+</ns2:code>

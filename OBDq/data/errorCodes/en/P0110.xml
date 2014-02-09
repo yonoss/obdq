@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:code cars="" id="P0110" xmlns:ns2="com.queeq.odbq.errorcodes">
+    <meanings>
+        <meaning rtPlus="0" rtNeutral="0" rtMinus="0">The IAT (Intake Air Temperature) sensor is a thermistor, which basically means it measures air temperature by detecting resistance in the air. It's usually located somewhere in the intake air ductwork, but can be located in the intake manifold on some applications. It is usually a two wire sensor supplied with a 5 volt reference wire (which also acts as a signal wire) from the PCM (Powertrain Control Module) and a ground wire.As air passes over the sensor the resistance changes. This change in resistance affects the 5 Volts supplied to the sensor accordingly. Colder air causes higher resistance and higher signal voltage &amp;amp; warmer air lower resistance and lower signal voltage. The PCM monitors this change in the 5 Volts and calculates air temperature. If the PCM detects a voltage that is out of normal operating range for the sensor, P0110 will set.</meaning>
+    </meanings>
+    <causes>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Bad IAT sensor</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Bad PCM</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">IAT sensor shifted out of airflow</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Open in ground circuit to IAT</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Poor connection at IAT (backed out terminals, broken connector locks, etc.)</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Shorted to ground or open on signal circuit to IAT</cause>
+    </causes>
+    <descriptions>
+        <description rtPlus="0" rtNeutral="0" rtMinus="0">Intake Air Temperature Circuit Malfunction</description>
+    </descriptions>
+    <solutions>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">First visually check that the IAT is in place and hasn't been dislodged. As a quick check of the IAT, use a scan tool &amp;amp; check for IAT reading with KOEO (Key on engine off). If the engine is cold, the IAT reading should be the same as the CTS (Coolant temperature sensor) reading. If it shows more than a few degrees variance (for example, if it indicates a temperature extreme like negative 40 deg. or 300 deg. then obviously there's a problem) unplug the IAT and do a resistance test across the two terminals.Each sensor will have different resistances so you'll have to get that info from a repair manual. If the resistance of the IAT sensor isn't within specs, replace the sensor. There should be some resistance, so if it measures infinite resistance, replace the sensor.Having said that, here is a little more diagnostic info if that doesn't take care of it:1. If your KOEO IAT reading is at the high extreme, like 300 deg. (which obviously is inaccurate), disconnect the IAT sensor. If the reading now shows the lowest extreme (50 or so), then replace the IAT sensor. However, if when unplugging the IAT, the reading doesn't change then turn off the ignition and disconnect the PCM connector. Use a voltmeter to check for continuity between a good ground and the signal wire to the IAT. If there is continuity, then repair short to ground on the signal wire. If there is not continuity, then the PCM may have a problem2. If your KOEO IAT reading is at the low extreme, again disconnect the IAT connector. Check that there is 5 Volts on the signal and the other is grounded.a. If you have 5 volts present and a good ground, jumper the two terminals together. Now the reading on the scanner should be at the high extreme. If it is, replace the IAT sensor. But if it stays low even after you jumper the two wires together, then there may be an open in the wiring harness or a problem with the PCM.b. If you don't have 5 Volts present, then check for reference voltage back at the PCM connector. If it's present there but not at the IAT sensor, repair the open in the signal wire.Other IAT sensor and circuit related DTCs: P0095, P0096, P0097, P0098, P0099, P0109, P0111, P0112, P0113, P0114</solution>
+    </solutions>
+    <references/>
+    <symptoms>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">There may be no noticeable symptoms other than MIL (Malfunction Indicator Lamp) illumination. However, it could be possible that you may experience poor drivability complaints.</symptom>
+    </symptoms>
+</ns2:code>

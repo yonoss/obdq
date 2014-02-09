@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:code cars="" id="P0700" xmlns:ns2="com.queeq.odbq.errorcodes">
+    <meanings>
+        <meaning rtPlus="0" rtNeutral="0" rtMinus="0">Many vehicles have a control module for the automatic transmission called a transmission control module (TCM). The engine control module (ECM) communicates with the TCM to monitor the automatic transmission for faults. If the TCM detects a fault in the automatic transmission and sets a transmission related fault code, the ECM is informed of this also and sets a P0700 in the ECM memory.This illuminates the Malfunction Indicator Lamp (MIL) to let the driver know there is a problem. If this code is present and the MIL (Malfunction Indicator Lamp) is illuminated that basically means there is at least one transmission code set in the TCM's memory. P0700 is an informational code only. It doesn't point to a direct fault in the engine, only a general fault in the transmission. More diagnosis is necessary to identify what the transmission fault is. This requires a scan tool that will communicate with the transmission module.</meaning>
+    </meanings>
+    <causes>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">More often then not, the cause of this code is that there is a transmission problem of some kind. The TCM detected the problem and set a code. P0700 means that a fault code is stored in the TCM. However this doesn't rule out the possibility of a failed PCM or TCM (unlikely).</cause>
+    </causes>
+    <descriptions>
+        <description rtPlus="0" rtNeutral="0" rtMinus="0">Transmission Control System TCS Malfunction</description>
+    </descriptions>
+    <solutions>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">For a P0700 the only real solution is to acquire a scan tool that will communicate with the transmission control module. Extracting this code from the TCM will be the first step in repairing the fault in the transmission.If the TCM compatible scan tool will not communicate with the Transmission Control Module then that is a good indication that there may be a fault with the TCM itself.</solution>
+    </solutions>
+    <references/>
+    <symptoms>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Malfunction Indicator Lamp (MIL) illumination</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">The transmission may exhibit drivability problems like slipping, etc.</symptom>
+    </symptoms>
+</ns2:code>

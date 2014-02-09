@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:code cars="" id="P0133" xmlns:ns2="com.queeq.odbq.errorcodes">
+    <meanings>
+        <meaning rtPlus="0" rtNeutral="0" rtMinus="0">This involves the front oxygen sensor on Bank 1. This code indicates the engine air fuel ratio is not being adjusted by the oxygen sensor signal or the ECM as expected to do so, or not adjusted as often as expected to do so once the engine is warmed or under normal engine use.</meaning>
+    </meanings>
+    <causes>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">The oxygen sensor is faulty</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">The wiring to the sensor is broken / frayed</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">There is an exhaust leak</cause>
+    </causes>
+    <descriptions>
+        <description rtPlus="0" rtNeutral="0" rtMinus="0">Oxygen Sensor Circuit Slow Response (Bank1, Sensor1)</description>
+    </descriptions>
+    <solutions>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Check and fix any exhaust leaks</solution>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Check for a deteriorating / contaminated oxygen sensor, replace if necessary</solution>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Check for inlet air leaks</solution>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Check for wiring problems (shorted, frayed wires)</solution>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Check the frequency and amplitude of the oxygen sensor (advanced)</solution>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Check the MAF sensor for proper operation</solution>
+    </solutions>
+    <references/>
+    <symptoms>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">You will likely not notice any drivability problems, although there may be symptoms.</symptom>
+    </symptoms>
+</ns2:code>

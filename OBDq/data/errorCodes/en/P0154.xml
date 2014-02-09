@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:code cars="" id="P0154" xmlns:ns2="com.queeq.odbq.errorcodes">
+    <meanings>
+        <meaning rtPlus="0" rtNeutral="0" rtMinus="0">The oxygen sensors are critical to the engine running properly. It basically informs the PCM (Powertrain Control Module) of oxygen content of the exhaust. The PCM then uses this information to regulate fuel into the engine and maintain proper air:fuel ratio. It is a four wire sensor, with the PCM providing a reference/signal voltage of about half a volt (0.5v) to the sensor. It usually provides a ground also. The other two wires are dedicated to the oxygen sensor heater element. This heater allows the sensor to warm up faster, which allows the engine to enter closed loop faster, reducing startup emissions. The heater element is supplied a 12v feed from the power distribution center (usually) and a ground.The oxygen content of the exhaust affects the O2 sensor resistance. This resistance produces a counter voltage on the reference/signal wire that the PCM will use to analyze oxygen in the exhaust. Lean exhaust produces low voltage, while rich exhaust produces high voltage. The oxygen sensor is capable of varying between 0.9v (rich) and 0.1v (lean). Once the engine reaches closed loop, the O2 sensor should begin switching rapidly between rich and lean voltages 23 times per second. If for some reason the O2 sensor doesn't switch properly or sticks, P0154 may set. This code indicates the O2 sensor isn't operating.</meaning>
+    </meanings>
+    <causes>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Broken lock or loose terminals on O2 sensor connector</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Faulty bank 2,1 Oxygen sensor</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Holes in exhaust near oxygen sensor</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Oil/coolant fouled oxygen sensor</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Open or high resistance in signal circuit</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Short to voltage or ground on signal circuit</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Water/oil intrusion at O2 sensor connector</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Wiring harness chafing/rubbing on exhaust components</cause>
+    </causes>
+    <descriptions>
+        <description rtPlus="0" rtNeutral="0" rtMinus="0">02 Sensor Circuit No Activity Detected (Bank 2 Sensor 1)</description>
+    </descriptions>
+    <solutions>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">First start the engine and bring it up to operating temperature and ensure the engine reaches closed loop. Then, using the live data function on a scan tool, observe the Bank 2,1 oxygen sensor voltage reading. Is it switching properly? If so, the problem may be an intermittently bad sensor or more likely a wiring problem. Visually check the O2 sensor wiring and repair as needed. Does the voltage for the Bank 2,1 oxygen sensor appear to be stuck and not moving? If so, increase idle speed for 30 seconds or so. If the sensor begins switching after a period of elevated idle, visually check the exhaust for holes or rust near the O2 sensor that could be affecting the voltage readingIf the exhaust checks out, suspect the sensor to be sluggish and replace it. If the Bank 2,1 oxygen sensor appears to be not switching, turn the engine off, and unplug the Bank 2,1 oxygen sensor. With KOEO (Key on engine off) jumper the O2 sensor signal wire to the ground wire. Now the voltage reading should be low (about 0.1v). If it is, then check for a bad connection at the O2 sensor connector. Repair as necessary. If no bad connection is found, replace the O2 sensor and recheck. If when you jumper the signal wire to the ground wire the voltage reading isn't low (about 0.1v), remove the jumper wire. Now check for voltage at the O2 sensor signal wire. It should have, with KOEO and O2 sensor unplugged, roughly 0.5 volts. If it does, check also for a good ground to the sensor as well. Repair as necessaryCheck for loose connections, water intrusion at PCM connector, etc. If you have no 0.5 volt reference voltage, unplug the PCM connector and ohm the signal circuit and ground circuits. There should be no resistance nor any voltage. Repair excessive resistance. If you still have no 0.5 volt reference voltage, recheck at the PCM connector. It may be necessary to clip the signal wire to eliminate the possibility of a short or open somewhere. If you now have reference voltage present coming out of the PCM, fix open/short in signal circuit. If you have no reference voltage coming out of the PCM, the PCM will have to be diagnosed for a fault. It may be the problem.Article written by Dale Toalston</solution>
+    </solutions>
+    <references/>
+    <symptoms>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Engine may blow black smoke at tailpipe</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Fuel economy may decrease</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">May start and stall</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">MIL (Malfunction Indicator Lamp) illumination</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Misfire at idle or at highway speed</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Other codes indicating rich or lean condition may be present</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Poor idle, won't idle</symptom>
+    </symptoms>
+</ns2:code>

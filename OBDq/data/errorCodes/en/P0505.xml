@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:code cars="" id="P0505" xmlns:ns2="com.queeq.odbq.errorcodes">
+    <meanings>
+        <meaning rtPlus="0" rtNeutral="0" rtMinus="0">The IAC (Idle Air Control) valve controls the idle speed of the engine. At idle the throttle plate is closed, of course. The IAC is computer controlled and allows only a certain amount of air around the throttle plate. This metered air controls the idle speed. The IAC has a plunger or shutter that moves to open or close the bypass air passageway. The more air the IAC allows around the throttle plate, the higher the idle. The PCM (Powertrain Control Module) uses the IAC valve to keep the idle speed correct with varying engine demands. Can be a three or four wire sensor depending on the model.The PCM monitors voltages of the IAC circuits and if it detects an incorrect voltage on one or more of the IAC motor circuits it will set P0505. NOTE: Problems with the IAC would only be noticeable at idle or when throttle is closed.</meaning>
+    </meanings>
+    <causes>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">IAC has failed</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">IAC motor connector is damaged (check connector and pins for damage, and moisture)</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">One or more IAC circuits are shorted to voltage</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">One or more IAC circuits open or shorted to ground</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">PCM has failed</cause>
+    </causes>
+    <descriptions>
+        <description rtPlus="0" rtNeutral="0" rtMinus="0">IAC (Idle Air Control) System Malfunction</description>
+    </descriptions>
+    <solutions>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">This should be a fairly straightforward diagnosis. Start by clearing the fault codes. Then unplug the IAC and start the engine (This may cause other IAC codes to set. Just ignore them for now). If the P0505 code doesn't reset, replace the IAC. It is internally shorting one of the IAC circuits. If the code DOES return after unplugging the IAC and starting the engine, then you know it isn't the IAC motor. Visually check the wiring harness all the way back to the PCM. You may need to visually inspect the harness by removing all the insulation off the wires. It is possible that the wires could be shorting to eachother or to other wires in the harness.If there are no wiring problems, and the code keeps returning with the IAC unplugged, you can check the PCM by removing the IAC wires from the PCM connector (or clipping the wires in a location where they can be repaired easily) and then start the engine (If you're not sure, don't do it. Take it to a qualified professional). Now if the code doesn't reset there is a problem with the wiring. Check for continuity on all the IAC wires. Any resistance points to a problem. Check for voltage on any(At this point there shouldn't be any voltages on the wires because they're clipped at one end and unplugged at the IAC). Repair as necessary. But if the P0505 code DOES reset after removing the IAC wires from the PCM connector(or clipping them), replace the PCM, there's a problem internally on the IAC control circuit.</solution>
+    </solutions>
+    <references/>
+    <symptoms>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Engine may idle too high</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Engine stalls and may not idle unless throttle is depressed</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Intermittently stalls when letting off the throttle</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">MIL (Malfunction Indicator Lamp) illumination</symptom>
+    </symptoms>
+</ns2:code>

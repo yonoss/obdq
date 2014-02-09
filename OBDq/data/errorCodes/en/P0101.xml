@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:code cars="" id="P0101" xmlns:ns2="com.queeq.odbq.errorcodes">
+    <meanings>
+        <meaning rtPlus="0" rtNeutral="0" rtMinus="0">Basically this means that there is a problem with the Mass Air Flow (MAF) sensor or circuit. The PCM detects that the actual MAF sensor frequency signal is not within a predetermined range of the calculated MAF value for more than 4.0 seconds. Other MAF sensor circuit DTC trouble codes are P0100, P0102, P0103, and P0104.</meaning>
+    </meanings>
+    <causes/>
+    <descriptions>
+        <description rtPlus="0" rtNeutral="0" rtMinus="0">Mass Air Flow (MAF) Circuit Range/Performance Problem</description>
+    </descriptions>
+    <solutions>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">A high resistance on the ground circuit of the MAP sensor can cause this DTC to set.</solution>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">A low minimum air rate through the sensor bore may cause this DTC to set at idle or during deceleration. Inspect for any vacuum leaks downstream of the MAF sensor.</solution>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">A wide open throttle (WOT) acceleration from a stop should cause the MAF sensor g/s display on the scan tool to increase rapidly. This increase should be from 612 g/s at idle to 230 g/s or more at the time of the 12 shift. If the increase is not observed, inspect for a restriction in the induction system or the exhaust system.</solution>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Any loss of vacuum to the MAP sensor can cause this DTC to set.</solution>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Inspect for the following conditions: An incorrectly routed harnessInspect the harness of the MAF sensor in order to verify that it is not routed too close to the following components:  The secondary ignition wires or coils  Any solenoids  Any relays  Any motors</solution>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">The barometric pressure (BARO) that is used in order to calculate the predicted MAF value is initially based on the MAP sensor at key ON.</solution>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">When the engine is running the MAP sensor value is continually updated near WOT. A skewed MAP sensor will cause the calculated MAF value to be inaccurate. The value shown for the MAP sensor display varies with the altitude. With the ignition ON and the engine OFF, 103 kPa is the approximate value near sea level. This value will decrease by approximately 3 kPa for every 305 meters (1,000 feet) of altitude.</solution>
+    </solutions>
+    <references/>
+    <symptoms>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">You will likely not notice any serious drivability problems, although there may be symptoms.</symptom>
+    </symptoms>
+</ns2:code>

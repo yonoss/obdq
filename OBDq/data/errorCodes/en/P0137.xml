@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:code cars="" id="P0137" xmlns:ns2="com.queeq.odbq.errorcodes">
+    <meanings>
+        <meaning rtPlus="0" rtNeutral="0" rtMinus="0">Essentially the same as P0136, P0137 refers to the second oxygen sensor on Bank 1. P0137 means the O2 oxygen sensor's voltage remained low for longer than 2 minutes. This, is interpreted by the ECM as a low voltage condition and sets the MIL. Bank 1 Sensor 2 is located to the rear of the catalytic converter and should produce an output signal relative to oxygen storage capacity of the catalytic converter. This rear (sensor 2) sensor is less active than the signal produced by the front sensor. However, if the ECM senses the sensor is inactive, this code will set.</meaning>
+    </meanings>
+    <causes>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Faulty o2 sensor Exhaust leak near the rear sensor</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">High resistance or open on O2 signal circuit</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Plugged catalyst</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Short to voltage on O2 signal circuit</cause>
+    </causes>
+    <descriptions>
+        <description rtPlus="0" rtNeutral="0" rtMinus="0">Oxygen O2 Sensor Circuit Low Voltage (Bank 1, Sensor 2)</description>
+    </descriptions>
+    <solutions>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Check for restriction in catalyst and replace as necessary</solution>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Repair exhaust leak near the rear sensor</solution>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Repair short, open, or high resistance on o2 signal circuit</solution>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Replace faulty sensor</solution>
+    </solutions>
+    <references/>
+    <symptoms>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">There may be no visible symptoms to the driver, other than the MIL (Check Engine / Service Engine Soon) illumination.</symptom>
+    </symptoms>
+</ns2:code>

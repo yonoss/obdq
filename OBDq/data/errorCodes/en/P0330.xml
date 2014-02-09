@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:code cars="" id="P0330" xmlns:ns2="com.queeq.odbq.errorcodes">
+    <meanings>
+        <meaning rtPlus="0" rtNeutral="0" rtMinus="0">A knock sensor tells the engine computer when one or more of your engine's cylinders are knocking, that is, exploding the air/fuel mixture in a way that delivers less power and can be damaging to the engine if prolonged. The computer uses this information to tune the engine so that it doesn't knock. If your knock sensor wasn't operating properly, so that it was always indicating a knock, the engine computer's response may have been to change the ignition timing on your engine. Knock sensors generally bolt into or thread into the engine block. This P0330 code may show up intermittently or the Service Engine light may be lit constantly. Other knock sensor related DTC codes include P0325.</meaning>
+    </meanings>
+    <causes>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">The B knock sensor is faulty and needs to be replaced</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">There is a wiring short/fault in the knock sensor circuit</cause>
+    </causes>
+    <descriptions>
+        <description rtPlus="0" rtNeutral="0" rtMinus="0">Knock Sensor 2 Circuit Malfunction (Bank 2)</description>
+    </descriptions>
+    <solutions>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Check for broken/frayed wires leading to the sensor</solution>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Check the resistance of the knock sensor on bank 2 (compare it to factory specs)</solution>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Replace the knock sensor on bank 2</solution>
+    </solutions>
+    <references/>
+    <symptoms>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">You may notice drivability problems including a lack of power and perhaps some hesitation. There may also be other symptoms.</symptom>
+    </symptoms>
+</ns2:code>

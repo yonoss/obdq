@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:code cars="" id="P0158" xmlns:ns2="com.queeq.odbq.errorcodes">
+    <meanings>
+        <meaning rtPlus="0" rtNeutral="0" rtMinus="0">The catalytic converter is used to lower harmful emissions. To ensure proper operation, there is an O2 sensor located behind the catalyst that monitors the oxygen content of the exhaust after the cat. The PCM (Powertrain Control Module) then compares the postcat reading to the precat readings to determine if the catalyst is working properly.A P0158 refers to a fault at the postcat o2 sensor on bank 2 (second sensor back on bank 2), indicating that the signal voltage is too high. The o2 sensor is a four wire sensor. Two wires are dedicated to the heating element and two wires are dedicated to the sensor. The heating element should have battery voltage on one wire with key on engine off and ground should be present on the other. The PCM supplies a reference voltage of 0.5 volts to the o2 sensor which the sensor varies according to oxygen content in the exhaust. The PCM also supplies a ground to the sensor. Changes in oxygen content cause resistance changes in the o2 sensor. This change in resistance affects the PCMsupplied 0.5 volts. It is capable of varying between approximately 0.1 and 0.9 volts. A reading of 0.1 indicates full lean and 0.9 indicates full rich. This variance in the voltage is monitored by the PCM.A P0158 code means that the voltage was higher than normal on the signal circuit. NOTE: A postcatalyst o2 sensor will normally switch slower and fewer times than front (precat) o2 sensors.</meaning>
+    </meanings>
+    <causes>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Bad o2 sensor (Bank 2 Sensor 2)</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Bad PCM</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Engine running rich (If other codes are present)</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Holes in exhaust causing PCM to overrich engine resulting in an abnormally high Bank 2, sensor 2 reading</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Short to voltage on signal circuit</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Wiring in contact with exhaust components</cause>
+    </causes>
+    <descriptions>
+        <description rtPlus="0" rtNeutral="0" rtMinus="0">02 Sensor Circuit High Voltage (Bank 2 Sensor 2)</description>
+    </descriptions>
+    <solutions>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">It's always a good idea to observe the condition of the exhaust components. Inspect for holes, wiring harness making contact with exhaust, etc. Start the engine and observe the Bank 2 Sensor 2 o2 sensor voltage. On rear o2 sensors you may need to raise the idle up until the o2 sensor starts switching if the sensor is sluggish. If raising the idle causes the sensor's voltage to drop, then replace the sensor due to sluggishness. If, after starting the engine and warming to operating temperature, the 2,2 oxygen sensor is observed to be stuck high, or close to 1 volt and the voltage doesn't drop or vary, then turn the engine off.With KOEO (key on engine off) unplug the 2,2 o2 sensor and check for a good ground on both the heater element and the sensor. Also check that the heater element is being supplied good battery voltage. No heater operation can cause a sluggish sensor, but will usually have codes associated with it. If the grounds are good and the battery voltage is present, then jumper the sensor's signal wire to the sensor's ground wire. Now the scan tool should read low or near zero volts. If it does, the wiring is good. Replace the bank 2/2 o2 sensor. If jumpering the signal wire to the ground doesn't lower the voltage, then check the o2 sensor wiring harness. Make sure there is no contact with hot exhaust components. Ensure good wiring harness connections.If the wiring checks out, then recheck the previous wiring harness checks at the PCM connector. It may be necessary to clip the o2 sensor signal wire close to the PCM in a location that is easily accessible so it may be repaired after this test. If now the 2/2 o2 sensor reading drops, then there is a wiring problem that isn't visible. Open the harness and visually inspect the wiring for problems on the signal wire. Or you may choose to run another signal wire by clipping and leaving the offending wire in the harness. But if the result is the same, then the PCM may be at fault.Article written by Dale Toalston</solution>
+    </solutions>
+    <references/>
+    <symptoms>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Engine loses power and misses intermittently</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Engine running rich</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">May exhibit loss of fuel efficiency</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">MIL (Malfunction Indicator Lamp) on</symptom>
+    </symptoms>
+</ns2:code>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:code cars="" id="P0118" xmlns:ns2="com.queeq.odbq.errorcodes">
+    <meanings>
+        <meaning rtPlus="0" rtNeutral="0" rtMinus="0">The engine coolant temperature (ECT) sensor is a thermistor screwed into a coolant passage in the cylinder head. Sensor resistance is high when coolant temperature is low and resistance drops when coolant temperature increases. The powertrain control module (PCM) provides a 5 volt reference and a ground to the sensor. The PCM monitors voltage drop to determine coolant temperature. If the ECT reads less than freezing temp. when engine has been running for more than a few minutes, the PCM determines a circuit fault and sets this code. Or if the PCM determines the sensor resistance is out of specs, this code is set.</meaning>
+    </meanings>
+    <causes>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">A bad connection at the sensor</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">A bad PCM (less likely)</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">A bad temperature sensor (shorted internally)</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">A short in the voltage feed between the sensor and the PCM</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">An open in the ground circuit between the ECT sensor and the PCM</cause>
+    </causes>
+    <descriptions>
+        <description rtPlus="0" rtNeutral="0" rtMinus="0">Engine Coolant Temperature Circuit High Input</description>
+    </descriptions>
+    <solutions>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">First, if you have access to a scan tool, check the reading of the coolant sensor. Does it read a logical number? If so, the problem is likely intermittent. Perform a wiggle test by wiggling the connector and harness to the sensor while watching the reading on the scan tool. Watch for any dropouts. Dropouts would indicate a bad connection. If the scan tool reads an illogical temperature, check the resistance of the temperature sensor. If it is out of specs, replace it. If it is in specifications, unplug the sensor and, using a fused jumper wire, jumper the two terminals of the connector together. The temperature reading should now be maxed out to above 250 degrees F. If not, there is likely a problem with the ground circuit or voltage supply.Check for 5 volts reference voltage at the connector. Also check for ground presence at the connector. If you do not have 5V ref. and/or ground continuity, check for these back at the PCM connector. If you have these at the PCM connector, then repair open or short between the PCM and the sensor. If you do not, remove the offending wire from the PCM and then check for proper voltage at the PCM pin. If it's present now, repair short on the circuit. If it isn't present after removing the wire and checking the pin, replace PCMNOTE: Usually, P0118 is indicative of a bad temperature sensor, but doesn't rule out these other possibilities. If you're unsure of how to diagnose a PCM, do not attempt.Other engine coolant engine light codes: P0115, P0116, P0117, P0118, P0119, P0125, P0128</solution>
+    </solutions>
+    <references/>
+    <symptoms>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">A no start condition</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Illumination of MIL</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Vehicle may start, but run very poorly, blowing black smoke, running very rough and misfiring</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Very poor fuel economy</symptom>
+    </symptoms>
+</ns2:code>

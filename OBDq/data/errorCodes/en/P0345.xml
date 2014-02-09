@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:code cars="" id="P0345" xmlns:ns2="com.queeq.odbq.errorcodes">
+    <meanings>
+        <meaning rtPlus="0" rtNeutral="0" rtMinus="0">This indicates that a problem was detected in the camshaft position sensor circuit of bank 2. Since it says circuit, that means the problem could lie in any part of the circuit  the sensor itself, the wiring, or the PCM. Don't just replace the CPS (camshaft position sensor) and think that will definitely fix it.</meaning>
+    </meanings>
+    <causes>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">a wire or connector in the circuit could be grounded/shorted/broken</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">the camshaft position sensor may have failed</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">the crankshaft position sensor may have failed</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">the PCM may have failed</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">there exists an open circuit</cause>
+    </causes>
+    <descriptions>
+        <description rtPlus="0" rtNeutral="0" rtMinus="0">Camshaft Position Sensor A Circuit Malfunction (Bank 2)</description>
+    </descriptions>
+    <solutions>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Check for continuity in the circuit wiring</solution>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Check the crankshaft position circuit as well</solution>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Check the operation (voltage) of the camshaft position sensor</solution>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Diagnose/replace the PCM as required</solution>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Replace circuit wiring and/or connectors as required</solution>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Replace the camshaft position sensor as required</solution>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Visually inspect all the wiring and connectors in the circuit</solution>
+    </solutions>
+    <references/>
+    <symptoms>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Hard starting or no start</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Loss of engine power</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Rough running / misfiring</symptom>
+    </symptoms>
+</ns2:code>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:code cars="" id="P0456" xmlns:ns2="com.queeq.odbq.errorcodes">
+    <meanings>
+        <meaning rtPlus="0" rtNeutral="0" rtMinus="0">The Powertrain Control Module (PCM) at different times performs various tests on the EVAP system. OBD II Enhanced EVAP systems are in place to keep fuel tank vapors from venting into the atmosphere, and instead purges them into the engine to be burned. Regular pressure tests are conducted by the PCM to monitor the sealed system for leaks. The PCM monitors the EVAP system pressure by watching the fuel tank pressure (FTP) sensor. When the sensor indicates a small leak in the EVAP system, this code is set.</meaning>
+    </meanings>
+    <causes>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">A small leak in any of the EVAP hoses or fuel tank hoses</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">A small leak in the purge valve or vent valve</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">The EVAP Canister may be leaking</cause>
+    </causes>
+    <descriptions>
+        <description rtPlus="0" rtNeutral="0" rtMinus="0">Evaporative Emissions System  Small leak detected</description>
+    </descriptions>
+    <solutions>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">First, using a scan tool activate the vent solenoid, sealing the system. Then monitor the fuel tank pressure (FTP) sensor. If the system is sealing properly, the number will stay consistent. If is isn't, the pressure sensor will show that as well. If the system slowly leaks, use a smoke machine and watch for smoke exiting the system at any EVAP component. Any where there is smoke exiting the system, that is the faulty component. Do not pressurize the EVAP system with air pressure. Doing so can damage the purge and vent solenoids in the system.Other EVAP DTCs: P0440  P0441  P0442  P0443  P0446  P0453  P0455  P0456</solution>
+    </solutions>
+    <references/>
+    <symptoms>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">There will likely be no noticeable symptoms other than the Malfunction Indicator Lamp (MIL). This is because the EVAP system is a closed system and only controls fuel tank vapors, not engine management.</symptom>
+    </symptoms>
+</ns2:code>

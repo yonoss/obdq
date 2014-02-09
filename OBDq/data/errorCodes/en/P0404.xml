@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:code cars="" id="P0404" xmlns:ns2="com.queeq.odbq.errorcodes">
+    <meanings>
+        <meaning rtPlus="0" rtNeutral="0" rtMinus="0">If you have a P0404, then the EGR valve is likely an electrically controlled EGR valve instead of a vacuum controlled EGR valve. Also, the valve will usually have a feedback system built into it that informs the PCM (Powertrain Control Module) what position the valve is in; open, closed, or somewhere in between. The PCM needs to know this to determine whether or not the valve is operating as needed. If the PCM determines that the valve should be operating, but the feedback circuit shows that the valve is not open, this code will set. Or if the PCM determines the valve should be closed but the feedback signal indicates that the valve is open, this code will set.</meaning>
+    </meanings>
+    <causes>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Bad PCM (less likely)</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Open or short in the 5 Volt reference circuit</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Open or short in the ground circuit</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Open or short in the PCM controlled voltage circuit</cause>
+    </causes>
+    <descriptions>
+        <description rtPlus="0" rtNeutral="0" rtMinus="0">Exhaust Gas Recirculation Circuit Range/Performance</description>
+    </descriptions>
+    <solutions>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">If the EGR desired position is not close to the actual position, then unplug the EGR sensor. Check for a good 5 Volt reference voltage to the connector. If it doesn't show a reference voltage, repair an open or short in the 5 Volt reference circuit.</solution>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">If the voltage doesn't increase incrementally, then repair open or short in EGR control circuit.</solution>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">If there is a 5 volt reference voltage, activate the EGR with the scanner, monitor the EGR ground circuit with a DVOM (Digital Volt/Ohm meter). It should indicate a good ground. If it doesn't then repair the ground circuit.</solution>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">If there is a good ground, then check the control circuit. It should indicate voltage that varies according to the percentage that the EGR is open. As it's open more, the voltage should increase accordingly. If it does, then replace the EGR valve.</solution>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Using a scan tool command the EGR valve to open while watching the actual EGR position (it will probably be labeled desired EGR or something similar). The actual EGR position should be very close to the desired EGR position. If it is, then the problem is likely intermittent. It may have been a lodged piece of carbon that has since dislodged, or it could be a bad EGR valve winding that intermittently opens or shorts as the valve temperature changes.</solution>
+    </solutions>
+    <references/>
+    <symptoms>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">There may be no symptoms of a P0404 DTC other than the MIL (malfunction indicator lamp) or checkengine light. However, Exhaust Gas Recirculation systems are inherently problematicdue to carbon buildup in the intake manifold, etc. This normal buildup can lodge inan EGR valve, holding it open when it should be closed. If this is the case, theengine may idle rough, or not at all. If the valve has failed and is NOT opening,then symptoms would be higher combustion temps and as a result, higher Noxemissions. But the latter symptoms aren't going to be noticeable to a driver.</symptom>
+    </symptoms>
+</ns2:code>

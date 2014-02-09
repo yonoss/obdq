@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:code cars="" id="P0217" xmlns:ns2="com.queeq.odbq.errorcodes">
+    <meanings>
+        <meaning rtPlus="0" rtNeutral="0" rtMinus="0">Having this code in memory means your vehicle is equipped with an engine overtemp indicator light that will illuminate in the event of an overheat condition. Most modern vehicles are also equipped with a temperature gauge but some aren't.An overheat condition is usually anything above 240250 deg. F (will vary according to manufacturer) in the cooling system. The overtemp light is designed to illuminate before engine damage occurs but shutting the engine down as soon as possible should be your first priority.</meaning>
+    </meanings>
+    <causes>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Cylinder head gasket leaking combustion into cooling system</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Faulty water pump (impeller broken/damaged)</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Inoperative cooling fan(s)</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Low coolant due to leak in cooling system</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Overloaded trailer towing</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Restriction/debris in the A/C condenser or radiator</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Restriction/debris in the cooling system</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Thermostat stuck closed or faulty</cause>
+    </causes>
+    <descriptions>
+        <description rtPlus="0" rtNeutral="0" rtMinus="0">Engine Overtemp Condition</description>
+    </descriptions>
+    <solutions>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Start by checking the coolant level ON A COLD ENGINE. It's never a good idea to check the coolant on a hot or overheated engine. Also, putting cold water in an overheated, empty cooling system causes thermal shock and isn't a good idea.If you find your cooling system is low on coolant and you have a P0217 stored, inspect the system for leaks and repair as necessary. Then change the thermostat (see note below) and after refilling the cooling system, restart the engine and verify it isn't overheating. Be aware that it's possible for an overheated engine to expel the coolant out of the radiator cap to protect the cooling system from overpressurization. If you can't locate a leak, this may be the reason.Follow the steps below to check the performance of the cooling system. If the coolant level is normal, check the radiator and A/C condenser for any type of restriction that could impede airflow. This step may require removing the radiator and visually inspecting it outside of the vehicle. Check in between the radiator and the condenser for restriction or debris. Make sure all the plastic panels that direct airflow into the radiator are in place. If you have access to a scan tool, check the cooling fans for operation or abnormal noise indicating a bearing failure. Look down into the radiator tank (if possible) and observe the condition. Is there a lot of buildup that may restrict coolant flow? If so, replace the radiator.If you don't notice any apparent problems, and the vehicle continues to overheat, feel the upper radiator hose. Is it hot, indicating that the coolant is flowing freely? If not, the water pump impeller may be damaged or broken causing a noflow condition. If the water pump appears to be working properly, the thermostat may be faulty. Replace it and recheck. If after the above checks, you still have problems with overheating and coolant being expelled from the system, you may have combustion gasses leaking into the cooling system. This would require a combustion gas leaktest on the cooling system. If you have a P0217 but the vehicle isn't overheating, there may be a faulty coolant temperature sender.Note: An overheated engine can effectively ruin the thermostat. So it's always best to replace the thermostat after an overheat condition. If you don't you may successfully repair the original cause of the overheat but still have an overheat condition due to the damaged thermostat.Article written by Dale Toalston</solution>
+    </solutions>
+    <references/>
+    <symptoms>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Acrid smell of coolant due to leak</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Air conditioner inoperative (In the event of an overheat condition, the PCM (powertrain control module) on some vehicles shuts down the A/C system to reduce load on the engine).</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Coolant expelled from reservoir or radiator</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Loss of power</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Low coolant</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">MIL (malfunction indicator lamp) illumination</symptom>
+    </symptoms>
+</ns2:code>

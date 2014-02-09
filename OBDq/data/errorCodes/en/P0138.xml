@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:code cars="" id="P0138" xmlns:ns2="com.queeq.odbq.errorcodes">
+    <meanings>
+        <meaning rtPlus="0" rtNeutral="0" rtMinus="0">The Heated Oxygen Sensor (2) located rear of catalytic converter produces an output signal relative to oxygen storage capacity of catalytic converter. Ho2S 2 signal is less active than signal produced by front oxygen sensor. This code sets when HO2 Sensor voltage is greater than 999 mV for more than 2 minutes (time depends on model. Could be as high as 4 minutes)</meaning>
+    </meanings>
+    <causes>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Faulty O2 sensor</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">High fuel pressure (not as likely)</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Short to battery voltage in O2 sensor signal circuit</cause>
+    </causes>
+    <descriptions>
+        <description rtPlus="0" rtNeutral="0" rtMinus="0">O2 Oxygen Sensor Circuit High Voltage (Bank1, Sensor2)</description>
+    </descriptions>
+    <solutions>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Repair short to battery voltage in o2 sensor signal circuit</solution>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Replace O2 sensor</solution>
+    </solutions>
+    <references/>
+    <symptoms>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">There may be no noticeable symptoms except for MIL illumination. Possible high fuel pressure can over rich the system.</symptom>
+    </symptoms>
+</ns2:code>

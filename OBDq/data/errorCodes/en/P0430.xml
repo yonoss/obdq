@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:code cars="" id="P0430" xmlns:ns2="com.queeq.odbq.errorcodes">
+    <meanings>
+        <meaning rtPlus="0" rtNeutral="0" rtMinus="0">Basically this means that the oxygen sensor downstream of the catalytic converter on bank 2 is detecting that the converter is not working as efficiently as it should be (according to specs). It is part of the vehicle emissions system.</meaning>
+    </meanings>
+    <causes>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">An oxygen sensor is not reading (functioning) properly</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">The catalytic converter is no longer functioning properly</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">There is an exhaust leak</cause>
+    </causes>
+    <descriptions>
+        <description rtPlus="0" rtNeutral="0" rtMinus="0">Catalyst System Efficiency Below Threshold (Bank 2)</description>
+    </descriptions>
+    <solutions>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">First, inspect for exhaust leaks.Next step is to measure the voltage at the oxygen sensor on Bank 2. In fact, it would be a good idea to test each oxygen O2 sensor while you're at it.One thing to note is that many vehicle manufacturers offer a longer warranty on emissionsrelated parts. So if you have a newer car but it's out of it's bumpertobumper warranty, there still may be warranty on this type of problem. Many manufacturers give a five year, unlimited mileage warranty on these items. It's worth checking into.</solution>
+    </solutions>
+    <references/>
+    <symptoms>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">You will likely not notice any drivability problems, although there may be symptoms such as a rough/hard idle when cold.</symptom>
+    </symptoms>
+</ns2:code>

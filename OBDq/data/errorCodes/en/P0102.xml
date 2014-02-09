@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:code cars="" id="P0102" xmlns:ns2="com.queeq.odbq.errorcodes">
+    <meanings>
+        <meaning rtPlus="0" rtNeutral="0" rtMinus="0">Basically this means that there is a problem with the Mass Air Flow (MAF) sensor or circuit. A more technical description would be that the MAF circuit had lower than expected voltage (air flow). Other MAF sensor circuit DTC trouble codes are P0100, P0101, P0103, and P0104.</meaning>
+    </meanings>
+    <causes>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">The MAF may be dirty or otherwise contaminated (Note: if you use a reusable oiled air filter, be careful not to apply too much oil or that can contaminate the MAF).</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">The MAF may be disconnected, or a wiring connection may be bad</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">The MAF sensor may be faulty</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">The vehicle computer may be faulty (very rare)</cause>
+    </causes>
+    <descriptions>
+        <description rtPlus="0" rtNeutral="0" rtMinus="0">Mass Air Flow (MAF) Circuit Low Input</description>
+    </descriptions>
+    <solutions>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Check the voltage of the MAF sensor (refer to a repair manual for vehicle specific information)</solution>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Inspect for any air leaks near the MAF sensor.</solution>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Replace the MAF sensor.</solution>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Take the MAF out and clean it using a spray cleaner such as brake cleaner or electrical contact cleaner. Be gentle with the sensor.</solution>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Verify that the Mass Air Flow Sensor wiring is connected properly and that there are no broken / frayed wires.</solution>
+    </solutions>
+    <references/>
+    <symptoms>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">You will likely not notice any serious drivability problems, although there may be symptoms such as a general decrease in power or sluggishness.</symptom>
+    </symptoms>
+</ns2:code>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:code cars="" id="P0411" xmlns:ns2="com.queeq.odbq.errorcodes">
+    <meanings>
+        <meaning rtPlus="0" rtNeutral="0" rtMinus="0">Secondary Air Injection is an emission control that uses an air pump (either electric or turned by the drive belt) to move fresh air into the exhaust manifold(s) or exhaust ports when the engine is in open loop and precatalytic converter when in closed loop. This reduces hydrocarbon emissions (HC), Carbon Monoxide (CO), and oxides of Nitrogen (NOx). This fresh air helps convert Carbon Monoxide (CO) into Carbon Dioxide (CO2) and Hydrocarbons (HC) into water vapor (H20).A check valve is located in the air supply line to keep exhaust gasses from flowing into the pump. A cutoff valve that controls the airflow may be vacuum controlled or electrically controlled. When the powertrain control module (PCM) activates the valve, vacuum travels to the cutoff valve to open it and allow fresh air to flow. Some systems may have only a check valve and the flow may be regulated by a electromagnetic clutch on the air pump (similar to an A/C clutch).Under hard acceleration, the air pump will be deactivated to prevent backfiring in the exhaust. To selfcheck, the AIR system will be activated by the PCM and fresh air would be routed into the exhaust system. The oxygen sensors would sense this fresh air as a lean condition and the short term fuel trims would begin to move in the positive direction to compensate. The PCM expects to see this happen within just a few seconds during the self test. If it does not see the short term fuel trims rise, then the PCM interprets this as a malfunction in the AIR system and a code will be recorded.</meaning>
+    </meanings>
+    <causes>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">AIR pump clutch malfunction</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">AIR pump intake port plugged/damaged</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Damaged or missing check valve</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Holes or damage to exhaust components</cause>
+    </causes>
+    <descriptions>
+        <description rtPlus="0" rtNeutral="0" rtMinus="0">Secondary Air Injection System Incorrect Flow Detected</description>
+    </descriptions>
+    <solutions>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">If you have access to a scan tool, with KOEO (Key on engine off) command the AIR pump on. It should activate. If it doesn't, remove and inspect the AIR pump relay for discoloration/melting due to heat. Repair as necessary.With the ignition on (engine off) check for battery voltage at the switched battery feed to the relay and the relay control circuit. If either of these isn't present, inspect circuit for blown fuse or open/short in the wiring. Repair cause of short and retest. If they are both present, jumper the battery feed to AIR pump feed circuit using a fused jumper. The pump should activate. If not, check for power and ground present at the AIR pump when jumpered. If there is no voltage/ground present at pump repair open in wiring harness. If voltage and ground is present, but pump still does not run, suspect a bad AIR pump. If after jumpering the AIR pump feed circuit the pump activates then the problem is likely the AIR pump relay. Replace and retest.If the scan tool activates the AIR pump, with KOER (Key on engine running) activate the AIR pump solenoid valve on and see if there is vacuum to the cutoff valve. It should have vacuum present to open the valve. If there is no vacuum present, check the AIR pump's vacuum solenoid valve for vacuum supply from the manifold. If there is vacuum present then the vacuum solenoid is likely bad. Replace it. If there is no vacuum present at the supply to the vacuum solenoid, check for a plugged or damaged vacuum line or plugged vacuum port. But if there is vacuum present at the cutoff valve, shut the engine off and using a vacuum pump, apply vacuum to the cutoff valve and see if it holds a vacuum and that air flows through it when vacuum is applied. If it doesn't hold vacuum or the valve doesn't flow when vacuum is applied, replace the cutoff valve. If the cutoff valve works properly, inspect the check valve for obstruction or to see if it's missing. Replace as necessary.Check the steel line to the exhaust catalyst as well as the exhaust ports for damage or holes that could give a false reading.</solution>
+    </solutions>
+    <references/>
+    <symptoms>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Backfiring in the exhaust under hard acceleration</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Engine running rich (This is counterintuitive. See explanation below)</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">MIL (Malfunction Indicator Lamp) illumination</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Squealing belt</symptom>
+    </symptoms>
+</ns2:code>

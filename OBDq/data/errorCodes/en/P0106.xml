@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:code cars="" id="P0106" xmlns:ns2="com.queeq.odbq.errorcodes">
+    <meanings>
+        <meaning rtPlus="0" rtNeutral="0" rtMinus="0">The Powertrain Control Module (PCM) uses the Manifold Absolute Pressure Sensor (MAP) to monitor engine load. (NOTE: Some vehicles have a Barometric Pressure (BARO) sensor that is integral to the Mass Air Flow (MAF) sensor and do not have a MAP sensor. Other vehicles have a MAF/BARO and a redundant MAP sensor where the MAP sensor functions as a backup input in case of MAF failure.) The PCM supplies a 5 Volt reference signal to the MAP sensor. Usually the PCM also supplies a ground circuit to the MAP sensor as well. As the manifold pressure changes with load, the MAP sensor input informs the PCM. At idle the voltage should be 1 to 1.5 Volts and approximately 4.5 Volts at Wide Open Throttle (WOT). The PCM looks for any change in manifold pressure to be preceded by a change in engine load in the form of changes in throttle angle, engine speed, or Exhaust Gas Recirculation (EGR) flow. If the PCM doesn't see any of these factors change while detecting a rapid change in MAP value, it will set a P0106.</meaning>
+    </meanings>
+    <causes>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">A break in the flexible air intake duct between the MAF and the intake manifold</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Bad MAP sensor</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Bad PCM (do not assume the PCM is bad until you've exhausted all other possibilities)</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Ground problem due to corrosion causing intermittent signal problem</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Intermittent open in the reference, ground, or signal wire for the MAP sensor</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Intermittent short in the reference, ground, or signal wire for the MAP sensor</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Water/dirt intrusion affecting MAP sensor connector</cause>
+    </causes>
+    <descriptions>
+        <description rtPlus="0" rtNeutral="0" rtMinus="0">Manifold Absolute Pressure/Barometric Pressure Circuit Range/Performance Problem</description>
+    </descriptions>
+    <solutions>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">If ground is present, then replace MAP sensor.</solution>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">If reference voltage is present, then check for existing ground at the MAP sensor connector. If it isn't present then repair open/short in the ground circuit.</solution>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">If there are no restrictions, and the value doesn't change with vacuum, then perform the following: with the Key on and engine off and the MAP sensor unplugged, check for 5 Volts at the reference wire to the MAP sensor connector with a Digital Voltmeter. If there is none, check for reference voltage at the PCM connector. If the reference voltage is present at the PCM connector but not the MAP connector, check for open or short in the reference wire between MAP and PCM and retest.</solution>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">With the Key on, engine off, disconnect the vacuum hose from the MAP sensor. Using a vacuum pump, pull 20 in. of vacuum on the MAP sensor. Does the voltage drop? It should. If it doesn't inspect the MAP sensor vacuum port and vacuum hose to manifold for a restriction of some kind. Repair or replace as necessary.</solution>
+    </solutions>
+    <references/>
+    <symptoms>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Black smoke at tailpipe</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Engine misses at speed</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Engine runs rough</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Engine will not idle</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Poor fuel economy</symptom>
+    </symptoms>
+</ns2:code>

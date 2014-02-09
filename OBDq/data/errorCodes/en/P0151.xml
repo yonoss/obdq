@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:code cars="" id="P0151" xmlns:ns2="com.queeq.odbq.errorcodes">
+    <meanings>
+        <meaning rtPlus="0" rtNeutral="0" rtMinus="0">Essentially the same as P0136 and P0137 and P0131, a P0151 code refers to the first oxygen sensor on Bank 2 . P0151 means the O2 oxygen sensor's voltage remained low for longer than 2 minutes. This, is interpreted by the ECM as a low voltage condition and sets the MIL. Bank 2 Sensor 1 is located in front of the catalytic converter.</meaning>
+    </meanings>
+    <causes>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Faulty o2 oxygen sensor</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">High resistance or open on O2 signal circuit</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Short to voltage on O2 signal circuit</cause>
+    </causes>
+    <descriptions>
+        <description rtPlus="0" rtNeutral="0" rtMinus="0">Oxygen O2 Sensor Circuit Low Voltage (Bank 2, Sensor 1)</description>
+    </descriptions>
+    <solutions>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Repair short, open, or high resistance on o2 signal circuit</solution>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Replace faulty sensor</solution>
+    </solutions>
+    <references/>
+    <symptoms>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">There may be no visible symptoms to the driver, other than the MIL (Check Engine / Service Engine Soon) illumination.</symptom>
+    </symptoms>
+</ns2:code>

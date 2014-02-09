@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:code cars="" id="P0207" xmlns:ns2="com.queeq.odbq.errorcodes">
+    <meanings>
+        <meaning rtPlus="0" rtNeutral="0" rtMinus="0">P0207 means that the PCM detected a fault in the injector or the wiring to the injector. It monitors the injector and when the injector is activated, the PCM expects to see the voltage pulled low or close to zero. When the injector is switched off, the PCM expects to see a voltage that is close to battery voltage or high. If it doesn't see the expected voltage the PCM will set this code. The PCM also monitors resitance in the circuit. If the resistance is excessively low or high it will set this code.</meaning>
+    </meanings>
+    <causes>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Bad injector. This is usually the cause of this code but doesn't rule out the possibility of one of the other causes</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Bad PCM</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Open in the wiring to the injector</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Short in the wiring to the injector</cause>
+    </causes>
+    <descriptions>
+        <description rtPlus="0" rtNeutral="0" rtMinus="0">Cylinder 7 Injector Circuit Malfunction</description>
+    </descriptions>
+    <solutions>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">At the PCM, remove the driver wire from the PCM connector and Ground the wire. (Make sure you have the correct wire. If you're not sure, do not attempt) The injector should activate</solution>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Check for voltage at the fuel injector connector. It should have 10 volts or more.</solution>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">First, using a DVOM check the resistance of the injector. If it isn't within specs, then replace the injector.</solution>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">If you have access to an injector tester, activate the injector and see if it operates. If the injector operates, then you likely have either an open in the wiring, or a blocked injector. If you do not have access to a tester, swap the injector with another one and see if the code changes. If the code changes, then change the injector.</solution>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Replace the injector</solution>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Visually check the connector for damage or broken wires.</solution>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Visually check the injector for damage.</solution>
+    </solutions>
+    <references/>
+    <symptoms>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">The symptoms for this code will likely be a misfire and a rough running engine. Poor acceleration. The MIL will also be illuminated.</symptom>
+    </symptoms>
+</ns2:code>

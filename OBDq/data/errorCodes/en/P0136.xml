@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:code cars="" id="P0136" xmlns:ns2="com.queeq.odbq.errorcodes">
+    <meanings>
+        <meaning rtPlus="0" rtNeutral="0" rtMinus="0">Essentially the same as P0137, a P0136 code refers to the second oxygen sensor on Bank 1. The O2 oxygen sensor produces a voltage between .1 mV and .9 mV. The ECM monitors O2 sensor voltage and determines if exhaust is lean or rich. O2 sensor voltage is high when exhaust is rich and low when exhaust is lean. The ECM monitors this voltage and increases or decreases fuel injector pulsewidth according to engine fuel/air ratio. If the ECM detects low HO2Sensor voltage for an extended period, it will set P0136 Conditions required to set: HO2 sensor voltage is low for longer than 2 minutes (minutes depend on model of vehicle. Could be up to 4 minutes)</meaning>
+    </meanings>
+    <causes>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Faulty O2 sensor leak in exhaust close to O2 sensor</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Open in circuit resistance caused by corrosion in connector</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Short to voltage on O2 signal circuit</cause>
+    </causes>
+    <descriptions>
+        <description rtPlus="0" rtNeutral="0" rtMinus="0">Oxygen O2 Sensor Circuit Low Voltage (Bank 1, Sensor 2)</description>
+    </descriptions>
+    <solutions>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Clean corrosion from connector</solution>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Repair open or short in signal circuit</solution>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Replace the second oxygen sensor on bank 1</solution>
+    </solutions>
+    <references/>
+    <symptoms>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">There may be no visible symptoms to the driver. Poor fuel mileage, possible misfire, depending on O2 sensor position when sticking.</symptom>
+    </symptoms>
+</ns2:code>

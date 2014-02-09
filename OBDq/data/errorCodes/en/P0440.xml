@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:code cars="" id="P0440" xmlns:ns2="com.queeq.odbq.errorcodes">
+    <meanings>
+        <meaning rtPlus="0" rtNeutral="0" rtMinus="0">This indicates that a part of the EVAPcontrol system is no longer fuctioning correctly. The EVAP system consistsof many parts, including (but not limited to) the gas cap, fuel lines, carboncanister, purge valve, and other hoses. The (EVAP) emissioncontrol system prevents the escape of fuel vapors from a vehicle's fuel system.Fuel vapors are routed by hoses to a charcoal canister for storage. Later, when the engine is running a purge control valve opens allowing intake vacuum to siphon the fuel vapors into theengine.</meaning>
+    </meanings>
+    <causes>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">The canister is plugged and not working properly</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">The gas cap is not installed or working properly</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">The purge solenoid has failed</cause>
+    </causes>
+    <descriptions>
+        <description rtPlus="0" rtNeutral="0" rtMinus="0">Evaporative Emission Control System Malfunction</description>
+    </descriptions>
+    <solutions>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Check and/or replace the purge valve</solution>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Check and/or replace the sensor</solution>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Have a professional use a smoke machine to detect leaks</solution>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Inspect for damaged or disconnected hoses around the Evap purge solenoid</solution>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Inspect the EVAP system for cuts/holes in tubes/hoses</solution>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Remove and reinstall the gas cap, clear the code, and drive for a day and see if the codes come back.</solution>
+    </solutions>
+    <references/>
+    <symptoms>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">You likely won't notice any drivability problems.</symptom>
+    </symptoms>
+</ns2:code>

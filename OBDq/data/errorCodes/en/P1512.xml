@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:code cars="" id="P1512" xmlns:ns2="com.queeq.odbq.errorcodes">
+    <meanings/>
+    <causes/>
+    <descriptions>
+        <description rtPlus="0" rtNeutral="0" rtMinus="0">Intake Manifold Runner Control (Bank 1) Stuck Closed</description>
+    </descriptions>
+    <solutions/>
+    <references/>
+    <symptoms/>
+</ns2:code>

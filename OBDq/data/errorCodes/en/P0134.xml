@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:code cars="" id="P0134" xmlns:ns2="com.queeq.odbq.errorcodes">
+    <meanings>
+        <meaning rtPlus="0" rtNeutral="0" rtMinus="0">This code refers to the front oxygen sensor on Bank 1. Basically the oxygen sensor is inactive. Here's why:The powertrain control module (PCM) provides a baseline voltage of about 450 mV on the oxygen sensor signal circuit. When cold, the PCM detects the the internal resistance of the sensor is high. As the sensor warms up the resistance is lowered and it starts producing voltage based on the oxygen content in the exhaust. When the PCM determines that the time it took for the sensor to warm up is greater than one minute or that the voltage is inactive (not reading outside 391491 mV it views the sensor as inactive or open and sets the P0134 code.</meaning>
+    </meanings>
+    <causes>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Bad heater circuit in the O2 sensor</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Bad O2 (oxygen) sensor</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Blown heater circuit fuse</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Holes in the exhaust system</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">PCM failure</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Wiring or connector to the sensor frayed / broken</cause>
+    </causes>
+    <descriptions>
+        <description rtPlus="0" rtNeutral="0" rtMinus="0">02 Sensor Circuit No Activity Detected (Bank I Sensor 1)</description>
+    </descriptions>
+    <solutions>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Excessive amperage blowing heater fuse (still requires replacement of sensor but also replacement of blown fuse)</solution>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Inspect wiring &amp;amp; connector(s) for problems</solution>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Replace PCM (only as last resort after all other possibilities are covered.</solution>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">Rusted exhaust pipe</solution>
+    </solutions>
+    <references/>
+    <symptoms>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Blowing black smoke</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Check engine light illumination</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Dying, stuttering</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Poor fuel economy</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Poorly running/engine missing</symptom>
+    </symptoms>
+</ns2:code>

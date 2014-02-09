@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:code cars="" id="P0326" xmlns:ns2="com.queeq.odbq.errorcodes">
+    <meanings>
+        <meaning rtPlus="0" rtNeutral="0" rtMinus="0">Knock sensors are used to detect engine predetonation (engine knock or ping). The knock sensor (KS) is usually a two wire sensor. A 5 volt reference is supplied to the sensor and there is a signal return from the knock sensor to the PCM (powertrain control module). The sensor signal wire informs the PCM when a knock occurs and in what degree of severity. The PCM will retard the spark timing to avoid predetonation. Most PCMs have the ability to learn spark knock trends in the engine during normal operation.If the PCM determines that the knock is out of the ordinary or that the noise level is abnormally high, P0326 may set. If the PCM senses that the knock is severe and cannot be eliminated by retarding the spark timing, P0326 may set. Keep in mind that knock sensors cannot distinguish between a knock from predetonation or one from engine problems.</meaning>
+    </meanings>
+    <causes>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Incorrect fuel octane</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Knock sensor circuit is open or shorted to ground</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Knock sensor circuit is shorted to voltage</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Knock sensor connector is damaged</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Knock sensor has failed</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Moisture in knock sensor connectors</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">PCM has failed</cause>
+    </causes>
+    <descriptions>
+        <description rtPlus="0" rtNeutral="0" rtMinus="0">Knock Sensor 1 Circuit Range/Performance (Bank 1 or Single Sensor) High Voltage</description>
+    </descriptions>
+    <solutions>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">If an engine knock can be heard, fix the source of the mechanical problem first then retest. Make sure the proper octane of fuel was used in the engine. Using lower octane fuel than what is specified can cause a ping or predetonation and may cause P0326.Unplug the knock sensor and check for water or corrosion in the connector. If the knock sensor has a seal, verify there is no coolant from the engine block fouling the sensor. Repair as necessary.Turn ignition to run position with engine off. Ensure that 5 Volts are present at the KS connector. If there is, check for proper resistance between KS terminal and engine ground. You will need a vehicle specification for this. If resistance is out of specification, replace the knock sensor. If resistance is normal, plug KS back in and idle the engine. Using a scan tool in datastream, observe KS value. Does it indicate a knock is present at idle? If so, replace the knock sensor. If the knock sensor shows no knock at idle, then tap on the engine block while observing the knock signal. If it doesn't show a signal that corresponds with the taps, replace the knock sensor. If it does, verify the knock sensor wiring isn't routed next to ignition wires. If there was no 5 volts present at the knock sensor connector while unplugged with KOEO (Key on engine off) then go back to the PCM connector. Turn ignition off and clip the knock sensor 5 volt reference wire in a location that is easy to repair (Or remove the wire from the PCM connector). With KOEO, check for 5 volts on the PCM side of the clipped wire. If 5 volts isn't present, suspect a bad PCM. If 5 volts IS present, repair short in 5 volt reference circuit.Since the reference circuit is a shared circuit, you will need to check all engine sensors that are fed a 5 volt reference. Unplug each sensor one at a time until the reference voltage returns. When it returns the last sensor you plugged in is the shorted sensor. If no sensors are shorted, check the wiring harness for short to voltage on reference circuit.Article written by Dale Toalston</solution>
+    </solutions>
+    <references/>
+    <symptoms>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Audible knocking from the engine compartment</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">MIL (Malfunction Indicator Lamp) illumination</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Pinging from engine under acceleration</symptom>
+    </symptoms>
+</ns2:code>

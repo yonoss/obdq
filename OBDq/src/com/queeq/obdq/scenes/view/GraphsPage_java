@@ -1,0 +1,271 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package com.queeq.obdq.scenes.view;
+
+import com.queeq.obdq.internationalization.LN;
+import com.queeq.obdq.scenes.SceneDispatcher;
+import com.queeq.obdq.scenes.controller.GraphPageController;
+import com.queeq.obdq.scenes.controller.ModalWindowController;
+import com.queeq.obdq.scenes.view.templates.EntryPageTemplate;
+import com.queeq.obdq.settings.Globals;
+import com.queeq.serial.utils.SerialUtils;
+import java.util.ArrayList;
+import javafx.beans.value.ChangeListener;
+import javafx.beans.value.ObservableValue;
+import javafx.event.ActionEvent;
+import javafx.event.EventHandler;
+import javafx.geometry.Insets;
+import javafx.geometry.Orientation;
+import javafx.scene.Cursor;
+import javafx.scene.chart.AreaChart;
+import javafx.scene.chart.NumberAxis;
+import javafx.scene.control.*;
+import javafx.scene.image.ImageView;
+import javafx.scene.input.MouseEvent;
+
+import javafx.scene.layout.BorderPane;
+import javafx.scene.layout.HBox;
+import javafx.scene.layout.StackPane;
+import javafx.scene.layout.VBox;
+
+/**
+ *
+ * @author admin
+ */
+public class GraphsPage extends EntryPageTemplate
+{  
+    public GraphsPage()
+    {
+        setOrder(3);
+    }
+    
+    @Override
+    public void getPageContent(StackPane root,BorderPane pane) 
+    {
+        InitializePage();
+            //set page body
+                HBox CContainer = new HBox();
+                CContainer.setPadding(new Insets(10,10,10,10));
+                CContainer.setSpacing(10);
+             
+                    VBox GraphContainer=new VBox();
+                    GraphContainer.setPadding(new Insets(0,0,0,0));
+                    GraphContainer.setSpacing(5);
+                        HBox VAxeGraphContainer=new HBox();
+                        VAxeGraphContainer.setPadding(new Insets(0,0,0,0));
+                        VAxeGraphContainer.setSpacing(5);
+                        
+                            Globals.doubleSliderYAxis.setMin(0);
+                            Globals.doubleSliderYAxis.setMax(0);
+                            Globals.doubleSliderYAxis.setShowTickMarks(true);
+                            Globals.doubleSliderYAxis.setShowTickLabels(true);
+                            Globals.doubleSliderYAxis.setOrientation(Orientation.VERTICAL);
+                            Globals.doubleSliderYAxis.value1Property().addListener(new ChangeListener<Number>() 
+                            {
+                                    @Override
+                                    public void changed(ObservableValue<? extends Number> arg0,
+                                                    Number arg1, Number arg2) 
+                                    {
+                                        Globals.yFirst=(int)arg2.doubleValue();
+                                        //System.out.println("Y from "+ScenesUtils.getIntegerValue(Globals.yFirst));
+                                        GraphPageController.handleChartChangeEvent(false);
+                                    }
+                            });
+                            Globals.doubleSliderYAxis.value2Property().addListener(new ChangeListener<Number>() 
+                            {
+                                @Override
+                                public void changed(ObservableValue<? extends Number> arg0,
+                                                Number arg1, Number arg2) 
+                                {
+                                    Globals.yLast=(int)arg2.doubleValue();
+                                    //System.out.println("Y to "+ScenesUtils.getIntegerValue(Globals.yLast));
+                                    GraphPageController.handleChartChangeEvent(false);
+                                }
+                            });
+                            VAxeGraphContainer.getChildren().add(Globals.doubleSliderYAxis);
+                            VAxeGraphContainer.getChildren().add(getAreaChart(pane));
+                    GraphContainer.getChildren().add(VAxeGraphContainer);
+  
+                    Globals.doubleSliderXAxis.setMin(0);
+                    Globals.doubleSliderXAxis.setMax(0);
+                    Globals.doubleSliderXAxis.setShowTickMarks(true);
+                    Globals.doubleSliderXAxis.setShowTickLabels(true);
+                    Globals.doubleSliderXAxis.value1Property().addListener(new ChangeListener<Number>() 
+                     {
+                            @Override
+                            public void changed(ObservableValue<? extends Number> arg0,
+                                            Number arg1, Number arg2) 
+                            {
+                                Globals.xFirst=(int)arg2.doubleValue();
+                                //System.out.println("X from "+Globals.xFirst);
+                                GraphPageController.handleChartChangeEvent(false);
+                            }
+                      });
+                     Globals.doubleSliderXAxis.value2Property().addListener(new ChangeListener<Number>() 
+                     {
+                            @Override
+                            public void changed(ObservableValue<? extends Number> arg0,
+                                            Number arg1, Number arg2) 
+                            {
+                                Globals.xLast=(int)arg2.doubleValue();
+                                //System.out.println("X to "+Globals.xLast);
+                                GraphPageController.handleChartChangeEvent(false);
+                                   // valuelabel_lower.setText(arg2.doubleValue());
+
+                            }
+                      });
+                    
+                    GraphContainer.getChildren().add(Globals.doubleSliderXAxis);
+                CContainer.getChildren().addAll(GraphContainer,generateChartMenu(pane));
+            pane.setCenter(CContainer);    
+
+        if(!SerialUtils.isSerialPortOpened())
+        {
+           ModalWindowController.openModalWindow(LN.getString("graphsPage.noCarConnection.title"),LN.getString("graphsPage.noCarConnection.message"),getConnectionNotAvailableModalWindowButton(),Globals.root);                           
+        }
+    }
+    /*Support methodes for menu*/
+    private VBox generateChartMenu(BorderPane pane)
+    {
+        VBox chartMenu=new VBox();
+        chartMenu.setSpacing(10);
+            VBox menuContainer = new VBox();
+                StackPane MenuLableContainer = new StackPane();
+                MenuLableContainer.setId("MenuLableContainer");
+                    HBox MenuLableBackground = new HBox();
+                    MenuLableBackground.setId("MenuLableBackground");
+
+                    Label MenuLable = new Label(LN.getString("graphsPage.chartMenu"));
+                    MenuLable.setId("MenuLableText");
+                    MenuLable.setContentDisplay(ContentDisplay.LEFT);
+                MenuLableContainer.getChildren().addAll(MenuLableBackground,MenuLable);
+
+                Globals.checkboxContainer.setPadding(new Insets(10, 10, 10, 10));
+                Globals.checkboxContainer.setId("checkboxContainer");
+                Globals.checkboxContainer.setSpacing(5);
+                Globals.checkboxContainer.setPrefWidth(200);
+                Globals.checkboxContainer.setPrefHeight(pane.heightProperty().doubleValue());
+                Globals.checkboxContainer.prefHeightProperty().bind(pane.heightProperty());
+                //Globals.checkboxContainer.getChildren().add(getSensorControlAsCheckbox("sensor.speed",true));
+               // Globals.checkboxContainer.getChildren().add(getSensorControlAsCheckbox("sensor.speed",true));
+
+            menuContainer.getChildren().addAll(MenuLableContainer,Globals.checkboxContainer);
+            VBox buttonsContainer = new VBox();
+            buttonsContainer.setSpacing(5);
+            
+                Button startButton = new Button(LN.getString("graphsPage.startButton"));
+                startButton.setId("startButtonGraphPage");
+                startButton.setPrefWidth(200);
+                startButton.setCursor(Cursor.HAND);
+                startButton.setOnAction(new EventHandler<ActionEvent>() 
+                {
+                    public void handle(ActionEvent e) 
+                    { 
+                        if(!SerialUtils.isSerialPortOpened())
+                            ModalWindowController.openModalWindow(LN.getString("graphsPage.noCarConnection.title"),LN.getString("graphsPage.noCarConnection.message"),getConnectionNotAvailableModalWindowButton(),Globals.root);                           
+                        else
+                        {
+                            GraphPageController.startReadingLiveData();
+                        }
+                    }
+                });
+                Button saveButton = new Button(LN.getString("graphsPage.saveButton"));
+                saveButton.setId("saveButtonGraphPage");
+                saveButton.setCursor(Cursor.HAND);
+                saveButton.setPrefWidth(200);
+                saveButton.setOnAction(new EventHandler<ActionEvent>() 
+                {
+                    public void handle(ActionEvent e) 
+                    { 
+                        GraphPageController.saveData();
+                    }
+                });
+                Button loadButton = new Button(LN.getString("graphsPage.loadButton"));
+                loadButton.setId("loadButtonGraphPage");
+                loadButton.setCursor(Cursor.HAND);
+                loadButton.setPrefWidth(200);
+                loadButton.setOnAction(new EventHandler<ActionEvent>() 
+                {
+                    public void handle(ActionEvent e) 
+                    { 
+                        GraphPageController.loadSavedData();
+                    }
+                });
+                Button clearButton = new Button(LN.getString("graphsPage.clearButton"));
+                clearButton.setId("clearButtonGraphPage");
+                clearButton.setCursor(Cursor.HAND);
+                clearButton.setPrefWidth(200);
+                clearButton.setOnAction(new EventHandler<ActionEvent>() 
+                {
+                    public void handle(ActionEvent e) 
+                    { 
+                        GraphPageController.clearGraph();
+                    }
+                });
+                
+            buttonsContainer.getChildren().addAll(startButton,saveButton,loadButton,clearButton);
+        chartMenu.getChildren().addAll(menuContainer,buttonsContainer);
+        return chartMenu;
+    }
+   
+    /*Support methodes for area chart*/
+    
+    private AreaChart<Number,Number>  getAreaChart(BorderPane pane)
+    {
+        NumberAxis xAxis = new NumberAxis();
+        NumberAxis yAxis = new NumberAxis();
+
+        Globals.areaChart = new AreaChart<Number,Number>(xAxis,yAxis);
+        Globals.areaChart.animatedProperty().set(false);
+        Globals.areaChart.prefWidthProperty().bind(pane.widthProperty().subtract(150));
+        Globals.areaChart.prefHeightProperty().bind(pane.heightProperty());
+        Globals.areaChart.autosize();
+        xAxis.setLabel(LN.getString("graphsPage.Xaxis"));
+        yAxis.setLabel(LN.getString("graphsPage.Yaxis"));
+        return Globals.areaChart;
+    }
+    private void InitializePage()
+    {
+        Globals.graphObj = null;
+        Globals.areaChart=null;
+        Globals.checkboxContainer=new VBox();
+    }
+     /**
+     * generates the connection not available modal window buttons 
+     ***/
+    private ArrayList<Button> getConnectionNotAvailableModalWindowButton()
+    {
+        ArrayList<Button> buttons = new ArrayList(); 
+            Button buttonSettings = new Button(LN.getString("graphsPage.noCarConnection.settingsButton"));
+            buttonSettings.setId("buttonSettingsGraphsPage");
+            buttonSettings.setOnAction(new EventHandler<ActionEvent>() 
+            {
+                public void handle(ActionEvent e) 
+                { 
+                    ModalWindowController.closeModalWindow(Globals.root, Globals.modalWindow);
+                    SceneDispatcher.getScene(SettingsPage.class,Globals.root,Globals.pane);
+                }
+            });
+        buttons.add(buttonSettings);
+        return buttons;
+    }
+    @Override
+    public ImageView getEntryIcon() 
+    {
+       ImageView GraphsButton = new ImageView();
+        GraphsButton.setId("GraphsButtonLandingPage");
+        GraphsButton.setCursor(Cursor.HAND);
+        GraphsButton.setOnMouseClicked(new EventHandler<MouseEvent>() 
+        {
+            @Override
+            public void handle(MouseEvent event) 
+            {
+                SceneDispatcher.getScene(GraphsPage.class,Globals.root,Globals.pane);
+            }
+        });
+        return GraphsButton;
+    }
+   
+}

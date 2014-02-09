@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:code cars="" id="P0607" xmlns:ns2="com.queeq.odbq.errorcodes">
+    <meanings>
+        <meaning rtPlus="0" rtNeutral="0" rtMinus="0">This code basically means that the programming of the PCM/ECM (powertrain/engine control module) has failed. This can be a more serious code and may also be refered to as ECM Internal Circuit Malfunction.</meaning>
+    </meanings>
+    <causes>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">An open or short in the power or ground circuit</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Dead or defective (12V main) battery</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Failed PCM/ECM</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Loose ground terminal on PCM/ECM</cause>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">Loose or corroded battery terminals</cause>
+    </causes>
+    <descriptions>
+        <description rtPlus="0" rtNeutral="0" rtMinus="0">Control Module Performance</description>
+    </descriptions>
+    <solutions>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">As a vehicle owner there isn't a whole lot you can do yourself to diagnose this DTC. The first thing to check is the battery, check the voltage, inspect for loose/corroded terminals, etc., do a load test on it too. Also inspect the grounds/wiring at the PCM. If that's good the other common fixes for a P0607 Control Module Performance DTC seem to be either replace the PCM or update (reflash) the PCM with updated software. Be sure to check for TSB's on your vehicle (Technical Service Bulletins) as there are known TSB's for this P0607 code for some Toyota and Ford vehicles.If the PCM needs replacement, we strongly recommend you have a qualified repair shop / technician do the work, one that has the capability to reprogram the new PCM. Installing the new PCM may involve using special tools to program the vehicle's VIN (vehicle identification number) and/or antitheft information (PATS, etc.).&lt;p class="note"&gt;NOTE: This repair may be covered under the emissions warranty so be sure to check with your dealer as this may be covered beyond the bumpertobumper or powertrain warranty period.Other PCM DTC codes: P0600, P0601, P0602, P0603, P0604, P0605, P0606, P0608, P0609, P0610.</solution>
+    </solutions>
+    <references/>
+    <symptoms>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">may stop running while driving</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">No Start condition (cranks but does not start)</symptom>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">vehicle may also go into limphome mode where it runs under reduced power</symptom>
+    </symptoms>
+</ns2:code>

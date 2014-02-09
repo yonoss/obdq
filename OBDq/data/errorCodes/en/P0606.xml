@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:code cars="" id="P0606" xmlns:ns2="com.queeq.odbq.errorcodes">
+    <meanings>
+        <meaning rtPlus="0" rtNeutral="0" rtMinus="0">This code is a fairly simple one. It basically means that the PCM/ECM (powertrain/engine control module) has detected an internal integrity fault in the PCM. When this code is activated it should store freezeframe data that helps someone with an advanced code scanning tool to get information on exactly what was going on with the vehicle when the P0606 code was triggered.</meaning>
+    </meanings>
+    <causes>
+        <cause rtPlus="0" rtNeutral="0" rtMinus="0">In all likelyhood the PCM / ECM has failed.</cause>
+    </causes>
+    <descriptions>
+        <description rtPlus="0" rtNeutral="0" rtMinus="0">PCM / ECM Processor Fault</description>
+    </descriptions>
+    <solutions>
+        <solution rtPlus="0" rtNeutral="0" rtMinus="0">As a vehicle owner there is little you can do to fix this code. The most common fix for a P0606 code is to replace the PCM, although in some cases reflashing the PCM with updated software could possibly fix this. Be sure to check for TSB's on your vehicle (Technical Service Bulletins).In all likelyhood the fix is to replace the PCM. This is generally not a doityourself task, although in some cases it may be. We strongly recommend you have a qualified repair shop / technician do the work, one that has the capability to reprogram the new PCM. Installing the new PCM may involve using special tools to program the vehicle's VIN (vehicle identification number) and/or antitheft information (PATS, etc.).&lt;p class="note"&gt;NOTE: This repair may be covered under the emissions warranty so be sure to check with your dealer as this may be covered beyond the bumpertobumper or powertrain warranty period.Other PCM DTC codes: P0600, P0601, P0602, P0603, P0604, P0605, P0607, P0608, P0609, P0610.</solution>
+    </solutions>
+    <references/>
+    <symptoms>
+        <symptom rtPlus="0" rtNeutral="0" rtMinus="0">Most likely the only symptom of a P0606 DTC code is the illumination of the Check Engine Light a.k.a. MIL (Malfunction Indicator Lamp).</symptom>
+    </symptoms>
+</ns2:code>
